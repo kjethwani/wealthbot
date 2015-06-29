@@ -7,19 +7,18 @@
     "require": {
         "php": ">=5.4.3",
 
-        "symfony/symfony": "2.2.*",
-        "symfony/assetic-bundle": "2.1.*",
-        "symfony/swiftmailer-bundle": "2.2.*",
-        "symfony/monolog-bundle": "2.2.*",
-        "symfony/security-bundle": "2.2.*",
+        "symfony/symfony": "2.3.*",
+        "symfony/assetic-bundle": "2.3.*",
+        "symfony/swiftmailer-bundle": "2.3.*",
+        "symfony/monolog-bundle": "2.3.*",
+        "symfony/security-bundle": "2.3.*",
 
-        "sensio/distribution-bundle": "2.2.*",
-        "sensio/framework-extra-bundle": "2.2.*",
-        "sensio/generator-bundle": "2.2.*",
+        "sensio/distribution-bundle": "2.3.*",
+        "sensio/framework-extra-bundle": "2.3.*",
+        "sensio/generator-bundle": "2.3.*",
 
-        "doctrine/orm": "~2.2,>=2.2.3",
+        "doctrine/orm": "2.4.*",
         "doctrine/doctrine-bundle": "1.2.*",
-
         "doctrine/data-fixtures": "*",
         "doctrine/doctrine-fixtures-bundle": "*",
         "doctrine/mongodb": "1.0.*@dev",
@@ -31,18 +30,18 @@
 
         "hpatoio/deploy-bundle": "*",
 
-        "incenteev/composer-parameter-handler": "dev-master",
+        "incenteev/composer-parameter-handler": "~2.0",
 
         "instaclick/base-test-bundle": "dev-master",
 
-        "jms/security-extra-bundle": "1.4.*",
-        "jms/di-extra-bundle": "1.3.*",
+        "jms/security-extra-bundle": "dev-master",
+        "jms/di-extra-bundle": "dev-master",
         "jms/serializer-bundle": "~0.13",
 
         "knplabs/knp-paginator-bundle": "dev-master",
         "knplabs/knp-snappy-bundle": "dev-master",
 
-        "nelmio/api-doc-bundle": "2.1.0",
+        "nelmio/api-doc-bundle": "2.9.*",
 
         "ornicar/apc-bundle": "1.0.*",
 
@@ -93,7 +92,7 @@
         "bin-dir": "bin",
         "process-timeout": 900
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "extra": {
         "incenteev-parameters": [
             {
@@ -109,7 +108,7 @@
         "symfony-web-dir": "web",
         "symfony-assets-install": "symlink",
         "branch-alias": {
-            "dev-master": "2.2-dev"
+            "dev-master": "2.3-dev"
         }
     }
 }
