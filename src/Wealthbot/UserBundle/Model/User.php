@@ -5,7 +5,7 @@ use FOS\UserBundle\Entity\User as BaseUser;
 use Wealthbot\ClientBundle\Model\Workflow;
 use Wealthbot\ClientBundle\Model\WorkflowableInterface;
 use Wealthbot\UserBundle\Entity\Group;
-use Symfony\Component\Validator\ExecutionContext;
+use Symfony\Component\Validator\ExecutionContextInterface;
 
 class User extends BaseUser
 {
@@ -112,9 +112,9 @@ class User extends BaseUser
     /**
      * Validate password
      *
-     * @param ExecutionContext $context
+     * @param ExecutionContextInterface $context
      */
-    public function isPasswordLegal(ExecutionContext $context)
+    public function isPasswordLegal(ExecutionContextInterface $context)
     {
         $password = $this->getPlainPassword();
 
