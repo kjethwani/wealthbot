@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 05.02.13
- * Time: 17:37
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\ClientBundle\Form\Type;
 
@@ -67,7 +60,7 @@ class BeneficiaryFormType extends AbstractType
 
         $updateSsn = function (FormInterface $form, $ssn) use ($factory) {
             $form->add($factory->createNamed('ssn_1', 'text', null, array(
-                    'property_path' => false,
+                    'mapped' => false,
                     'attr' => array('value' => $ssn[1]),
                     'constraints' => array(
                         new NotBlank(array('message' => 'Can not be blank.')),
@@ -78,10 +71,11 @@ class BeneficiaryFormType extends AbstractType
                             'minMessage' => 'Must have {{ limit }} digits.',
                             'maxMessage' => 'Must have {{ limit }} digits.'
                         )),
-                    )
+                    ),
+                    'auto_initialize' => false,
                 )))
                 ->add($factory->createNamed('ssn_2', 'text', null, array(
-                    'property_path' => false,
+                    'mapped' => false,
                     'attr' => array('value' => $ssn[2]),
                     'constraints' => array(
                         new NotBlank(array('message' => 'Can not be blank.')),
@@ -92,10 +86,11 @@ class BeneficiaryFormType extends AbstractType
                             'minMessage' => 'Must have {{ limit }} digits.',
                             'maxMessage' => 'Must have {{ limit }} digits.'
                         )),
-                    )
+                    ),
+                    'auto_initialize' => false,
                 )))
                 ->add($factory->createNamed('ssn_3', 'text', null, array(
-                    'property_path' => false,
+                    'mapped' => false,
                     'attr' => array('value' => $ssn[3]),
                     'constraints' => array(
                         new NotBlank(array('message' => 'Can not be blank.')),
@@ -106,7 +101,8 @@ class BeneficiaryFormType extends AbstractType
                             'minMessage' => 'Must have {{ limit }} digits.',
                             'maxMessage' => 'Must have {{ limit }} digits.'
                         )),
-                    )
+                    ),
+                    'auto_initialize' => false,
                 )))
             ;
         };

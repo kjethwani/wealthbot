@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 14.05.13
- * Time: 15:15
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\RiaBundle\Form\EventListener;
 
@@ -161,7 +154,7 @@ class RiaClientAccountFormEventSubscriber implements EventSubscriberInterface
                 )->add(
                     $this->factory->createNamed('plan_provider', 'text', null, array(
                             'label' => 'Retirement Plan Provide',
-                            'property_path' => false,
+                            'mapped' => false,
                             'data' => $provider
                     ))
                 );

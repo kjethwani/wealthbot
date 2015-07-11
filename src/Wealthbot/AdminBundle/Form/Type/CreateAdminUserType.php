@@ -41,7 +41,7 @@ class CreateAdminUserType extends UserType
             ->add('profile', new AdminProfileType())
             ->add('level', 'choice', array(
                 'choices' => $choices,
-                'property_path' => false,
+                'mapped' => false,
                 'preferred_choices' => $level ? array($level) : array()
             ))
         ;

@@ -61,6 +61,7 @@ class AssetClassWithSubclassesFormType extends AbstractType
                 'allow_delete'       => true,
                 'prototype'          => true,
                 'by_reference'       => false,
+                'auto_initialize'    => false,
             )));
         };
 

@@ -1,20 +1,25 @@
 Wealthbot\ClientBundle\Entity\ClientInvestmentAccount:
     properties:
         value:
-            - Min: 0
+            - Range:
+              min: 0
         monthly_contributions:
-            - Min: 0
+            - Range:
+              min: 0
         monthly_distributions:
-            - Min: 0
+            - Range:
+              min: 0
     constraints:
         - Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: { fields: [client_id, account_type_id] }
 
 Wealthbot\ClientBundle\Entity\ClientRetirementAccount:
     properties:
         value:
-            - Min: 50000
+            - Range:
+              min: 50000
         monthly_contributions:
-            - Min: 0
+            - Range:
+              min: 0
 
 Wealthbot\ClientBundle\Entity\ClientAdditionalContact:
     constraints:

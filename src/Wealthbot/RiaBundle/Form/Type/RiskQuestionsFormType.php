@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: root
- * Date: 17.12.12
- * Time: 21:23
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\RiaBundle\Form\Type;
 
@@ -56,7 +49,7 @@ class RiskQuestionsFormType extends AbstractType
                     ))
                     ->add('answer_'.$question->getId(), 'text', array(
                         'label' => $question->getTitle(),
-                        'property_path' => false,
+                        'mapped' => false,
                         'required' => true,
                         'data' => $this->user->getProfile()->getWithdrawAge()
                     ))
@@ -81,7 +74,7 @@ class RiskQuestionsFormType extends AbstractType
                             },
                             'empty_value' => $userAnswer ? false : 'Choose an Option',
                             'property' => 'title',
-                            'property_path' => false,
+                            'mapped' => false,
                             'required' => true,
                             'label' => $question->getTitle(),
                             'preferred_choices' => $userAnswer ? array($userAnswer) : array()

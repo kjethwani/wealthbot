@@ -79,7 +79,7 @@ class OutsideFundAssociationFormType extends AbstractType
                 'required'      => false,
             ))
             ->add('is_preferred', 'checkbox', array(
-                'property_path' => false,
+                'mapped' => false,
                 'required'      => false,
                 'data'          => $isPreferred
             ))
@@ -121,11 +121,11 @@ class OutsideFundAssociationFormType extends AbstractType
                         && (isset($data['is_preferred']) && $data['is_preferred'])
                     ) {
                         if(isset($data['is_override']) && $data['is_override']) {
-                            $form->add($factory->createNamed('is_override', 'hidden', 1, array('property_path' => false)));
+                            $form->add($factory->createNamed('is_override', 'hidden', 1, array('mapped' => false)));
                             $form->setData($existSecurityAssignment);
                         } else {
                             $form->addError(new FormError('You have already associated this security with '. $existSecurityAssignment->getSubclass()->getName() .' . Please confirm that you want to override it ?'));
-                            $form->add($factory->createNamed('is_override', 'hidden', 1, array('property_path' => false, 'attr' => array('value' => 1))));
+                            $form->add($factory->createNamed('is_override', 'hidden', 1, array('mapped' => false, 'attr' => array('value' => 1))));
                         }
                     }
 

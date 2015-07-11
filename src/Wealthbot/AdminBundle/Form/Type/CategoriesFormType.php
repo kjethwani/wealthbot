@@ -47,7 +47,8 @@ class CategoriesFormType extends AbstractType
                 'allow_add'          => true,
                 'allow_delete'       => true,
                 'by_reference'       => false,
-                'prototype'          => true
+                'prototype'          => true,
+                'auto_initialize'    => false,
             )));
         };
 

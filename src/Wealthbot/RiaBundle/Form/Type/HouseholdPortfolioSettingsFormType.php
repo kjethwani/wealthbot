@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: countzero
- * Date: 14.03.14
- * Time: 16:57
- */
 
 namespace Wealthbot\RiaBundle\Form\Type;
 
@@ -81,7 +75,7 @@ class HouseholdPortfolioSettingsFormType extends AbstractType
                 'data' => $selectedGroupId,
                 'empty_value' => '',
                 'label' => 'Advisor Set: ',
-                'property_path' => false
+                'mapped' => false
             ))
         ;
 
@@ -143,7 +137,7 @@ class HouseholdPortfolioSettingsFormType extends AbstractType
                 'attr' => array('class' => 'input-small'),
                 'format' => 'MM-dd-yy',
                 'label' => 'Performance Inception: ',
-                'property_path' => false,
+                'mapped' => false,
                 'read_only' => true,
                 'required' => false,
                 'widget' => 'single_text'
@@ -152,7 +146,7 @@ class HouseholdPortfolioSettingsFormType extends AbstractType
                 'attr' => array('class' => 'input-medium'),
                 'choices' => $portfolios,
                 'label' => 'Portfolio: ',
-                'property_path' => false
+                'mapped' => false
             )))
         ;
     }

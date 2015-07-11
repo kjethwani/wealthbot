@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 29.08.13
- * Time: 15:38
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\ClientBundle\Form\Type;
 
@@ -37,7 +30,7 @@ class AccountTransferInformationFormType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder->add('is_firm_not_appear', 'checkbox', array('mapped' => false, 'required' => false))
-            ->add('transfer_custodian_id', 'hidden', array('property_path' => false));
+            ->add('transfer_custodian_id', 'hidden', array('mapped' => false));
 
         $this->factory = $builder->getFormFactory();
 
@@ -63,7 +56,7 @@ class AccountTransferInformationFormType extends AbstractType
         $form->add(
             $this->factory->createNamed('transfer_custodian_id', 'hidden', null, array(
                 'data' => $transferCustodian ? $transferCustodian->getId() : null,
-                'property_path' => false
+                'mapped' => false
             ))
         )->add(
             $this->factory->createNamed('is_firm_not_appear', 'checkbox', null, array(

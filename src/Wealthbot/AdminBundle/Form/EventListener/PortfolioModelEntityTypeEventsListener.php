@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 22.10.12
- * Time: 12:04
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\AdminBundle\Form\EventListener;
 
@@ -295,7 +288,7 @@ class PortfolioModelEntityTypeEventsListener implements EventSubscriberInterface
         }
 
         $form->add($this->factory->createNamed('symbol', 'text', null, array(
-            'property_path' => false,
+            'mapped' => false,
             'required' => false,
             'attr' => array(
                 'readonly' => 'readonly',
@@ -315,7 +308,7 @@ class PortfolioModelEntityTypeEventsListener implements EventSubscriberInterface
         }
 
         $form->add($this->factory->createNamed('muni_substitution_symbol', 'text', null, array(
-            'property_path' => false,
+            'mapped' => false,
             'required' => false,
             'attr' => array(
                 'readonly' => 'readonly',
@@ -335,7 +328,7 @@ class PortfolioModelEntityTypeEventsListener implements EventSubscriberInterface
         }
 
         $form->add($this->factory->createNamed('tax_loss_harvesting_symbol', 'text', null, array(
-            'property_path' => false,
+            'mapped' => false,
             'required' => false,
             'attr' => array(
                 'readonly' => 'readonly',

@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: countzero
- * Date: 26.03.14
- * Time: 23:21
- */
 
 namespace Wealthbot\RiaBundle\Form\Type;
 
@@ -71,7 +65,7 @@ class HouseholdSpouseFormType extends AbstractType
                 'data' => 1,
                 'expanded' => true,
                 'label' => 'U.S. citizen?',
-                'property_path' => false,
+                'mapped' => false,
                 'constraints' => array(
                     new True(array('message' => 'Spouse of your client should be U.S. citizen.'))
             )))
@@ -156,7 +150,7 @@ class HouseholdSpouseFormType extends AbstractType
                     'class' => 'input-xmini',
                     'placeholder' => '###',
                 ),
-                'property_path' => false,
+                'mapped' => false,
                 'constraints' => array(
                     new NotBlank(array('message' => 'Can not be blank.')),
                     new Regex(array('pattern'=>'/^\d+$/','message' => 'Must be a number.')),
@@ -174,7 +168,7 @@ class HouseholdSpouseFormType extends AbstractType
                     'class' => 'input-xmini',
                     'placeholder' => '##',
                 ),
-                'property_path' => false,
+                'mapped' => false,
                 'constraints' => array(
                     new NotBlank(array('message' => 'Can not be blank.')),
                     new Regex(array('pattern'=>'/^\d+$/','message' => 'Must be a number.')),
@@ -192,7 +186,7 @@ class HouseholdSpouseFormType extends AbstractType
                     'class' => 'input-xmini',
                     'placeholder' => '####',
                 ),
-                'property_path' => false,
+                'mapped' => false,
                 'constraints' => array(
                     new NotBlank(array('message' => 'Can not be blank.')),
                     new Regex(array('pattern'=>'/^\d+$/','message' => 'Must be a number.')),

@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 23.01.13
- * Time: 14:03
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\RiaBundle\Form\Type;
 
@@ -60,7 +53,7 @@ class RiaClientAccountFormType extends AbstractType
 
         $builder->add('group', 'choice', array(
                 'choices' => $groupChoices,
-                'property_path' => false,
+                'mapped' => false,
                 'empty_value' => false,
                 'data' => $selectedGroup
             ))

@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: countzero
- * Date: 14.03.14
- * Time: 16:57
- */
 
 namespace Wealthbot\RiaBundle\Form\Type;
 
@@ -55,7 +49,7 @@ class HouseholdPersonalSettingsFormType extends AbstractType
                 'label' => 'U.S. citizen?',
                 'data' => 1,
                 'choices' => array('1' => 'Yes', '0' => 'No'),
-                'property_path' => false,
+                'mapped' => false,
                 'constraints' => array(
                     new True(array('message' => 'Your client should be U. S. citizen.'))
             )))
@@ -155,7 +149,7 @@ class HouseholdPersonalSettingsFormType extends AbstractType
                     'class' => 'input-xmini',
                     'placeholder' => '###',
                 ),
-                'property_path' => false,
+                'mapped' => false,
                 'constraints' => array(
                     new NotBlank(array('message' => 'Can not be blank.')),
                     new Regex(array('pattern'=>'/^\d+$/','message' => 'Must be a number.')),
@@ -173,7 +167,7 @@ class HouseholdPersonalSettingsFormType extends AbstractType
                     'class' => 'input-xmini',
                     'placeholder' => '##',
                 ),
-                'property_path' => false,
+                'mapped' => false,
                 'constraints' => array(
                     new NotBlank(array('message' => 'Can not be blank.')),
                     new Regex(array('pattern'=>'/^\d+$/','message' => 'Must be a number.')),
@@ -191,7 +185,7 @@ class HouseholdPersonalSettingsFormType extends AbstractType
                     'class' => 'input-xmini',
                     'placeholder' => '####',
                 ),
-                'property_path' => false,
+                'mapped' => false,
                 'constraints' => array(
                     new NotBlank(array('message' => 'Can not be blank.')),
                     new Regex(array('pattern'=>'/^\d+$/','message' => 'Must be a number.')),

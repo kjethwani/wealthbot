@@ -49,12 +49,12 @@ class ClientDocumentFormType extends DocumentFormType
             $builder
                 ->add('is_client_notified', 'checkbox', array(
                     'label' => 'Notify client by email a document has been uploaded',
-                    'property_path' => false,
+                    'mapped' => false,
                     'required' => false
                 ))
                 ->add('is_for_all_clients', 'checkbox', array(
                     'label' => 'Upload to all clients',
-                    'property_path' => false,
+                    'mapped' => false,
                     'required' => false
                 ))
             ;

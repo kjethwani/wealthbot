@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 10.10.12
- * Time: 18:27
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\AdminBundle\Form\Type;
 
@@ -40,7 +33,7 @@ class AdminFeesType extends AbstractType
             'prototype' => true,
             'prototype_name' => 'fee__name__',
             'by_reference' => false,
-            'property_path' => false,
+            'mapped' => false,
         ));
 
         $builder->addEventListener(FormEvents::BIND, array($this, 'onBind'));

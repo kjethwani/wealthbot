@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 25.09.12
- * Time: 12:13
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\AdminBundle\Validator\Constraints;
 
@@ -35,7 +28,7 @@ class FeeTierValidator extends ConstraintValidator
         // Todo: Code is not working now, refactoring?
 
 //        if ($fee->getTierBottom() >= $fee->getTierTop()) {
-//            $this->context->addViolationAtSubPath('tier_top', 'This value must be greater than tier bottom.');
+//            $this->context->addViolationAt('tier_top', 'This value must be greater than tier bottom.');
 //        }
 //
 //        $repository = $this->em->getRepository('WealthbotAdminBundle:Fee');
@@ -56,7 +49,7 @@ class FeeTierValidator extends ConstraintValidator
 //            }
 //
 //            if ($fee->getTierBottom() != $minValue) {
-//                $this->context->addViolationAtSubPath('tier_bottom', 'This value must be equal to %minValue%.', array('%minValue%' => $minValue), null);
+//                $this->context->addViolationAt('tier_bottom', 'This value must be equal to %minValue%.', array('%minValue%' => $minValue), null);
 //            }
 //        } else {
 //            $query = $repository->createQueryBuilder('f')
@@ -67,12 +60,12 @@ class FeeTierValidator extends ConstraintValidator
 //
 //            $tierBottomInRange = $query->setParameter('value', $fee->getTierBottom())->getOneOrNullResult();
 //            if ($tierBottomInRange) {
-//                $this->context->addViolationAtSubPath('tier_bottom', 'This value must be equal to %minValue%.', array('%minValue%' => $tierBottomInRange->getTierTop() + 0.01), null);
+//                $this->context->addViolationAt('tier_bottom', 'This value must be equal to %minValue%.', array('%minValue%' => $tierBottomInRange->getTierTop() + 0.01), null);
 //            }
 //
 //            $tierTopInRange = $query->setParameter('value', $fee->getTierTop())->getOneOrNullResult();
 //            if ($tierTopInRange) {
-//                $this->context->addViolationAtSubPath('tier_top', 'This value must be equal to %minValue%.', array('%minValue%' => $tierTopInRange->getTierBottom() - 0.01), null);
+//                $this->context->addViolationAt('tier_top', 'This value must be equal to %minValue%.', array('%minValue%' => $tierTopInRange->getTierBottom() - 0.01), null);
 //            }
 //
 //            $prevTop = $repository->createQueryBuilder('f')
@@ -84,7 +77,7 @@ class FeeTierValidator extends ConstraintValidator
 //                ->getQuery()
 //                ->getOneOrNullResult();
 //            if ($prevTop && ($prevTop->getTierTop() + 0.01) != $fee->getTierBottom()) {
-//                $this->context->addViolationAtSubPath('tier_bottom', 'This value must be equal to %minValue%.', array('%minValue%' => $prevTop->getTierTop() + 0.01), null);
+//                $this->context->addViolationAt('tier_bottom', 'This value must be equal to %minValue%.', array('%minValue%' => $prevTop->getTierTop() + 0.01), null);
 //            }
 //
 //            $nextBottom = $repository->createQueryBuilder('f')
@@ -96,7 +89,7 @@ class FeeTierValidator extends ConstraintValidator
 //                ->getQuery()
 //                ->getOneOrNullResult();
 //            if ($nextBottom && ($nextBottom->getTierBottom() - 0.01) != $fee->getTierTop()) {
-//                $this->context->addViolationAtSubPath('tier_top', 'This value must be equal to %minValue%.', array('%minValue%' => $nextBottom->getTierBottom() - 0.01), null);
+//                $this->context->addViolationAt('tier_top', 'This value must be equal to %minValue%.', array('%minValue%' => $nextBottom->getTierBottom() - 0.01), null);
 //            }
 //        }
     }

@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 02.09.13
- * Time: 16:47
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\ClientBundle\Form\Type;
 
@@ -36,7 +29,7 @@ class TypedClientAccountFormType extends ClientAccountFormType
         if ($this->groupType) {
             $builder->add('groupType', 'hidden', array(
                 'data' => $this->groupType->getId(),
-                'property_path' => false
+                'mapped' => false
             ));
         } else {
             $group = $this->group;
@@ -80,7 +73,7 @@ class TypedClientAccountFormType extends ClientAccountFormType
         if ($this->groupType) {
             $builder->add('groupType', 'hidden', array(
                 'data' => $this->groupType->getId(),
-                'property_path' => false
+                'mapped' => false
             ));
         } else {
             $group = $this->group;

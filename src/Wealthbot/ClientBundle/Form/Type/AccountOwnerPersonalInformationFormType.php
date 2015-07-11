@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 04.02.13
- * Time: 13:43
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\ClientBundle\Form\Type;
 
@@ -45,11 +38,11 @@ class AccountOwnerPersonalInformationFormType extends AbstractType
             ->add('citezen', 'choice', array(
                 'label' => 'Citizenship',
                 'choices' => array('us' => 'United States', 'other' => 'Other'),
-                'property_path' => false,
+                'mapped' => false,
                 'data' => 'us'
             ))
             ->add('ssn_tin_1', 'text', array(
-                'property_path' => false,
+                'mapped' => false,
                 'data' => '',
                 'constraints' => array(
                     new NotBlank(array('message' => 'Can not be blank.')),
@@ -64,7 +57,7 @@ class AccountOwnerPersonalInformationFormType extends AbstractType
                 )
             ))
             ->add('ssn_tin_2', 'text', array(
-                'property_path' => false,
+                'mapped' => false,
                 'data' => '',
                 'constraints' => array(
                     new NotBlank(array('message' => 'Can not be blank.')),
@@ -79,7 +72,7 @@ class AccountOwnerPersonalInformationFormType extends AbstractType
                 )
             ))
             ->add('ssn_tin_3', 'text', array(
-                'property_path' => false,
+                'mapped' => false,
                 'data' => '',
                 'constraints' => array(
                     new NotBlank(array('message' => 'Can not be blank.')),

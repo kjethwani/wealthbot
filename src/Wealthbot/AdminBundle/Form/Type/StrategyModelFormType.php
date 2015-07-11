@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 31.10.12
- * Time: 18:00
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\AdminBundle\Form\Type;
 
@@ -85,7 +78,7 @@ class StrategyModelFormType extends AbstractType
 
         if ($this->user->isSuperAdmin() || $assumption) {
             $builder->add('assumption', new ModelAssumptionFormType(), array(
-                'property_path' => false,
+                'mapped' => false,
                 'data' => $assumption
             ));
         }
@@ -104,7 +97,8 @@ class StrategyModelFormType extends AbstractType
             if ($data->getId()) {
                 $form->add($factory->createNamed('risk_rating', 'choice', $riskRating, array(
                     'empty_value' => 'Select Risk Rating',
-                    'choices' => $choices
+                    'choices' => $choices,
+                    'auto_initialize' => false,
                 )));
             }
         });

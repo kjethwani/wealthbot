@@ -1,11 +1,5 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 05.02.13
- * Time: 18:00
- * To change this template use File | Settings | File Templates.
- */
+
 
 namespace Wealthbot\ClientBundle\Form\Type;
 
@@ -37,7 +31,7 @@ class BeneficiariesCollectionFormType extends AbstractType
             'allow_delete' => true,
             'prototype' => true,
             'by_reference' => false,
-            'property_path' => false,
+            'mapped' => false,
         ));
 
         $builder->addEventListener(FormEvents::BIND, array($this, 'onBind'));

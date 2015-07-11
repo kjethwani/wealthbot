@@ -1,9 +1,4 @@
 <?php
-/**
- * User: Maxim O. Belyakov
- * Date: 10.09.12
- * Time: 18:08
- */
 
 namespace Wealthbot\ClientBundle\Form\Type;
 
@@ -27,7 +22,7 @@ class ClientQuestionsFormType extends BaseType
             if ($question->getIsWithdrawAgeInput()) {
                 $builder->add('answer_'.$question->getId(), 'text', array(
                     'label' => $question->getTitle(),
-                    'property_path' => false,
+                    'mapped' => false,
                     'required' => false,
                     'data' => $this->user->getProfile()->getWithdrawAge()
                 ));
@@ -50,7 +45,7 @@ class ClientQuestionsFormType extends BaseType
                             },
                             'empty_value' => $userAnswer ? false : 'Choose an Option',
                             'property' => 'title',
-                            'property_path' => false,
+                            'mapped' => false,
                             'required' => false,
                             'label' => $question->getTitle(),
                             'preferred_choices' => $userAnswer ? array($userAnswer) : array()

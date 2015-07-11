@@ -46,7 +46,7 @@ class FeeFormType extends AbstractType
             ->add('tier_bottom', 'number', array(
                 'grouping' => true,
                 'attr' => array('readonly' => 'readonly'),
-                'property_path' => false,
+                'mapped' => false,
             ));
 
         $refreshTierTop = function (FormInterface $form, $value) use ($factory) {
@@ -59,7 +59,7 @@ class FeeFormType extends AbstractType
                     'label' => 'Is this your final tier?',
                     'attr' => $value == Fee::INFINITY ? array('checked' => 'checked') : array(),
                     'required' => false,
-                    'property_path' => false,
+                    'mapped' => false,
                 )));
         };
 

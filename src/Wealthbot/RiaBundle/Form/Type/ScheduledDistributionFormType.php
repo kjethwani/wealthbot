@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: countzero
- * Date: 20.03.14
- * Time: 22:00
- */
 namespace Wealthbot\RiaBundle\Form\Type;
 
 use Symfony\Component\Form\AbstractType;
@@ -58,7 +52,7 @@ class ScheduledDistributionFormType extends AbstractType
                     'placeholder' => 'MM',
                 ),
                 'label' => 'Start of transfer: ',
-                'property_path' => false,
+                'mapped' => false,
                 'data' => $date ? $date->format("m") : null,
                 'constraints' => array(
                     new Regex(array('pattern'=>'/^\d+$/','message' => 'Must be a number.')),
@@ -74,7 +68,7 @@ class ScheduledDistributionFormType extends AbstractType
                     'class' => 'input-xmini',
                     'placeholder' => 'DD',
                 ),
-                'property_path' => false,
+                'mapped' => false,
                 'data' => $date ? $date->format("d") : null,
                 'constraints' => array(
                     new Regex(array('pattern'=>'/^\d+$/','message' => 'Must be a number.')),

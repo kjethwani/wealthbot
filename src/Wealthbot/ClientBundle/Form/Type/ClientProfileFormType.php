@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 05.09.12
- * Time: 14:32
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\ClientBundle\Form\Type;
 
@@ -84,7 +77,7 @@ class ClientProfileFormType extends AbstractType
                 'expanded' => true,
                 'multiple' => false,
                 'required' => false,
-                'property_path' => false,
+                'mapped' => false,
                 'data' => $isExist ? 1 : null,
                 'label' => ($data && $data->getMaritalStatus() == 'Married' ? 'Are you and your spouse both U.S. citizens?' : 'Are you a U.S. citizen?')
             ))
@@ -141,7 +134,8 @@ class ClientProfileFormType extends AbstractType
                         'expanded' => true,
                         'multiple' => false,
                         'required' => false,
-                        'property_path' => false,
+                        'mapped' => false,
+                        'auto_initialize' => false,
                         'data' => (isset($data['id']) ? 1 : null),
                         'label' => ($data['marital_status'] == 'Married' ? 'Are you and your spouse both U.S. citizens?' : 'Are you a U.S. citizen?')
                     )

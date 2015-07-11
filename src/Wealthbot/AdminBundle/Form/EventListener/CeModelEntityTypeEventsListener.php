@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 22.10.12
- * Time: 12:04
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\AdminBundle\Form\EventListener;
 
@@ -263,7 +256,7 @@ class CeModelEntityTypeEventsListener implements EventSubscriberInterface
     {
         if ($this->user->hasRole('ROLE_RIA') && $this->user->getRiaCompanyInformation()->getIsTaxLossHarvesting() &&
             (!$this->user->getRiaCompanyInformation()->getIsUseQualifiedModels() || ($this->user->getRiaCompanyInformation()->getIsUseQualifiedModels() && !$this->isQualifiedModel))) {
-            
+
             /** @var $securityAssignmentRepo SecurityAssignmentRepository */
             $securityAssignmentRepo = $this->em->getRepository('WealthbotAdminBundle:SecurityAssignment');
             $securityQueryBuilder = $securityAssignmentRepo->getSecuritiesQBBySubclassIdAndWithoutSecuritiesIds($subclassId, $withoutIds);
@@ -304,7 +297,7 @@ class CeModelEntityTypeEventsListener implements EventSubscriberInterface
         }
 
         $form->add($this->factory->createNamed($name, 'text', null, array(
-            'property_path' => false,
+            'mapped' => false,
             'required' => false,
             'attr' => array(
                 'readonly' => 'readonly',

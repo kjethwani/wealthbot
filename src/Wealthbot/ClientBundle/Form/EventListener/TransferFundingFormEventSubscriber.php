@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 04.03.13
- * Time: 16:56
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\ClientBundle\Form\EventListener;
 
@@ -85,12 +78,12 @@ class TransferFundingFormEventSubscriber implements EventSubscriberInterface
     {
         $form->add($this->factory->createNamed('start_transfer_date_month', 'text', $date['month'], array(
                 'attr' => array('value' => $date['month']),
-                'property_path' => false,
+                'mapped' => false,
                 'required' => false
             )))
             ->add($this->factory->createNamed('start_transfer_date_day', 'text', $date['day'], array(
                 'attr' => array('value' => $date['day']),
-                'property_path' => false,
+                'mapped' => false,
                 'required' => false
             )))
         ;

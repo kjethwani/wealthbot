@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 05.10.12
- * Time: 16:16
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\ClientBundle\Form\Type;
 
@@ -82,6 +75,7 @@ class ClientAccountFormType extends AbstractType
                     'label' => 'Estimated Monthly Contributions',
                     'required' => false,
                     'attr' => array('value' => $data),
+                    'auto_initialize' => false,
                 )));
 
             } elseif ($type === 'distributions' && $group != AccountGroup::GROUP_EMPLOYER_RETIREMENT) {
@@ -91,6 +85,7 @@ class ClientAccountFormType extends AbstractType
                     'label' => 'Estimated Monthly Distributions',
                     'required' => false,
                     'attr' => array('value' => $data),
+                    'auto_initialize' => false,
                 )));
             }
 
@@ -145,7 +140,8 @@ class ClientAccountFormType extends AbstractType
                         'mapped' => false,
                         'choices' => $contributionTypes,
                         'expanded' => true,
-                        'multiple' => false
+                        'multiple' => false,
+                        'auto_initialize' => false,
                     )));
                 }
             });
@@ -274,7 +270,7 @@ class ClientAccountFormType extends AbstractType
             ))
             ->add('plan_provider', 'text', array(
                 'label' => 'Retirement Plan Provider',
-                'property_path' => false,
+                'mapped' => false,
                 'data' => $provider
             ))
             ->add('groupType', 'entity', array(

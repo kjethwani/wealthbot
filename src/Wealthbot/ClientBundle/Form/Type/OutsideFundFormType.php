@@ -1,11 +1,5 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 11.09.12
- * Time: 16:01
- * To change this template use File | Settings | File Templates.
- */
+
 
 namespace Wealthbot\ClientBundle\Form\Type;
 
@@ -43,7 +37,7 @@ class OutsideFundFormType extends AbstractType
         ;
 
         if($this->account) {
-            $builder->add('account_id', 'hidden', array( 'data' => $this->account->getId(), 'property_path' => false ));
+            $builder->add('account_id', 'hidden', array( 'data' => $this->account->getId(), 'mapped' => false ));
         }
 
         $em = $this->em;

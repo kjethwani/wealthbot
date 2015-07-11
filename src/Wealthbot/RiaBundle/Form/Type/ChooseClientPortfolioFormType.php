@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: maksim
- * Date: 23.11.12
- * Time: 16:57
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\RiaBundle\Form\Type;
 
@@ -48,7 +41,7 @@ class ChooseClientPortfolioFormType extends AbstractType {
                             'owner_id' => $ria->getId()
                         ));
                 },
-            'property_path' => false,
+            'mapped' => false,
             'data' => $this->proposedPortfolio ? $this->proposedPortfolio->getPortfolio() : null
         ));
     }

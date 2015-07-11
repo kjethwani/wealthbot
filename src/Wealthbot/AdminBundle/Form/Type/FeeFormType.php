@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 18.09.12
- * Time: 19:11
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\AdminBundle\Form\Type;
 
@@ -36,13 +29,15 @@ class FeeFormType extends AbstractType
             $form
                 ->add($factory->createNamed('tier_top', 'number', null, array(
                     'grouping' => true,
-                    'attr' => $value == 1000000000000 ? array('value' => '', 'disabled' => 'readonly') : array()
+                    'attr' => $value == 1000000000000 ? array('value' => '', 'disabled' => 'readonly') : array(),
+                    'auto_initialize' => false,
                 )))
                 ->add($factory->createNamed('is_final_tier', 'checkbox', null, array(
                     'label' => 'Is this your final tier?',
                     'attr' => $value == 1000000000000 ? array('checked' => 'checked') : array(),
                     'required' => false,
-                    'property_path' => false,
+                    'mapped' => false,
+                    'auto_initialize' => false,
                 )))
             ;
         };
@@ -53,7 +48,7 @@ class FeeFormType extends AbstractType
             ->add('tier_bottom', 'number', array(
                 'label' => 'Tier bottom ($)',
                 'required' => true,
-                'property_path' => false,
+                'mapped' => false,
                 'grouping' => true,
                 'attr' => array('readonly' => 'readonly')
             ))

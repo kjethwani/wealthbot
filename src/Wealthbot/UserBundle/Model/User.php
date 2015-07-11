@@ -119,7 +119,7 @@ class User extends BaseUser
         $password = $this->getPlainPassword();
 
         if($password == $this->getUsername()){
-            $context->addViolationAtSubPath('plainPassword', 'Email and password cant be the same', array(), null);
+            $context->addViolationAt('plainPassword', 'Email and password cant be the same', array(), null);
         }
 
         if (strlen($password) > 0) {
@@ -129,15 +129,15 @@ class User extends BaseUser
                     && preg_match('`[0-9]{1,}`',$password) // at least 1 number
                 )
             ) {
-                $context->addViolationAtSubPath('plainPassword', 'Password is not valid!', array(), null);
+                $context->addViolationAt('plainPassword', 'Password is not valid!', array(), null);
             }
 
             if(strlen(stristr($password, $this->getFirstName())) > 0){
-                $context->addViolationAtSubPath('plainPassword', 'Password cannot contain your name', array(), null);
+                $context->addViolationAt('plainPassword', 'Password cannot contain your name', array(), null);
             }
 
             if(strlen(stristr($password, $this->getLastName())) > 0){
-                $context->addViolationAtSubPath('plainPassword', 'Password cannot contain your name', array(), null);
+                $context->addViolationAt('plainPassword', 'Password cannot contain your name', array(), null);
             }
         }
     }

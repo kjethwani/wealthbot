@@ -62,6 +62,7 @@ class SubclassFormType extends AbstractType
                 $refreshPriority = function($form, $choices) use ($factory, $em) {
                     $form->add($factory->createNamed('priority', 'choice', null, array(
                         'choices' => $choices,
+                        'auto_initialize' => false,
                     )));
                 };
 

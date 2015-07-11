@@ -54,7 +54,7 @@ class SuggestedPortfolioFormType extends AbstractType {
 
         $builder
             ->add('action_type', 'hidden', array(
-                'property_path' => false,
+                'mapped' => false,
                 'attr' => array('value' => '')
             ))
             ->add('unconsolidated_ids', 'hidden', array(
@@ -62,7 +62,7 @@ class SuggestedPortfolioFormType extends AbstractType {
                 'attr' => array('value' => '')
             ))
             ->add('is_qualified', 'hidden', array(
-                'property_path' => false,
+                'mapped' => false,
             ))
             ->add('paymentMethod', 'choice', array(
                 'choices' => array(
@@ -146,7 +146,7 @@ class SuggestedPortfolioFormType extends AbstractType {
             ->add('portfolio', 'entity', array(
                 'class' => 'WealthbotAdminBundle:CeModel',
                 'property' => 'name',
-                'property_path' => false,
+                'mapped' => false,
                 'query_builder' => function (EntityRepository $er) use ($parent, $ria) {
                     return $er->createQueryBuilder('p')
                         ->where('p.parent = :parent')

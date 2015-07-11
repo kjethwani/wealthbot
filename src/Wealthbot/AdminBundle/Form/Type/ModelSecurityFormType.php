@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: maksim
- * Date: 14.04.13
- * Time: 14:37
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\AdminBundle\Form\Type;
 
@@ -40,7 +33,7 @@ class ModelSecurityFormType extends AbstractType
         $em    = $this->em;
 
         $builder
-            ->add('fund_symbol', 'text', array('property_path' => false /*'fund.symbol'*/))
+            ->add('fund_symbol', 'text', array('mapped' => false /*'fund.symbol'*/))
             ->add('security_id', 'hidden', array('constraints' => array(new NotBlank(array('message' => 'Please choice a Symbol from list.')))))
             ->add('type', 'hidden', array('mapped' => false))
             ->add('expense_ratio', 'hidden', array('mapped' => false));
@@ -73,7 +66,8 @@ class ModelSecurityFormType extends AbstractType
                     return $qb;
                 },
                 'property_path' => 'subclass',
-                'empty_value' => 'Choose an option'
+                'empty_value' => 'Choose an option',
+                'auto_initialize' => false,
             )));
 
             $form->add($factory->createNamed('asset_class_id', 'entity', null, array(
@@ -85,8 +79,9 @@ class ModelSecurityFormType extends AbstractType
                         ->orderBy("ac.name");
                 },
                 'empty_value' => 'Choose an option',
-                'property_path' => false,
-                'data' => $assetClass ? $assetClass : null
+                'mapped' => false,
+                'data' => $assetClass ? $assetClass : null,
+                'auto_initialize' => false,
             )));
         };
 

@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: countzero
- * Date: 17.03.14
- * Time: 0:57
- */
 
 namespace Wealthbot\RiaBundle\Form\Type;
 
@@ -173,7 +167,7 @@ class AccountSettingsFormType extends AbstractType
                     'class' => 'input-xmini',
                     'placeholder' => '###',
                 ),
-                'property_path' => false,
+                'mapped' => false,
                 'data' => $matches[1],
                 'constraints' => array(
                     new NotBlank(array('message' => 'Can not be blank.')),
@@ -191,7 +185,7 @@ class AccountSettingsFormType extends AbstractType
                     'class' => 'input-xmini',
                     'placeholder' => '###',
                 ),
-                'property_path' => false,
+                'mapped' => false,
                 'data' => $matches[2],
                 'constraints' => array(
                     new NotBlank(array('message' => 'Can not be blank.')),
@@ -209,7 +203,7 @@ class AccountSettingsFormType extends AbstractType
                     'class' => 'input-xmini',
                     'placeholder' => '###',
                 ),
-                'property_path' => false,
+                'mapped' => false,
                 'data' => $matches[3],
                 'constraints' => array(
                     new NotBlank(array('message' => 'Can not be blank.')),

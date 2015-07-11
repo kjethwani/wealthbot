@@ -87,7 +87,7 @@ class RiaCompanyInformationType extends AbstractType
 
     protected function addValidator(FormBuilderInterface $builder)
     {
-        $builder->addEventListener(\Symfony\Component\Form\FormEvents::BIND, function(\Symfony\Component\Form\Event\DataEvent $event)  {
+        $builder->addEventListener(\Symfony\Component\Form\FormEvents::BIND, function(\Symfony\Component\Form\Event\FormEvent $event)  {
             $data = $event->getData();
 
             $phoneNum = str_replace(array(' ', '_', '-', '(', ')'), '', $data->getPhoneNumber());
