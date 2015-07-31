@@ -26,7 +26,7 @@ class RebalanceFormType extends AbstractType {
     {
         $builder->add('is_all', 'checkbox', array(
             'label' => 'Check all',
-            'required' => false
+            'required' => false,
         ));
 
         if ($this->isShowType) {
@@ -45,7 +45,8 @@ class RebalanceFormType extends AbstractType {
             $form->add($factory->createNamed('client_value', 'choice', null, array(
                 'choices' => $choices,
                 'multiple' => true,
-                'expanded' => true
+                'expanded' => true,
+                'auto_initialize' => false,
             )));
         });
     }

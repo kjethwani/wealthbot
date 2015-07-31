@@ -36,7 +36,7 @@
 
         "jms/security-extra-bundle": "dev-master",
         "jms/di-extra-bundle": "dev-master",
-        "jms/serializer-bundle": "~0.13",
+        "jms/serializer-bundle": "0.12.*",
 
         "knplabs/knp-paginator-bundle": "dev-master",
         "knplabs/knp-snappy-bundle": "dev-master",

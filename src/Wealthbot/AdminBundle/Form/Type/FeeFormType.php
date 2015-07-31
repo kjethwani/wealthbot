@@ -43,14 +43,15 @@ class FeeFormType extends AbstractType
         };
 
         $builder
-            ->add('fee_with_retirement', 'text', array('label' => 'Fee with retirement (%)'))
-            ->add('fee_without_retirement', 'text', array('label' => 'Fee without retirement (%)'))
+            ->add('fee_with_retirement', 'text', array('label' => 'Fee with retirement (%)', 'auto_initialize' => false,))
+            ->add('fee_without_retirement', 'text', array('label' => 'Fee without retirement (%)', 'auto_initialize' => false,))
             ->add('tier_bottom', 'number', array(
                 'label' => 'Tier bottom ($)',
                 'required' => true,
                 'mapped' => false,
                 'grouping' => true,
-                'attr' => array('readonly' => 'readonly')
+                'attr' => array('readonly' => 'readonly'),
+                'auto_initialize' => false,
             ))
         ;
 

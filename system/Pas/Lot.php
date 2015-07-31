@@ -202,7 +202,6 @@ class Lot extends Pas
 
     /**
      * Generate new position
-
      * @param $date
      * @return int|null
      */

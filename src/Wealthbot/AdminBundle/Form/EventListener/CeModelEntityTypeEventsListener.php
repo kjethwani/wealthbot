@@ -205,7 +205,8 @@ class CeModelEntityTypeEventsListener implements EventSubscriberInterface
             'required' => false,
             'empty_value' => 'Choose Subclass',
             'query_builder' => $queryBuilder,
-            'attr' => is_null($assetClassId) ? array('disabled' => 'disabled') : array()
+            'attr' => is_null($assetClassId) ? array('disabled' => 'disabled') : array(),
+            'auto_initialize' => false,
         )));
     }
 
@@ -233,7 +234,8 @@ class CeModelEntityTypeEventsListener implements EventSubscriberInterface
                     'property' => 'security.name',
                     'required' => false,
                     'empty_value' => 'Choose Muni Substitution',
-                    'query_builder' => $queryBuilder
+                    'query_builder' => $queryBuilder,
+                    'auto_initialize' => false,
                 )));
             }
         }
@@ -248,7 +250,8 @@ class CeModelEntityTypeEventsListener implements EventSubscriberInterface
             'property' => 'security.name',
             'empty_value' => 'Choose Security',
             'query_builder' => $queryBuilder,
-            'attr' => is_null($subclassId) ? array('disabled' => 'disabled') : array()
+            'attr' => is_null($subclassId) ? array('disabled' => 'disabled') : array(),
+            'auto_initialize' => false,
         )));
     }
 
@@ -267,7 +270,8 @@ class CeModelEntityTypeEventsListener implements EventSubscriberInterface
                 'empty_value' => 'Choose TLH Substitution',
                 'query_builder' => $securityQueryBuilder,
                 'attr' => empty($withoutIds) ? array('disabled' => 'disabled') : array(),
-                'required' => false
+                'required' => false,
+                'auto_initialize' => false,
             )));
         }
     }
@@ -303,6 +307,7 @@ class CeModelEntityTypeEventsListener implements EventSubscriberInterface
                 'readonly' => 'readonly',
                 'value' => $value
             ),
+            'auto_initialize' => false,
         )));
     }
 }
