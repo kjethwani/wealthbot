@@ -43,10 +43,9 @@
 
         "nelmio/api-doc-bundle": "2.9.*",
 
-        "ornicar/apc-bundle": "1.0.*",
-
         "phpoffice/phpexcel": "1.7.8",
 
+        "smart-core/accelerator-cache-bundle": "dev-master",
         "stof/doctrine-extensions-bundle": "dev-master",
 
         "twig/extensions": "1.0.*"

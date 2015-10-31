@@ -42,7 +42,7 @@ class AppKernel extends Kernel
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
             new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
-            new Ornicar\ApcBundle\OrnicarApcBundle(),
+            new SmartCore\Bundle\AcceleratorCacheBundle\AcceleratorCacheBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

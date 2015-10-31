@@ -143,6 +143,6 @@ parameters:
 
 nelmio_api_doc: ~
 
-ornicar_apc:
+accelerator_cache:
     host: %site_domain%
     web_dir: %kernel.root_dir%/../web
