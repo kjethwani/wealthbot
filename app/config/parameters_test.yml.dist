@@ -1,6 +1,6 @@
 # This file is auto-generated during the composer install
 parameters:
     test_database_name: wealthbot_test
-    test_database_user: webo
-    test_database_password: password
+    test_database_user: <%= ENV['MYSQL_USER'] %>
+    test_database_password: <%= ENV['MYSQL_PASSWORD'] %>
     test_mongodb_database: wealthbot_test
