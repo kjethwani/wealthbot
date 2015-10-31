@@ -1,0 +1,31 @@
+{
+    "name": "Wealthbot\\FixturesBundle\\Command\\LoadPortfolioValuesDataCommand",
+    "line": 13,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\FixturesBundle\\Command",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/FixturesBundle\/Command\/LoadPortfolioValuesDataCommand.php",
+    "relative_file": null,
+    "hash": "30f6ede71ac85012d6d8fe642194f250b336793a",
+    "parent": "Symfony\\Bundle\\FrameworkBundle\\Command\\ContainerAwareCommand",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "EntityNotFoundException": "Doctrine\\ORM\\EntityNotFoundException",
+        "ContainerAwareCommand": "Symfony\\Bundle\\FrameworkBundle\\Command\\ContainerAwareCommand",
+        "InputInterface": "Symfony\\Component\\Console\\Input\\InputInterface",
+        "OutputInterface": "Symfony\\Component\\Console\\Output\\OutputInterface",
+        "InputOption": "Symfony\\Component\\Console\\Input\\InputOption",
+        "InputArgument": "Symfony\\Component\\Console\\Input\\InputArgument",
+        "ClientPortfolioValue": "Wealthbot\\ClientBundle\\Entity\\ClientPortfolioValue"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

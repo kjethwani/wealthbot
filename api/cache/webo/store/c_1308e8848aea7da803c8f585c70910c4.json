@@ -1,0 +1,121 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Validator\\Constraint\\CurrentPasswordValidator",
+    "line": 12,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Validator\\Constraint",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Validator\/Constraint\/CurrentPasswordValidator.php",
+    "relative_file": null,
+    "hash": "d268e1fb6805bce87375b993aa7b21219313f9b4",
+    "parent": "Symfony\\Component\\Validator\\ConstraintValidator",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Acl": "Wealthbot\\ClientBundle\\Model\\Acl",
+        "SecurityContextInterface": "Symfony\\Component\\Security\\Core\\SecurityContextInterface",
+        "EncoderFactoryInterface": "Symfony\\Component\\Security\\Core\\Encoder\\EncoderFactoryInterface",
+        "UserInterface": "Symfony\\Component\\Security\\Core\\User\\UserInterface",
+        "Constraint": "Symfony\\Component\\Validator\\Constraint",
+        "ConstraintValidator": "Symfony\\Component\\Validator\\ConstraintValidator",
+        "ConstraintDefinitionException": "Symfony\\Component\\Validator\\Exception\\ConstraintDefinitionException"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 17,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "acl": {
+                    "name": "acl",
+                    "line": 17,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Validator\\Constraint\\Wealthbot\\ClientBundle\\Model\\Acl",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Model\\Acl",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "encoderFactory": {
+                    "name": "encoderFactory",
+                    "line": 17,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Validator\\Constraint\\Symfony\\Component\\Security\\Core\\Encoder\\EncoderFactoryInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Security\\Core\\Encoder\\EncoderFactoryInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "validate": {
+            "name": "validate",
+            "line": 23,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "password": {
+                    "name": "password",
+                    "line": 23,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "constraint": {
+                    "name": "constraint",
+                    "line": 23,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Validator\\Constraint\\Symfony\\Component\\Validator\\Constraint",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Validator\\Constraint",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

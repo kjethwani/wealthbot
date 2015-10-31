@@ -1,0 +1,2850 @@
+{
+    "name": "Wealthbot\\UserBundle\\Entity\\User",
+    "line": 22,
+    "short_desc": "Wealthbot\\UserBundle\\Entity\\User",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\UserBundle\\Entity",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/UserBundle\/Entity\/User.php",
+    "relative_file": null,
+    "hash": "c48b42d576600ecdde0f6ad840c1947a79818005",
+    "parent": "Wealthbot\\UserBundle\\Model\\User",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ArrayCollection": "Doctrine\\Common\\Collections\\ArrayCollection",
+        "GroupInterface": "FOS\\UserBundle\\Model\\GroupInterface",
+        "BillingSpec": "Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+        "CeModel": "Wealthbot\\AdminBundle\\Entity\\CeModel",
+        "Custodian": "Wealthbot\\AdminBundle\\Entity\\Custodian",
+        "Fee": "Wealthbot\\AdminBundle\\Entity\\Fee",
+        "Bill": "Wealthbot\\ClientBundle\\Entity\\Bill",
+        "ClientAccount": "Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+        "ClientAdditionalContact": "Wealthbot\\ClientBundle\\Entity\\ClientAdditionalContact",
+        "ClientPortfolio": "Wealthbot\\ClientBundle\\Entity\\ClientPortfolio",
+        "ActivityInterface": "Wealthbot\\ClientBundle\\Model\\ActivityInterface",
+        "BaseUser": "Wealthbot\\UserBundle\\Model\\User",
+        "ORM": "Doctrine\\ORM\\Mapping"
+    },
+    "errors": [],
+    "interfaces": {
+        "Wealthbot\\ClientBundle\\Model\\ActivityInterface": "Wealthbot\\ClientBundle\\Model\\ActivityInterface"
+    },
+    "traits": [],
+    "properties": {
+        "additionalSerializerFields": {
+            "name": "additionalSerializerFields",
+            "line": 133,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "default": null,
+            "errors": []
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 153,
+            "short_desc": "Constructor",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getId": {
+            "name": "getId",
+            "line": 177,
+            "short_desc": "Get id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setProfile": {
+            "name": "setProfile",
+            "line": 188,
+            "short_desc": "Set profile",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "profile": {
+                    "name": "profile",
+                    "line": 188,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\UserBundle\\Entity\\Profile",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\Profile",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getProfile": {
+            "name": "getProfile",
+            "line": 204,
+            "short_desc": "Get profile",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\Profile",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addClientAccount": {
+            "name": "addClientAccount",
+            "line": 215,
+            "short_desc": "Add clientAccounts",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientAccounts": {
+                    "name": "clientAccounts",
+                    "line": 215,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeClientAccount": {
+            "name": "removeClientAccount",
+            "line": 227,
+            "short_desc": "Remove clientAccounts",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientAccounts": {
+                    "name": "clientAccounts",
+                    "line": 227,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setRiaCompanyInformation": {
+            "name": "setRiaCompanyInformation",
+            "line": 238,
+            "short_desc": "Set riaCompanyInformation",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "riaCompanyInformation": {
+                    "name": "riaCompanyInformation",
+                    "line": 238,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRiaCompanyInformation": {
+            "name": "getRiaCompanyInformation",
+            "line": 251,
+            "short_desc": "Get riaCompanyInformation",
+            "long_desc": "",
+            "hint": [
+                [
+                    "null",
+                    false
+                ],
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "getCustodian": {
+            "name": "getCustodian",
+            "line": 271,
+            "short_desc": "Get custodian",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\Custodian",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addFee": {
+            "name": "addFee",
+            "line": 282,
+            "short_desc": "Add fees",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "fees": {
+                    "name": "fees",
+                    "line": 282,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\AdminBundle\\Entity\\Fee",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\Fee",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeFee": {
+            "name": "removeFee",
+            "line": 294,
+            "short_desc": "Remove fees",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "fees": {
+                    "name": "fees",
+                    "line": 294,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\AdminBundle\\Entity\\Fee",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\Fee",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFees": {
+            "name": "getFees",
+            "line": 304,
+            "short_desc": "Get fees",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Doctrine\\Common\\Collections\\Collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCreated": {
+            "name": "setCreated",
+            "line": 315,
+            "short_desc": "Set created",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "created": {
+                    "name": "created",
+                    "line": 315,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCreated": {
+            "name": "getCreated",
+            "line": 327,
+            "short_desc": "Get created",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setUpdated": {
+            "name": "setUpdated",
+            "line": 338,
+            "short_desc": "Set updated",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "updated": {
+                    "name": "updated",
+                    "line": 338,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getUpdated": {
+            "name": "getUpdated",
+            "line": 350,
+            "short_desc": "Get updated",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getClientAccounts": {
+            "name": "getClientAccounts",
+            "line": 360,
+            "short_desc": "Get clientAccounts",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Doctrine\\Common\\Collections\\ArrayCollection",
+                    false
+                ],
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+                    true
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPasswordExpiredAt": {
+            "name": "setPasswordExpiredAt",
+            "line": 371,
+            "short_desc": "Set password_expired_at",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "passwordExpiredAt": {
+                    "name": "passwordExpiredAt",
+                    "line": 371,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getPasswordExpiredAt": {
+            "name": "getPasswordExpiredAt",
+            "line": 383,
+            "short_desc": "Get password_expired_at",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRiaModelCompletion": {
+            "name": "setRiaModelCompletion",
+            "line": 394,
+            "short_desc": "Set riaModelCompletion",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "riaModelCompletion": {
+                    "name": "riaModelCompletion",
+                    "line": 394,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\RiaBundle\\Entity\\RiaModelCompletion",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\RiaBundle\\Entity\\RiaModelCompletion",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRiaModelCompletion": {
+            "name": "getRiaModelCompletion",
+            "line": 406,
+            "short_desc": "Get riaModelCompletion",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaModelCompletion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setClientPersonalInformation": {
+            "name": "setClientPersonalInformation",
+            "line": 423,
+            "short_desc": "Set clientPersonalInformation",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientPersonalInformation": {
+                    "name": "clientPersonalInformation",
+                    "line": 423,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\PersonalInformation",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\PersonalInformation",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClientPersonalInformation": {
+            "name": "getClientPersonalInformation",
+            "line": 435,
+            "short_desc": "Get clientPersonalInformation",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\PersonalInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addSystemAccount": {
+            "name": "addSystemAccount",
+            "line": 446,
+            "short_desc": "Add systemAccount",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "systemAccounts": {
+                    "name": "systemAccounts",
+                    "line": 446,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeSystemAccount": {
+            "name": "removeSystemAccount",
+            "line": 458,
+            "short_desc": "Remove systemAccount",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "systemAccounts": {
+                    "name": "systemAccounts",
+                    "line": 458,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSystemAccounts": {
+            "name": "getSystemAccounts",
+            "line": 468,
+            "short_desc": "Get systemAccounts",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Doctrine\\Common\\Collections\\Collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "hasSystemAccounts": {
+            "name": "hasSystemAccounts",
+            "line": 478,
+            "short_desc": "Has systemAccounts",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getRia": {
+            "name": "getRia",
+            "line": 489,
+            "short_desc": "Return ria if the user is client",
+            "long_desc": "",
+            "hint": [
+                [
+                    "null",
+                    false
+                ],
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "addAdditionalContact": {
+            "name": "addAdditionalContact",
+            "line": 504,
+            "short_desc": "Add additionalContacts",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "additionalContacts": {
+                    "name": "additionalContacts",
+                    "line": 504,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\ClientAdditionalContact",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\ClientAdditionalContact",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeAdditionalContact": {
+            "name": "removeAdditionalContact",
+            "line": 516,
+            "short_desc": "Remove additionalContacts",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "additionalContacts": {
+                    "name": "additionalContacts",
+                    "line": 516,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\ClientAdditionalContact",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\ClientAdditionalContact",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAdditionalContacts": {
+            "name": "getAdditionalContacts",
+            "line": 526,
+            "short_desc": "Get additionalContacts",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Doctrine\\Common\\Collections\\Collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getFirstName": {
+            "name": "getFirstName",
+            "line": 536,
+            "short_desc": "Get user first name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "null",
+                    false
+                ],
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getMiddleName": {
+            "name": "getMiddleName",
+            "line": 546,
+            "short_desc": "Get user middle name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "null",
+                    false
+                ],
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getLastName": {
+            "name": "getLastName",
+            "line": 556,
+            "short_desc": "Get user last name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "null",
+                    false
+                ],
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getFullName": {
+            "name": "getFullName",
+            "line": 566,
+            "short_desc": "Get user full name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getBirthDate": {
+            "name": "getBirthDate",
+            "line": 576,
+            "short_desc": "Get user birth date",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getState": {
+            "name": "getState",
+            "line": 586,
+            "short_desc": "Get user state",
+            "long_desc": "",
+            "hint": [
+                [
+                    "null",
+                    false
+                ],
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\State",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCity": {
+            "name": "getCity",
+            "line": 596,
+            "short_desc": "Get user city",
+            "long_desc": "",
+            "hint": [
+                [
+                    "null",
+                    false
+                ],
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getStreet": {
+            "name": "getStreet",
+            "line": 606,
+            "short_desc": "Get user street",
+            "long_desc": "",
+            "hint": [
+                [
+                    "null",
+                    false
+                ],
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getZip": {
+            "name": "getZip",
+            "line": 616,
+            "short_desc": "Get user zip",
+            "long_desc": "",
+            "hint": [
+                [
+                    "null",
+                    false
+                ],
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getPhoneNumber": {
+            "name": "getPhoneNumber",
+            "line": 626,
+            "short_desc": "Get user phone number",
+            "long_desc": "",
+            "hint": [
+                [
+                    "null",
+                    false
+                ],
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSpouse": {
+            "name": "setSpouse",
+            "line": 631,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "spouse": {
+                    "name": "spouse",
+                    "line": 631,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\ClientAdditionalContact",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\ClientAdditionalContact",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSpouse": {
+            "name": "getSpouse",
+            "line": 660,
+            "short_desc": "Get spouse",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\ClientAdditionalContact",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getSpouseFirstName": {
+            "name": "getSpouseFirstName",
+            "line": 676,
+            "short_desc": "Get spouse first name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "null",
+                    false
+                ],
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getSpouseLastName": {
+            "name": "getSpouseLastName",
+            "line": 688,
+            "short_desc": "Get spouse last name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "null",
+                    false
+                ],
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getSpouseFullName": {
+            "name": "getSpouseFullName",
+            "line": 700,
+            "short_desc": "Get spouse full name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isMarried": {
+            "name": "isMarried",
+            "line": 710,
+            "short_desc": "Returns true if client is married and false otherwise",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "hasApprovedPortfolio": {
+            "name": "hasApprovedPortfolio",
+            "line": 722,
+            "short_desc": "Returns true if the client has approved final portfolio and false otherwise",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "getRegistrationStep": {
+            "name": "getRegistrationStep",
+            "line": 742,
+            "short_desc": "Get registration step",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setMasterClientId": {
+            "name": "setMasterClientId",
+            "line": 753,
+            "short_desc": "Set master_client_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "masterClientId": {
+                    "name": "masterClientId",
+                    "line": 753,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getMasterClientId": {
+            "name": "getMasterClientId",
+            "line": 765,
+            "short_desc": "Get master_client_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addSlaveClient": {
+            "name": "addSlaveClient",
+            "line": 776,
+            "short_desc": "Add slaveClients",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "slaveClients": {
+                    "name": "slaveClients",
+                    "line": 776,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeSlaveClient": {
+            "name": "removeSlaveClient",
+            "line": 788,
+            "short_desc": "Remove slaveClients",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "slaveClients": {
+                    "name": "slaveClients",
+                    "line": 788,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSlaveClients": {
+            "name": "getSlaveClients",
+            "line": 798,
+            "short_desc": "Get slaveClients",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Doctrine\\Common\\Collections\\Collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setMasterClient": {
+            "name": "setMasterClient",
+            "line": 809,
+            "short_desc": "Set masterClient",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "masterClient": {
+                    "name": "masterClient",
+                    "line": 809,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getMasterClient": {
+            "name": "getMasterClient",
+            "line": 821,
+            "short_desc": "Get masterClient",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "createSpouseObject": {
+            "name": "createSpouseObject",
+            "line": 831,
+            "short_desc": "Create new spouse object for user",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\ClientAdditionalContact",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addUserDocument": {
+            "name": "addUserDocument",
+            "line": 856,
+            "short_desc": "Add userDocuments",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "userDocuments": {
+                    "name": "userDocuments",
+                    "line": 856,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\UserBundle\\Entity\\Document",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\Document",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeUserDocument": {
+            "name": "removeUserDocument",
+            "line": 868,
+            "short_desc": "Remove userDocuments",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "userDocuments": {
+                    "name": "userDocuments",
+                    "line": 868,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\UserBundle\\Entity\\Document",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\Document",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getUserDocuments": {
+            "name": "getUserDocuments",
+            "line": 878,
+            "short_desc": "Get userDocuments",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Doctrine\\Common\\Collections\\Collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsPasswordReset": {
+            "name": "setIsPasswordReset",
+            "line": 894,
+            "short_desc": "Set is_password_reset",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isPasswordReset": {
+                    "name": "isPasswordReset",
+                    "line": 894,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsPasswordReset": {
+            "name": "getIsPasswordReset",
+            "line": 906,
+            "short_desc": "Get is_password_reset",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAlertsConfiguration": {
+            "name": "setAlertsConfiguration",
+            "line": 922,
+            "short_desc": "Set alertsConfiguration",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "alertsConfiguration": {
+                    "name": "alertsConfiguration",
+                    "line": 922,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\MailerBundle\\Entity\\AlertsConfiguration",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\MailerBundle\\Entity\\AlertsConfiguration",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAlertsConfiguration": {
+            "name": "getAlertsConfiguration",
+            "line": 934,
+            "short_desc": "Get alertsConfiguration",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\MailerBundle\\Entity\\AlertsConfiguration",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getRiaDashboardBoxes": {
+            "name": "getRiaDashboardBoxes",
+            "line": 965,
+            "short_desc": "Get riaDashboardBoxes",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Doctrine\\Common\\Collections\\Collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setClientSettings": {
+            "name": "setClientSettings",
+            "line": 980,
+            "short_desc": "Set clientSettings",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientSettings": {
+                    "name": "clientSettings",
+                    "line": 980,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\ClientSettings",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\ClientSettings",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClientSettings": {
+            "name": "getClientSettings",
+            "line": 992,
+            "short_desc": "Get clientSettings",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\ClientSettings",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addGroup": {
+            "name": "addGroup",
+            "line": 1004,
+            "short_desc": "Add groups",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "groups": {
+                    "name": "groups",
+                    "line": 1004,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\FOS\\UserBundle\\Model\\GroupInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "FOS\\UserBundle\\Model\\GroupInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setGroups": {
+            "name": "setGroups",
+            "line": 1017,
+            "short_desc": "Add groups",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "groups": {
+                    "name": "groups",
+                    "line": 1017,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\FOS\\UserBundle\\Model\\GroupInterface",
+                            false
+                        ],
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeGroup": {
+            "name": "removeGroup",
+            "line": 1034,
+            "short_desc": "Remove groups",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "groups": {
+                    "name": "groups",
+                    "line": 1034,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\FOS\\UserBundle\\Model\\GroupInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "FOS\\UserBundle\\Model\\GroupInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getGroups": {
+            "name": "getGroups",
+            "line": 1044,
+            "short_desc": "Get groups",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Doctrine\\Common\\Collections\\Collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getGroupsAsString": {
+            "name": "getGroupsAsString",
+            "line": 1049,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getClientActivitySummaries": {
+            "name": "getClientActivitySummaries",
+            "line": 1089,
+            "short_desc": "Get clientActivitySummaries",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Doctrine\\Common\\Collections\\Collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addClientPortfolio": {
+            "name": "addClientPortfolio",
+            "line": 1105,
+            "short_desc": "Add clientPortfolio",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientPortfolio": {
+                    "name": "clientPortfolio",
+                    "line": 1105,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\ClientPortfolio",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\ClientPortfolio",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeClientPortfolio": {
+            "name": "removeClientPortfolio",
+            "line": 1117,
+            "short_desc": "Remove clientPortfolios",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientPortfolio": {
+                    "name": "clientPortfolio",
+                    "line": 1117,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\ClientPortfolio",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\ClientPortfolio",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClientPortfolios": {
+            "name": "getClientPortfolios",
+            "line": 1127,
+            "short_desc": "Get clientPortfolios",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\ClientPortfolio",
+                    true
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBillingSpecs": {
+            "name": "setBillingSpecs",
+            "line": 1135,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "billingSpecs": {
+                    "name": "billingSpecs",
+                    "line": 1135,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                            true
+                        ],
+                        [
+                            "\\Doctrine\\Common\\Collections\\ArrayCollection",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getBillingSpecs": {
+            "name": "getBillingSpecs",
+            "line": 1143,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                    true
+                ],
+                [
+                    "\\Doctrine\\Common\\Collections\\ArrayCollection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addBillingSpec": {
+            "name": "addBillingSpec",
+            "line": 1154,
+            "short_desc": "Add billingSpecs",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "billingSpecs": {
+                    "name": "billingSpecs",
+                    "line": 1154,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeBillingSpec": {
+            "name": "removeBillingSpec",
+            "line": 1166,
+            "short_desc": "Remove billingSpecs",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "billingSpecs": {
+                    "name": "billingSpecs",
+                    "line": 1166,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "addRiaDashboardBox": {
+            "name": "addRiaDashboardBox",
+            "line": 1177,
+            "short_desc": "Add riaDashboardBoxes",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "riaDashboardBoxes": {
+                    "name": "riaDashboardBoxes",
+                    "line": 1177,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\RiaBundle\\Entity\\RiaDashboardBox",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\RiaBundle\\Entity\\RiaDashboardBox",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeRiaDashboardBox": {
+            "name": "removeRiaDashboardBox",
+            "line": 1189,
+            "short_desc": "Remove riaDashboardBoxes",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "riaDashboardBoxes": {
+                    "name": "riaDashboardBoxes",
+                    "line": 1189,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\RiaBundle\\Entity\\RiaDashboardBox",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\RiaBundle\\Entity\\RiaDashboardBox",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "addClientActivitySummary": {
+            "name": "addClientActivitySummary",
+            "line": 1200,
+            "short_desc": "Add clientActivitySummaries",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientActivitySummaries": {
+                    "name": "clientActivitySummaries",
+                    "line": 1200,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\ClientActivitySummary",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\ClientActivitySummary",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeClientActivitySummary": {
+            "name": "removeClientActivitySummary",
+            "line": 1212,
+            "short_desc": "Remove clientActivitySummaries",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientActivitySummaries": {
+                    "name": "clientActivitySummaries",
+                    "line": 1212,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\ClientActivitySummary",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\ClientActivitySummary",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "addOwnGroup": {
+            "name": "addOwnGroup",
+            "line": 1223,
+            "short_desc": "Add ownGroups",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ownGroups": {
+                    "name": "ownGroups",
+                    "line": 1223,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\UserBundle\\Entity\\Group",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\Group",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeOwnGroup": {
+            "name": "removeOwnGroup",
+            "line": 1235,
+            "short_desc": "Remove ownGroups",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ownGroups": {
+                    "name": "ownGroups",
+                    "line": 1235,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\UserBundle\\Entity\\Group",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\Group",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOwnGroups": {
+            "name": "getOwnGroups",
+            "line": 1245,
+            "short_desc": "Get ownGroups",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Doctrine\\Common\\Collections\\Collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAppointedBillingSpec": {
+            "name": "setAppointedBillingSpec",
+            "line": 1253,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "appointedBillingSpec": {
+                    "name": "appointedBillingSpec",
+                    "line": 1253,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAppointedBillingSpec": {
+            "name": "getAppointedBillingSpec",
+            "line": 1261,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getClientType": {
+            "name": "getClientType",
+            "line": 1272,
+            "short_desc": "Get client type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "getActivityMessage": {
+            "name": "getActivityMessage",
+            "line": 1286,
+            "short_desc": "Get activity message",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getActivityClient": {
+            "name": "getActivityClient",
+            "line": 1301,
+            "short_desc": "Get activity client",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getClientStatus": {
+            "name": "getClientStatus",
+            "line": 1307,
+            "short_desc": "Get client status",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\RuntimeException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "getFeeShedule": {
+            "name": "getFeeShedule",
+            "line": 1312,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getName": {
+            "name": "getName",
+            "line": 1317,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getPaymentMethod": {
+            "name": "getPaymentMethod",
+            "line": 1322,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addBill": {
+            "name": "addBill",
+            "line": 1327,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "bill": {
+                    "name": "bill",
+                    "line": 1327,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\Bill",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\Bill",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeBill": {
+            "name": "removeBill",
+            "line": 1333,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "bill": {
+                    "name": "bill",
+                    "line": 1333,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\Bill",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\Bill",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setBills": {
+            "name": "setBills",
+            "line": 1339,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "bills": {
+                    "name": "bills",
+                    "line": 1339,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getBills": {
+            "name": "getBills",
+            "line": 1345,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isRiaAdmin": {
+            "name": "isRiaAdmin",
+            "line": 1350,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCeModels": {
+            "name": "setCeModels",
+            "line": 1358,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ceModels": {
+                    "name": "ceModels",
+                    "line": 1358,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Doctrine\\Common\\Collections\\ArrayCollection",
+                            false
+                        ],
+                        [
+                            "\\Wealthbot\\AdminBundle\\Entity\\CeModel",
+                            true
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCeModels": {
+            "name": "getCeModels",
+            "line": 1366,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Doctrine\\Common\\Collections\\ArrayCollection",
+                    false
+                ],
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\CeModel",
+                    true
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addCeModel": {
+            "name": "addCeModel",
+            "line": 1371,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ceModel": {
+                    "name": "ceModel",
+                    "line": 1371,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\AdminBundle\\Entity\\CeModel",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\CeModel",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeCeModel": {
+            "name": "removeCeModel",
+            "line": 1377,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ceModel": {
+                    "name": "ceModel",
+                    "line": 1377,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Entity\\Wealthbot\\AdminBundle\\Entity\\CeModel",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\CeModel",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setClosed": {
+            "name": "setClosed",
+            "line": 1389,
+            "short_desc": "Set closed",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "closed": {
+                    "name": "closed",
+                    "line": 1389,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClosed": {
+            "name": "getClosed",
+            "line": 1401,
+            "short_desc": "Get closed",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

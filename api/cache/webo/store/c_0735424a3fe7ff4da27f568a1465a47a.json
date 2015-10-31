@@ -1,0 +1,55 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Tests\\Controller\\ClientDashboardTest",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Tests\\Controller",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Tests\/Controller\/ClientDashboardTest.php",
+    "relative_file": null,
+    "hash": "7bae28a30586291201bfac79f9f1776a20bf2e1b",
+    "parent": "Wealthbot\\UserBundle\\TestSuit\\ExtendedWebTestCase",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ExtendedWebTestCase": "Wealthbot\\UserBundle\\TestSuit\\ExtendedWebTestCase",
+        "Router": "Symfony\\Component\\Routing\\Router"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "setUp": {
+            "name": "setUp",
+            "line": 14,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "testHoldingsAction": {
+            "name": "testHoldingsAction",
+            "line": 24,
+            "short_desc": "Test holdings page.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

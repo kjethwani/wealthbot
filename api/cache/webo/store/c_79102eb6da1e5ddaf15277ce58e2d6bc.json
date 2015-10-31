@@ -1,0 +1,63 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Manager\\SystemAccountManagerInterface",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Manager",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Manager\/SystemAccountManagerInterface.php",
+    "relative_file": null,
+    "hash": "21f787937dcc96108bac20c02c3f1ca72908fb9b",
+    "parent": null,
+    "modifiers": "Stmt_Interface",
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": {
+        "ClientAccount": "Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+        "SystemAccount": "Wealthbot\\ClientBundle\\Entity\\SystemAccount"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "createSystemAccountForClientAccount": {
+            "name": "createSystemAccountForClientAccount",
+            "line": 24,
+            "short_desc": "Create new system account for client account",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientAccount": {
+                    "name": "clientAccount",
+                    "line": 24,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Manager\\Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

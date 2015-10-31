@@ -1,0 +1,326 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Entity\\AccountOutsideFund",
+    "line": 12,
+    "short_desc": "AccountOutsideFund",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "deprecated": [
+            [
+                ""
+            ]
+        ]
+    },
+    "namespace": "Wealthbot\\ClientBundle\\Entity",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Entity\/AccountOutsideFund.php",
+    "relative_file": null,
+    "hash": "5ff9cac064d783bdcf0464f63e53df6518187360",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ORM": "Doctrine\\ORM\\Mapping"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getId": {
+            "name": "getId",
+            "line": 45,
+            "short_desc": "Get id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAccountId": {
+            "name": "setAccountId",
+            "line": 56,
+            "short_desc": "Set account_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\AccountOutsideFund",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "accountId": {
+                    "name": "accountId",
+                    "line": 56,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAccountId": {
+            "name": "getAccountId",
+            "line": 68,
+            "short_desc": "Get account_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAccount": {
+            "name": "setAccount",
+            "line": 79,
+            "short_desc": "Set account",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\AccountOutsideFund",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "account": {
+                    "name": "account",
+                    "line": 79,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAccount": {
+            "name": "getAccount",
+            "line": 91,
+            "short_desc": "Get account",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSecurityAssignmentId": {
+            "name": "setSecurityAssignmentId",
+            "line": 102,
+            "short_desc": "Set security_assignment_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\AccountOutsideFund",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "securityId": {
+                    "name": "securityId",
+                    "line": 102,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSecurityAssignmentId": {
+            "name": "getSecurityAssignmentId",
+            "line": 114,
+            "short_desc": "Get security_assignment_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSecurityAssignment": {
+            "name": "setSecurityAssignment",
+            "line": 125,
+            "short_desc": "Set securityAssignment",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\AccountOutsideFund",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "securityAssignment": {
+                    "name": "securityAssignment",
+                    "line": 125,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Entity\\Wealthbot\\AdminBundle\\Entity\\SecurityAssignment",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\SecurityAssignment",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSecurityAssignment": {
+            "name": "getSecurityAssignment",
+            "line": 137,
+            "short_desc": "Get securityAssignment",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\SecurityAssignment",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsPreferred": {
+            "name": "setIsPreferred",
+            "line": 153,
+            "short_desc": "Set is_preferred",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\AccountOutsideFund",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isPreferred": {
+                    "name": "isPreferred",
+                    "line": 153,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsPreferred": {
+            "name": "getIsPreferred",
+            "line": 165,
+            "short_desc": "Get is_preferred",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,245 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Event\\WorkflowEvent",
+    "line": 19,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Event",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Event\/WorkflowEvent.php",
+    "relative_file": null,
+    "hash": "21ec5caa064cee2052266185508e546b52a3129f",
+    "parent": "Symfony\\Component\\EventDispatcher\\Event",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Workflow": "Wealthbot\\ClientBundle\\Entity\\Workflow",
+        "WorkflowableInterface": "Wealthbot\\ClientBundle\\Model\\WorkflowableInterface",
+        "DocumentSignature": "Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "Event": "Symfony\\Component\\EventDispatcher\\Event"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 39,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "client": {
+                    "name": "client",
+                    "line": 39,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Event\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "object": {
+                    "name": "object",
+                    "line": 39,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Event\\Wealthbot\\ClientBundle\\Model\\WorkflowableInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Model\\WorkflowableInterface",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "type": {
+                    "name": "type",
+                    "line": 39,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "signatures": {
+                    "name": "signatures",
+                    "line": 39,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                },
+                "objectIds": {
+                    "name": "objectIds",
+                    "line": 39,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClient": {
+            "name": "getClient",
+            "line": 53,
+            "short_desc": "Get client",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getObject": {
+            "name": "getObject",
+            "line": 63,
+            "short_desc": "Get workflowable object",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\WorkflowableInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getType": {
+            "name": "getType",
+            "line": 68,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getSignatures": {
+            "name": "getSignatures",
+            "line": 73,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getObjectIds": {
+            "name": "getObjectIds",
+            "line": 78,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setData": {
+            "name": "setData",
+            "line": 88,
+            "short_desc": "Set data",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "data": {
+                    "name": "data",
+                    "line": 88,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Event\\Wealthbot\\ClientBundle\\Entity\\Workflow",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\Workflow",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getData": {
+            "name": "getData",
+            "line": 98,
+            "short_desc": "Get data",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Workflow",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

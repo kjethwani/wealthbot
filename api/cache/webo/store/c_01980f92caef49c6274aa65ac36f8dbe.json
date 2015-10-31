@@ -1,0 +1,511 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Entity\\RiskQuestion",
+    "line": 10,
+    "short_desc": "Wealthbot\\RiaBundle\\Entity\\RiskQuestion",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Entity",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Entity\/RiskQuestion.php",
+    "relative_file": null,
+    "hash": "555aec240273dd8fe63206a2c8fecf8c1b4fa0cc",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ORM": "Doctrine\\ORM\\Mapping"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 50,
+            "short_desc": "Constructor",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setId": {
+            "name": "setId",
+            "line": 61,
+            "short_desc": "Set id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiskQuestion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 61,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getId": {
+            "name": "getId",
+            "line": 73,
+            "short_desc": "Get id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTitle": {
+            "name": "setTitle",
+            "line": 84,
+            "short_desc": "Set title",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiskQuestion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "title": {
+                    "name": "title",
+                    "line": 84,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTitle": {
+            "name": "getTitle",
+            "line": 96,
+            "short_desc": "Get title",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setDescription": {
+            "name": "setDescription",
+            "line": 107,
+            "short_desc": "Set description",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiskQuestion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "description": {
+                    "name": "description",
+                    "line": 107,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getDescription": {
+            "name": "getDescription",
+            "line": 119,
+            "short_desc": "Get description",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSequence": {
+            "name": "setSequence",
+            "line": 130,
+            "short_desc": "Set sequence",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiskQuestion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "sequence": {
+                    "name": "sequence",
+                    "line": 130,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSequence": {
+            "name": "getSequence",
+            "line": 142,
+            "short_desc": "Get sequence",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addAnswer": {
+            "name": "addAnswer",
+            "line": 158,
+            "short_desc": "Add answers",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiskQuestion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "answers": {
+                    "name": "answers",
+                    "line": 158,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Entity\\Wealthbot\\RiaBundle\\Entity\\RiskAnswer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\RiaBundle\\Entity\\RiskAnswer",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeAnswer": {
+            "name": "removeAnswer",
+            "line": 170,
+            "short_desc": "Remove answers",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "answers": {
+                    "name": "answers",
+                    "line": 170,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Entity\\Wealthbot\\RiaBundle\\Entity\\RiskAnswer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\RiaBundle\\Entity\\RiskAnswer",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAnswers": {
+            "name": "getAnswers",
+            "line": 180,
+            "short_desc": "Get answers",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\Doctrine\\Common\\Collections\\Collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsWithdrawAgeInput": {
+            "name": "setIsWithdrawAgeInput",
+            "line": 191,
+            "short_desc": "Set is_withdraw_age_input",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiskQuestion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isWithdrawAgeInput": {
+                    "name": "isWithdrawAgeInput",
+                    "line": 191,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsWithdrawAgeInput": {
+            "name": "getIsWithdrawAgeInput",
+            "line": 203,
+            "short_desc": "Get is_withdraw_age_input",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setOwnerId": {
+            "name": "setOwnerId",
+            "line": 214,
+            "short_desc": "Set owner_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiskQuestion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ownerId": {
+                    "name": "ownerId",
+                    "line": 214,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOwnerId": {
+            "name": "getOwnerId",
+            "line": 226,
+            "short_desc": "Get owner_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setOwner": {
+            "name": "setOwner",
+            "line": 237,
+            "short_desc": "Set owner",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiskQuestion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "owner": {
+                    "name": "owner",
+                    "line": 237,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Entity\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOwner": {
+            "name": "getOwner",
+            "line": 249,
+            "short_desc": "Get owner",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

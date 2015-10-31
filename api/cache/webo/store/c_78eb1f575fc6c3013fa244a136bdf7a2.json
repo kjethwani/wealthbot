@@ -1,0 +1,349 @@
+{
+    "name": "Wealthbot\\SignatureBundle\\Twig\\SignatureTwigExtension",
+    "line": 18,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\SignatureBundle\\Twig",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/SignatureBundle\/Twig\/SignatureTwigExtension.php",
+    "relative_file": null,
+    "hash": "932ffe8d10d100b9360dbddcc955f891e698a2ae",
+    "parent": "Twig_Extension",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AccountOwnerInterface": "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+        "ClientAccount": "Wealthbot\\ClientBundle\\Model\\ClientAccount",
+        "DocumentSignature": "Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+        "DocumentSignatureManager": "Wealthbot\\SignatureBundle\\Manager\\DocumentSignatureManager"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 23,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "manager": {
+                    "name": "manager",
+                    "line": 23,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Twig\\Wealthbot\\SignatureBundle\\Manager\\DocumentSignatureManager",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\SignatureBundle\\Manager\\DocumentSignatureManager",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFunctions": {
+            "name": "getFunctions",
+            "line": 28,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isSignatureCompleted": {
+            "name": "isSignatureCompleted",
+            "line": 46,
+            "short_desc": "Is document signature completed",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "signature": {
+                    "name": "signature",
+                    "line": 46,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+                            false
+                        ],
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "isOwnerSignatureCompleted": {
+            "name": "isOwnerSignatureCompleted",
+            "line": 58,
+            "short_desc": "Is client account owner has complete signature",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "accountOwner": {
+                    "name": "accountOwner",
+                    "line": 58,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Twig\\Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "signature": {
+                    "name": "signature",
+                    "line": 58,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Twig\\Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "isApplicationSigned": {
+            "name": "isApplicationSigned",
+            "line": 69,
+            "short_desc": "Is all client account in application signed",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "account": {
+                    "name": "account",
+                    "line": 69,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Wealthbot\\ClientBundle\\Model\\ClientAccount",
+                            false
+                        ],
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "isOwnerSignApplication": {
+            "name": "isOwnerSignApplication",
+            "line": 81,
+            "short_desc": "Is account owner sign all document signatures for application",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "accountOwner": {
+                    "name": "accountOwner",
+                    "line": 81,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Twig\\Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "account": {
+                    "name": "account",
+                    "line": 81,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Twig\\Wealthbot\\ClientBundle\\Model\\ClientAccount",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Model\\ClientAccount",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getDocumentSignatureSource": {
+            "name": "getDocumentSignatureSource",
+            "line": 92,
+            "short_desc": "Get source object of document signature",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Model\\SignableInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "signature": {
+                    "name": "signature",
+                    "line": 92,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Twig\\Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getDocumentSignatureActivity": {
+            "name": "getDocumentSignatureActivity",
+            "line": 103,
+            "short_desc": "Get document signature activity",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "signature": {
+                    "name": "signature",
+                    "line": 103,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Twig\\Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getName": {
+            "name": "getName",
+            "line": 113,
+            "short_desc": "Returns the name of the extension.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "The extension name",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,60 @@
+{
+    "name": "Wealthbot\\SignatureBundle\\Repository\\SignableObjectRepositoryInterface",
+    "line": 12,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\SignatureBundle\\Repository",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/SignatureBundle\/Repository\/SignableObjectRepositoryInterface.php",
+    "relative_file": null,
+    "hash": "21a1ce832a473891a73f1d9d82d43290aa34df62",
+    "parent": null,
+    "modifiers": "Stmt_Interface",
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "isApplicationSigned": {
+            "name": "isApplicationSigned",
+            "line": 20,
+            "short_desc": "Is object has completed document signature for application",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "applicationId": {
+                    "name": "applicationId",
+                    "line": 20,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

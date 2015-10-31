@@ -1,0 +1,30 @@
+{
+    "name": "Wealthbot\\MailerBundle\\Command\\SendCronEmailsCommand",
+    "line": 11,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\MailerBundle\\Command",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/MailerBundle\/Command\/SendCronEmailsCommand.php",
+    "relative_file": null,
+    "hash": "2849a25cc6562ab5fcc4c5f051268c89e6d58614",
+    "parent": "Symfony\\Bundle\\FrameworkBundle\\Command\\ContainerAwareCommand",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AccountGroupType": "Wealthbot\\ClientBundle\\Entity\\AccountGroupType",
+        "AccountGroup": "Wealthbot\\ClientBundle\\Model\\AccountGroup",
+        "ContainerAwareCommand": "Symfony\\Bundle\\FrameworkBundle\\Command\\ContainerAwareCommand",
+        "InputArgument": "Symfony\\Component\\Console\\Input\\InputArgument",
+        "InputInterface": "Symfony\\Component\\Console\\Input\\InputInterface",
+        "OutputInterface": "Symfony\\Component\\Console\\Output\\OutputInterface"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

@@ -1,0 +1,212 @@
+{
+    "name": "Wealthbot\\AdminBundle\\Form\\Type\\StrategyModelFormType",
+    "line": 24,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\Form\\Type",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/Form\/Type\/StrategyModelFormType.php",
+    "relative_file": null,
+    "hash": "5eb84fc02f3785ef3a69045d06fe0d481e398354",
+    "parent": "Symfony\\Component\\Form\\AbstractType",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ModelAssumption": "Wealthbot\\AdminBundle\\Entity\\ModelAssumption",
+        "AbstractType": "Symfony\\Component\\Form\\AbstractType",
+        "FormBuilder": "Symfony\\Component\\Form\\FormBuilder",
+        "FormBuilderInterface": "Symfony\\Component\\Form\\FormBuilderInterface",
+        "FormError": "Symfony\\Component\\Form\\FormError",
+        "OptionsResolverInterface": "Symfony\\Component\\OptionsResolver\\OptionsResolverInterface",
+        "FormEvents": "Symfony\\Component\\Form\\FormEvents",
+        "FormEvent": "Symfony\\Component\\Form\\FormEvent",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "EntityManager": "Doctrine\\ORM\\EntityManager",
+        "PortfolioModel": "Wealthbot\\AdminBundle\\Entity\\PortfolioModel"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 39,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "em": {
+                    "name": "em",
+                    "line": 39,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Form\\Type\\Doctrine\\ORM\\EntityManager",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Doctrine\\ORM\\EntityManager",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "user": {
+                    "name": "user",
+                    "line": 39,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Form\\Type\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "thirdParty": {
+                    "name": "thirdParty",
+                    "line": 39,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Form\\Type\\Wealthbot\\AdminBundle\\Entity\\PortfolioModel",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\PortfolioModel",
+                    "default": "null",
+                    "is_by_ref": false
+                },
+                "assumption": {
+                    "name": "assumption",
+                    "line": 39,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Form\\Type\\Wealthbot\\AdminBundle\\Entity\\ModelAssumption",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\ModelAssumption",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "buildForm": {
+            "name": "buildForm",
+            "line": 48,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "builder": {
+                    "name": "builder",
+                    "line": 48,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Form\\Type\\Symfony\\Component\\Form\\FormBuilderInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Form\\FormBuilderInterface",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "options": {
+                    "name": "options",
+                    "line": 48,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setDefaultOptions": {
+            "name": "setDefaultOptions",
+            "line": 173,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "resolver": {
+                    "name": "resolver",
+                    "line": 173,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Form\\Type\\Symfony\\Component\\OptionsResolver\\OptionsResolverInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\OptionsResolver\\OptionsResolverInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getName": {
+            "name": "getName",
+            "line": 185,
+            "short_desc": "Returns the name of this type.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "The name of this type",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

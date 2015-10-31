@@ -1,0 +1,183 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Form\\Type\\RiaClientAccountFormType",
+    "line": 22,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Form\\Type",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Form\/Type\/RiaClientAccountFormType.php",
+    "relative_file": null,
+    "hash": "fb9544828f1231750d1f2f613a938bc66c5ef111",
+    "parent": "Symfony\\Component\\Form\\AbstractType",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "EntityManager": "Doctrine\\ORM\\EntityManager",
+        "AccountGroup": "Wealthbot\\ClientBundle\\Entity\\AccountGroup",
+        "ClientAccount": "Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+        "RiaClientAccountFormEventSubscriber": "Wealthbot\\RiaBundle\\Form\\EventListener\\RiaClientAccountFormEventSubscriber",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "AbstractType": "Symfony\\Component\\Form\\AbstractType",
+        "FormBuilderInterface": "Symfony\\Component\\Form\\FormBuilderInterface",
+        "OptionsResolverInterface": "Symfony\\Component\\OptionsResolver\\OptionsResolverInterface"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 29,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "client": {
+                    "name": "client",
+                    "line": 29,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Form\\Type\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "em": {
+                    "name": "em",
+                    "line": 29,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Form\\Type\\Doctrine\\ORM\\EntityManager",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Doctrine\\ORM\\EntityManager",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "validateAdditionalFields": {
+                    "name": "validateAdditionalFields",
+                    "line": 29,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "true",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "buildForm": {
+            "name": "buildForm",
+            "line": 39,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "builder": {
+                    "name": "builder",
+                    "line": 39,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Form\\Type\\Symfony\\Component\\Form\\FormBuilderInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Form\\FormBuilderInterface",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "options": {
+                    "name": "options",
+                    "line": 39,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setDefaultOptions": {
+            "name": "setDefaultOptions",
+            "line": 102,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "resolver": {
+                    "name": "resolver",
+                    "line": 102,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Form\\Type\\Symfony\\Component\\OptionsResolver\\OptionsResolverInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\OptionsResolver\\OptionsResolverInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getName": {
+            "name": "getName",
+            "line": 109,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

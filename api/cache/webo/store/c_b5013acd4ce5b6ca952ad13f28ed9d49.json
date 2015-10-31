@@ -1,0 +1,40 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Form\\Validator\\ClientSpouseFormValidator",
+    "line": 15,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Form\\Validator",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Form\/Validator\/ClientSpouseFormValidator.php",
+    "relative_file": null,
+    "hash": "0d3190a8c9de6eee233bcaf884f10e19bc6b0af7",
+    "parent": "Wealthbot\\ClientBundle\\Form\\Validator\\AbstractFormValidator",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "FormError": "Symfony\\Component\\Form\\FormError"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "validate": {
+            "name": "validate",
+            "line": 17,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

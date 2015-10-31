@@ -1,0 +1,174 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Form\\EventListener\\ScheduledDistributionFormEventSubscriber",
+    "line": 23,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Form\\EventListener",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Form\/EventListener\/ScheduledDistributionFormEventSubscriber.php",
+    "relative_file": null,
+    "hash": "b0360ced3931149be7ae53878c1ee0dd30c89ac5",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Distribution": "Wealthbot\\ClientBundle\\Entity\\Distribution",
+        "ScheduledDistributionFormValidator": "Wealthbot\\ClientBundle\\Form\\Validator\\ScheduledDistributionFormValidator",
+        "BankInformationFormValidator": "Wealthbot\\ClientBundle\\Form\\Validator\\BankInformationFormValidator",
+        "EventSubscriberInterface": "Symfony\\Component\\EventDispatcher\\EventSubscriberInterface",
+        "FormError": "Symfony\\Component\\Form\\FormError",
+        "FormEvent": "Symfony\\Component\\Form\\FormEvent",
+        "FormEvents": "Symfony\\Component\\Form\\FormEvents",
+        "FormFactoryInterface": "Symfony\\Component\\Form\\FormFactoryInterface",
+        "FormInterface": "Symfony\\Component\\Form\\FormInterface"
+    },
+    "errors": [],
+    "interfaces": {
+        "Symfony\\Component\\EventDispatcher\\EventSubscriberInterface": "Symfony\\Component\\EventDispatcher\\EventSubscriberInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 27,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "factory": {
+                    "name": "factory",
+                    "line": 27,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Form\\EventListener\\Symfony\\Component\\Form\\FormFactoryInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Form\\FormFactoryInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSubscribedEvents": {
+            "name": "getSubscribedEvents",
+            "line": 32,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "preSetData": {
+            "name": "preSetData",
+            "line": 46,
+            "short_desc": "PRE_SET_DATA event handler",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "event": {
+                    "name": "event",
+                    "line": 46,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Form\\EventListener\\Symfony\\Component\\Form\\FormEvent",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Form\\FormEvent",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "preBind": {
+            "name": "preBind",
+            "line": 79,
+            "short_desc": "PRE_BIND event handler",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "event": {
+                    "name": "event",
+                    "line": 79,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Form\\EventListener\\Symfony\\Component\\Form\\FormEvent",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Form\\FormEvent",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "bind": {
+            "name": "bind",
+            "line": 99,
+            "short_desc": "BIND event handler\nValidate form fields",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "event": {
+                    "name": "event",
+                    "line": 99,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Form\\EventListener\\Symfony\\Component\\Form\\FormEvent",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Form\\FormEvent",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,210 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Entity\\ClientAccountDocusign",
+    "line": 10,
+    "short_desc": "ClientAccountDocusign",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Entity",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Entity\/ClientAccountDocusign.php",
+    "relative_file": null,
+    "hash": "cb708014f0ab3ebff1c5f2374708f7be7a779974",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ORM": "Doctrine\\ORM\\Mapping"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getId": {
+            "name": "getId",
+            "line": 38,
+            "short_desc": "Get id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setClientAccountId": {
+            "name": "setClientAccountId",
+            "line": 49,
+            "short_desc": "Set client_account_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\ClientAccountDocusign",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientAccountId": {
+                    "name": "clientAccountId",
+                    "line": 49,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClientAccountId": {
+            "name": "getClientAccountId",
+            "line": 61,
+            "short_desc": "Get client_account_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsUsed": {
+            "name": "setIsUsed",
+            "line": 72,
+            "short_desc": "Set is_used",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\ClientAccountDocusign",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isUsed": {
+                    "name": "isUsed",
+                    "line": 72,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsUsed": {
+            "name": "getIsUsed",
+            "line": 84,
+            "short_desc": "Get is_used",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setClientAccount": {
+            "name": "setClientAccount",
+            "line": 95,
+            "short_desc": "Set clientAccount",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\ClientAccountDocusign",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientAccount": {
+                    "name": "clientAccount",
+                    "line": 95,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Entity\\Wealthbot\\ClientBundle\\Model\\ClientAccount",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Model\\ClientAccount",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClientAccount": {
+            "name": "getClientAccount",
+            "line": 107,
+            "short_desc": "Get clientAccount",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\ClientAccount",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

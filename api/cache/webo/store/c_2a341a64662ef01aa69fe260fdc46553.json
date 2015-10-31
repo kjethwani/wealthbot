@@ -1,0 +1,172 @@
+{
+    "name": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM\\LoadBillData",
+    "line": 23,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/FixturesBundle\/DataFixtures\/ORM\/LoadBillData.php",
+    "relative_file": null,
+    "hash": "42f3574291a261bc8996a9dd4d2a591be20002d0",
+    "parent": "Doctrine\\Common\\DataFixtures\\AbstractFixture",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AbstractFixture": "Doctrine\\Common\\DataFixtures\\AbstractFixture",
+        "OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface",
+        "ObjectManager": "Doctrine\\Common\\Persistence\\ObjectManager",
+        "FeeManager": "Wealthbot\\AdminBundle\\Manager\\FeeManager",
+        "Bill": "Wealthbot\\ClientBundle\\Entity\\Bill",
+        "BillItem": "Wealthbot\\ClientBundle\\Entity\\BillItem",
+        "PeriodManager": "Wealthbot\\RiaBundle\\Service\\Manager\\PeriodManager",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "ContainerAwareInterface": "Symfony\\Component\\DependencyInjection\\ContainerAwareInterface",
+        "ContainerInterface": "Symfony\\Component\\DependencyInjection\\ContainerInterface"
+    },
+    "errors": [],
+    "interfaces": {
+        "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface",
+        "Symfony\\Component\\DependencyInjection\\ContainerAwareInterface": "Symfony\\Component\\DependencyInjection\\ContainerAwareInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "load": {
+            "name": "load",
+            "line": 34,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "manager": {
+                    "name": "manager",
+                    "line": 34,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\FixturesBundle\\DataFixtures\\ORM\\Doctrine\\Common\\Persistence\\ObjectManager",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Doctrine\\Common\\Persistence\\ObjectManager",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOrder": {
+            "name": "getOrder",
+            "line": 49,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setContainer": {
+            "name": "setContainer",
+            "line": 54,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "container": {
+                    "name": "container",
+                    "line": 54,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\FixturesBundle\\DataFixtures\\ORM\\Symfony\\Component\\DependencyInjection\\ContainerInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\DependencyInjection\\ContainerInterface",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "createBill": {
+            "name": "createBill",
+            "line": 59,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "user": {
+                    "name": "user",
+                    "line": 59,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\FixturesBundle\\DataFixtures\\ORM\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "dateStr": {
+                    "name": "dateStr",
+                    "line": 59,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "manager": {
+                    "name": "manager",
+                    "line": 59,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\FixturesBundle\\DataFixtures\\ORM\\Doctrine\\Common\\Persistence\\ObjectManager",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Doctrine\\Common\\Persistence\\ObjectManager",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

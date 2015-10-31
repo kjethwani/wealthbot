@@ -1,0 +1,93 @@
+{
+    "name": "Wealthbot\\SignatureBundle\\Model\\Tab\\RadioGroupTab",
+    "line": 13,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\SignatureBundle\\Model\\Tab",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/SignatureBundle\/Model\/Tab\/RadioGroupTab.php",
+    "relative_file": null,
+    "hash": "063ca9a4805dbb09409019659ba9544a8cc4fdd0",
+    "parent": "Wealthbot\\SignatureBundle\\Model\\Tab\\AbstractCheckableTab",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 21,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setGroupName": {
+            "name": "setGroupName",
+            "line": 34,
+            "short_desc": "Set group name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\SignatureBundle\\Model\\Tab\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "groupName": {
+                    "name": "groupName",
+                    "line": 34,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getGroupName": {
+            "name": "getGroupName",
+            "line": 46,
+            "short_desc": "Get group name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

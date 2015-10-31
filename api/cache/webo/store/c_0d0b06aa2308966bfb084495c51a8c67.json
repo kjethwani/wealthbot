@@ -1,0 +1,52 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Controller\\DefaultController",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Controller",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Controller\/DefaultController.php",
+    "relative_file": null,
+    "hash": "1bc7611e9ca15bd3bdb2209b0e1287a11a9b451a",
+    "parent": "Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Controller": "Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "indexAction": {
+            "name": "indexAction",
+            "line": 9,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 9,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

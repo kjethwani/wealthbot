@@ -1,0 +1,835 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Document\\FirmMetric",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "MongoDB\\Document": [
+            [
+                "(collection=\"firmMetrics\")"
+            ]
+        ]
+    },
+    "namespace": "Wealthbot\\RiaBundle\\Document",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Document\/FirmMetric.php",
+    "relative_file": null,
+    "hash": "b3fada9268a52907149161c7347a56bdde093abd",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "MongoDB": "Doctrine\\ODM\\MongoDB\\Mapping\\Annotations"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 94,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getId": {
+            "name": "getId",
+            "line": 104,
+            "short_desc": "Get id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Document\\id",
+                    false
+                ]
+            ],
+            "hint_desc": "$id",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCompanyInformationId": {
+            "name": "setCompanyInformationId",
+            "line": 115,
+            "short_desc": "Set companyInformationId",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\RiaBundle\\Document\\FirmMetric",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "companyInformationId": {
+                    "name": "companyInformationId",
+                    "line": 115,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCompanyInformationId": {
+            "name": "getCompanyInformationId",
+            "line": 126,
+            "short_desc": "Get companyInformationId",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "$companyInformationId",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setClients": {
+            "name": "setClients",
+            "line": 137,
+            "short_desc": "Set clients",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\RiaBundle\\Document\\FirmMetric",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clients": {
+                    "name": "clients",
+                    "line": 137,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClients": {
+            "name": "getClients",
+            "line": 148,
+            "short_desc": "Get clients",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "$clients",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setClientsQtdChange": {
+            "name": "setClientsQtdChange",
+            "line": 159,
+            "short_desc": "Set clientsQtdChange",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\RiaBundle\\Document\\FirmMetric",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientsQtdChange": {
+                    "name": "clientsQtdChange",
+                    "line": 159,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClientsQtdChange": {
+            "name": "getClientsQtdChange",
+            "line": 170,
+            "short_desc": "Get clientsQtdChange",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "$clientsQtdChange",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setClientsYearChange": {
+            "name": "setClientsYearChange",
+            "line": 181,
+            "short_desc": "Set clientsYearChange",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\RiaBundle\\Document\\FirmMetric",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientsYearChange": {
+                    "name": "clientsYearChange",
+                    "line": 181,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClientsYearChange": {
+            "name": "getClientsYearChange",
+            "line": 192,
+            "short_desc": "Get clientsYearChange",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "$clientsYearChange",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAccounts": {
+            "name": "setAccounts",
+            "line": 203,
+            "short_desc": "Set accounts",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\RiaBundle\\Document\\FirmMetric",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "accounts": {
+                    "name": "accounts",
+                    "line": 203,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAccounts": {
+            "name": "getAccounts",
+            "line": 214,
+            "short_desc": "Get accounts",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "$accounts",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAccountsQtdChange": {
+            "name": "setAccountsQtdChange",
+            "line": 225,
+            "short_desc": "Set accountsQtdChange",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\RiaBundle\\Document\\FirmMetric",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "accountsQtdChange": {
+                    "name": "accountsQtdChange",
+                    "line": 225,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAccountsQtdChange": {
+            "name": "getAccountsQtdChange",
+            "line": 236,
+            "short_desc": "Get accountsQtdChange",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "$accountsQtdChange",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAccountsYearChange": {
+            "name": "setAccountsYearChange",
+            "line": 247,
+            "short_desc": "Set accountsYearChange",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\RiaBundle\\Document\\FirmMetric",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "accountsYearChange": {
+                    "name": "accountsYearChange",
+                    "line": 247,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAccountsYearChange": {
+            "name": "getAccountsYearChange",
+            "line": 258,
+            "short_desc": "Get accountsYearChange",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "$accountsYearChange",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setProspects": {
+            "name": "setProspects",
+            "line": 269,
+            "short_desc": "Set prospects",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\RiaBundle\\Document\\FirmMetric",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "prospects": {
+                    "name": "prospects",
+                    "line": 269,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getProspects": {
+            "name": "getProspects",
+            "line": 280,
+            "short_desc": "Get prospects",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "$prospects",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setProspectsQtdChange": {
+            "name": "setProspectsQtdChange",
+            "line": 291,
+            "short_desc": "Set prospectsQtdChange",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\RiaBundle\\Document\\FirmMetric",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "prospectsQtdChange": {
+                    "name": "prospectsQtdChange",
+                    "line": 291,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getProspectsQtdChange": {
+            "name": "getProspectsQtdChange",
+            "line": 302,
+            "short_desc": "Get prospectsQtdChange",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "$prospectsQtdChange",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setProspectsYearChange": {
+            "name": "setProspectsYearChange",
+            "line": 313,
+            "short_desc": "Set prospectsYearChange",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\RiaBundle\\Document\\FirmMetric",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "prospectsYearChange": {
+                    "name": "prospectsYearChange",
+                    "line": 313,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getProspectsYearChange": {
+            "name": "getProspectsYearChange",
+            "line": 324,
+            "short_desc": "Get prospectsYearChange",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "$prospectsYearChange",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFeesCollected": {
+            "name": "setFeesCollected",
+            "line": 335,
+            "short_desc": "Set feesCollected",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\RiaBundle\\Document\\FirmMetric",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "feesCollected": {
+                    "name": "feesCollected",
+                    "line": 335,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFeesCollected": {
+            "name": "getFeesCollected",
+            "line": 346,
+            "short_desc": "Get feesCollected",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "$feesCollected",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFeesCollectedQtdChange": {
+            "name": "setFeesCollectedQtdChange",
+            "line": 357,
+            "short_desc": "Set feesCollectedQtdChange",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\RiaBundle\\Document\\FirmMetric",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "feesCollectedQtdChange": {
+                    "name": "feesCollectedQtdChange",
+                    "line": 357,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFeesCollectedQtdChange": {
+            "name": "getFeesCollectedQtdChange",
+            "line": 368,
+            "short_desc": "Get feesCollectedQtdChange",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "$feesCollectedQtdChange",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFeesCollectedYearChange": {
+            "name": "setFeesCollectedYearChange",
+            "line": 379,
+            "short_desc": "Set feesCollectedYearChange",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\RiaBundle\\Document\\FirmMetric",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "feesCollectedYearChange": {
+                    "name": "feesCollectedYearChange",
+                    "line": 379,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFeesCollectedYearChange": {
+            "name": "getFeesCollectedYearChange",
+            "line": 390,
+            "short_desc": "Get feesCollectedYearChange",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "$feesCollectedYearChange",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCreatedAt": {
+            "name": "setCreatedAt",
+            "line": 401,
+            "short_desc": "Set createdAt",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\RiaBundle\\Document\\FirmMetric",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "createdAt": {
+                    "name": "createdAt",
+                    "line": 401,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCreatedAt": {
+            "name": "getCreatedAt",
+            "line": 412,
+            "short_desc": "Get createdAt",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "$createdAt",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

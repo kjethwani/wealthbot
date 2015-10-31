@@ -1,0 +1,96 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Service\\Security\\Voter\\BillingSpecVoter",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Service\\Security\\Voter",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Service\/Security\/Voter\/BillingSpecVoter.php",
+    "relative_file": null,
+    "hash": "01c8d7bb0ccd461c1ab2b00b74d3702228b3b9ac",
+    "parent": "Wealthbot\\RiaBundle\\Service\\Security\\Voter\\BaseVoter",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "TokenInterface": "Symfony\\Component\\Security\\Core\\Authentication\\Token\\TokenInterface",
+        "VoterInterface": "Symfony\\Component\\Security\\Core\\Authorization\\Voter\\VoterInterface",
+        "BillingSpec": "Wealthbot\\AdminBundle\\Entity\\BillingSpec"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "vote": {
+            "name": "vote",
+            "line": 17,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "either ACCESS_GRANTED, ACCESS_ABSTAIN, or ACCESS_DENIED",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "token": {
+                    "name": "token",
+                    "line": 17,
+                    "short_desc": "A TokenInterface instance",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Service\\Security\\Voter\\Symfony\\Component\\Security\\Core\\Authentication\\Token\\TokenInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Security\\Core\\Authentication\\Token\\TokenInterface",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "object": {
+                    "name": "object",
+                    "line": 17,
+                    "short_desc": "The object to secure",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "object",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "attributes": {
+                    "name": "attributes",
+                    "line": 17,
+                    "short_desc": "An array of attributes associated with the method being invoked",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

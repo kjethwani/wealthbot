@@ -1,0 +1,174 @@
+{
+    "name": "Wealthbot\\AdminBundle\\Manager\\BillingSpecManager",
+    "line": 10,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\Manager",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/Manager\/BillingSpecManager.php",
+    "relative_file": null,
+    "hash": "e79eaef8c81f7f627c4260537eae737e38758eee",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "EntityManager": "Doctrine\\ORM\\EntityManager",
+        "BillingSpec": "Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+        "User": "Wealthbot\\UserBundle\\Entity\\User"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 20,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "em": {
+                    "name": "em",
+                    "line": 20,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Manager\\Doctrine\\ORM\\EntityManager",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Doctrine\\ORM\\EntityManager",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSpecs": {
+            "name": "getSpecs",
+            "line": 31,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "TODO": [
+                    [
+                        "Add",
+                        "for",
+                        "RIA",
+                        "in",
+                        "name?!"
+                    ],
+                    [
+                        "Restrict",
+                        "by",
+                        "requirements!!!",
+                        "Master",
+                        "only"
+                    ]
+                ]
+            },
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ria": {
+                    "name": "ria",
+                    "line": 31,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Manager\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "remove": {
+            "name": "remove",
+            "line": 40,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "billingSpec": {
+                    "name": "billingSpec",
+                    "line": 40,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Manager\\Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "initDefaultAdminSpec": {
+            "name": "initDefaultAdminSpec",
+            "line": 52,
+            "short_desc": "Create default Admin Spec for RIA",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ria": {
+                    "name": "ria",
+                    "line": 52,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Manager\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

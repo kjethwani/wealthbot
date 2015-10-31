@@ -1,0 +1,1569 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Model\\TradeData",
+    "line": 6,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Model\/TradeData.php",
+    "relative_file": null,
+    "hash": "cbabe2c7cf71415d5be1b7338a6c02d757920988",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "RebalancerQueue": "Wealthbot\\ClientBundle\\Entity\\RebalancerQueue"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 111,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setId": {
+            "name": "setId",
+            "line": 133,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 133,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getId": {
+            "name": "getId",
+            "line": 143,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setJobId": {
+            "name": "setJobId",
+            "line": 152,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "jobId": {
+                    "name": "jobId",
+                    "line": 152,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getJobId": {
+            "name": "getJobId",
+            "line": 162,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAccountId": {
+            "name": "setAccountId",
+            "line": 171,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "accountId": {
+                    "name": "accountId",
+                    "line": 171,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAccountId": {
+            "name": "getAccountId",
+            "line": 181,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSecurityId": {
+            "name": "setSecurityId",
+            "line": 190,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "securityId": {
+                    "name": "securityId",
+                    "line": 190,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSecurityId": {
+            "name": "getSecurityId",
+            "line": 200,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAccountNumber": {
+            "name": "setAccountNumber",
+            "line": 209,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "accountNumber": {
+                    "name": "accountNumber",
+                    "line": 209,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAccountNumber": {
+            "name": "getAccountNumber",
+            "line": 219,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAccountType": {
+            "name": "setAccountType",
+            "line": 228,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "accountType": {
+                    "name": "accountType",
+                    "line": 228,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAccountType": {
+            "name": "getAccountType",
+            "line": 238,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAction": {
+            "name": "setAction",
+            "line": 248,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "action": {
+                    "name": "action",
+                    "line": 248,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAction": {
+            "name": "getAction",
+            "line": 268,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setExchangeSwapSymbol": {
+            "name": "setExchangeSwapSymbol",
+            "line": 277,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "exchangeSwapSymbol": {
+                    "name": "exchangeSwapSymbol",
+                    "line": 277,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getExchangeSwapSymbol": {
+            "name": "getExchangeSwapSymbol",
+            "line": 287,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsAllOrNone": {
+            "name": "setIsAllOrNone",
+            "line": 296,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isAllOrNone": {
+                    "name": "isAllOrNone",
+                    "line": 296,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsAllOrNone": {
+            "name": "getIsAllOrNone",
+            "line": 305,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsDoNotReduce": {
+            "name": "setIsDoNotReduce",
+            "line": 314,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isDoNotReduce": {
+                    "name": "isDoNotReduce",
+                    "line": 314,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsDoNotReduce": {
+            "name": "getIsDoNotReduce",
+            "line": 324,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsIncludeTransactionFee": {
+            "name": "setIsIncludeTransactionFee",
+            "line": 333,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isIncludeTransactionFee": {
+                    "name": "isIncludeTransactionFee",
+                    "line": 333,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsIncludeTransactionFee": {
+            "name": "getIsIncludeTransactionFee",
+            "line": 343,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsReinvestDividends": {
+            "name": "setIsReinvestDividends",
+            "line": 352,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isReinvestDividends": {
+                    "name": "isReinvestDividends",
+                    "line": 352,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsReinvestDividends": {
+            "name": "getIsReinvestDividends",
+            "line": 362,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsReinvestCapGains": {
+            "name": "setIsReinvestCapGains",
+            "line": 371,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isReinvestCapGains": {
+                    "name": "isReinvestCapGains",
+                    "line": 371,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsReinvestCapGains": {
+            "name": "getIsReinvestCapGains",
+            "line": 381,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setLimitPrice": {
+            "name": "setLimitPrice",
+            "line": 390,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "limitPrice": {
+                    "name": "limitPrice",
+                    "line": 390,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getLimitPrice": {
+            "name": "getLimitPrice",
+            "line": 400,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setOrderType": {
+            "name": "setOrderType",
+            "line": 409,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "orderType": {
+                    "name": "orderType",
+                    "line": 409,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOrderType": {
+            "name": "getOrderType",
+            "line": 419,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setQuantity": {
+            "name": "setQuantity",
+            "line": 428,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "quantity": {
+                    "name": "quantity",
+                    "line": 428,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getQuantity": {
+            "name": "getQuantity",
+            "line": 438,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setQuantityType": {
+            "name": "setQuantityType",
+            "line": 448,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "quantityType": {
+                    "name": "quantityType",
+                    "line": 448,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getQuantityType": {
+            "name": "getQuantityType",
+            "line": 465,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSecurityType": {
+            "name": "setSecurityType",
+            "line": 475,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "securityType": {
+                    "name": "securityType",
+                    "line": 475,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSecurityType": {
+            "name": "getSecurityType",
+            "line": 491,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStopPrice": {
+            "name": "setStopPrice",
+            "line": 500,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "stopPrice": {
+                    "name": "stopPrice",
+                    "line": 500,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getStopPrice": {
+            "name": "getStopPrice",
+            "line": 510,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSymbol": {
+            "name": "setSymbol",
+            "line": 519,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "symbol": {
+                    "name": "symbol",
+                    "line": 519,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSymbol": {
+            "name": "getSymbol",
+            "line": 529,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTaxLotIdMethod": {
+            "name": "setTaxLotIdMethod",
+            "line": 538,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "taxLotIdMethod": {
+                    "name": "taxLotIdMethod",
+                    "line": 538,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTaxLotIdMethod": {
+            "name": "getTaxLotIdMethod",
+            "line": 548,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTimeInForce": {
+            "name": "setTimeInForce",
+            "line": 557,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "timeInForce": {
+                    "name": "timeInForce",
+                    "line": 557,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTimeInForce": {
+            "name": "getTimeInForce",
+            "line": 567,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setVsps": {
+            "name": "setVsps",
+            "line": 576,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "vsps": {
+                    "name": "vsps",
+                    "line": 576,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getVsps": {
+            "name": "getVsps",
+            "line": 586,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "toArrayForTradeFile": {
+            "name": "toArrayForTradeFile",
+            "line": 591,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "loadFromArray": {
+            "name": "loadFromArray",
+            "line": 621,
+            "short_desc": "Load object data from array",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "data": {
+                    "name": "data",
+                    "line": 621,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "__set": {
+            "name": "__set",
+            "line": 632,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "key": {
+                    "name": "key",
+                    "line": 632,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "value": {
+                    "name": "value",
+                    "line": 632,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "ACCOUNT_TYPE_CASH_ACCOUNT": {
+            "name": "ACCOUNT_TYPE_CASH_ACCOUNT",
+            "line": 77,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "SECURITY_TYPE_EQUITY": {
+            "name": "SECURITY_TYPE_EQUITY",
+            "line": 79,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "SECURITY_TYPE_MUTUAL_FUND": {
+            "name": "SECURITY_TYPE_MUTUAL_FUND",
+            "line": 80,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ACTION_BUY": {
+            "name": "ACTION_BUY",
+            "line": 82,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ACTION_SELL": {
+            "name": "ACTION_SELL",
+            "line": 83,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ACTION_SHORT_SELL": {
+            "name": "ACTION_SHORT_SELL",
+            "line": 84,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ACTION_BUY_TO_COVER": {
+            "name": "ACTION_BUY_TO_COVER",
+            "line": 85,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ACTION_EXCHANGE": {
+            "name": "ACTION_EXCHANGE",
+            "line": 86,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ACTION_SWAP": {
+            "name": "ACTION_SWAP",
+            "line": 87,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "QUANTITY_TYPE_DOLLARS": {
+            "name": "QUANTITY_TYPE_DOLLARS",
+            "line": 89,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "QUANTITY_TYPE_SHARES": {
+            "name": "QUANTITY_TYPE_SHARES",
+            "line": 90,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "QUANTITY_TYPE_ALL_SHARES": {
+            "name": "QUANTITY_TYPE_ALL_SHARES",
+            "line": 91,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ORDER_TYPE_MARKET_ORDER": {
+            "name": "ORDER_TYPE_MARKET_ORDER",
+            "line": 93,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ORDER_TYPE_LIMIT_ORDER": {
+            "name": "ORDER_TYPE_LIMIT_ORDER",
+            "line": 94,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ORDER_TYPE_STOP_ORDER": {
+            "name": "ORDER_TYPE_STOP_ORDER",
+            "line": 95,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ORDER_TYPE_STOP_LIMIT_ORDER": {
+            "name": "ORDER_TYPE_STOP_LIMIT_ORDER",
+            "line": 96,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ORDER_TYPE_TRAILING_STOP_ORDER_PERCENT": {
+            "name": "ORDER_TYPE_TRAILING_STOP_ORDER_PERCENT",
+            "line": 97,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ORDER_TYPE_TRAILING_STOP_ORDER_DOLLAR": {
+            "name": "ORDER_TYPE_TRAILING_STOP_ORDER_DOLLAR",
+            "line": 98,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TIME_IN_FORCE_GOOD_TILL_END_OF_DAY": {
+            "name": "TIME_IN_FORCE_GOOD_TILL_END_OF_DAY",
+            "line": 100,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TIME_IN_FORCE_GOOD_TILL_DATE": {
+            "name": "TIME_IN_FORCE_GOOD_TILL_DATE",
+            "line": 101,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TAX_LOT_ID_METHOD_FIFO": {
+            "name": "TAX_LOT_ID_METHOD_FIFO",
+            "line": 103,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TAX_LOT_ID_METHOD_LIFO": {
+            "name": "TAX_LOT_ID_METHOD_LIFO",
+            "line": 104,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TAX_LOT_ID_METHOD_HIGHEST_COST": {
+            "name": "TAX_LOT_ID_METHOD_HIGHEST_COST",
+            "line": 105,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TAX_LOT_ID_METHOD_LOWEST_COST": {
+            "name": "TAX_LOT_ID_METHOD_LOWEST_COST",
+            "line": 106,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TAX_LOT_ID_METHOD_TAX_EFFICIENT_LOSS_HARVESTER": {
+            "name": "TAX_LOT_ID_METHOD_TAX_EFFICIENT_LOSS_HARVESTER",
+            "line": 107,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TAX_LOT_ID_METHOD_SPECIFIC_LOT": {
+            "name": "TAX_LOT_ID_METHOD_SPECIFIC_LOT",
+            "line": 108,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

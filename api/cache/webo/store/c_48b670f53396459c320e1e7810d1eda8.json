@@ -1,0 +1,707 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Entity\\RiaModelCompletion",
+    "line": 11,
+    "short_desc": "Wealthbot\\RiaBundle\\Entity\\RiaModelCompletion",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Entity",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Entity\/RiaModelCompletion.php",
+    "relative_file": null,
+    "hash": "659d772ccb2cdcd74dbe6ac3a4bbed92090b85cc",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ORM": "Doctrine\\ORM\\Mapping",
+        "User": "Wealthbot\\UserBundle\\Entity\\User"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 77,
+            "short_desc": "Class constructor",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getId": {
+            "name": "getId",
+            "line": 95,
+            "short_desc": "Get id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRiaUserId": {
+            "name": "setRiaUserId",
+            "line": 106,
+            "short_desc": "Set ria_user_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaModelCompletion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "riaUserId": {
+                    "name": "riaUserId",
+                    "line": 106,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRiaUserId": {
+            "name": "getRiaUserId",
+            "line": 118,
+            "short_desc": "Get ria_user_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setModelsCreated": {
+            "name": "setModelsCreated",
+            "line": 129,
+            "short_desc": "Set models_created",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaModelCompletion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "modelsCreated": {
+                    "name": "modelsCreated",
+                    "line": 129,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getModelsCreated": {
+            "name": "getModelsCreated",
+            "line": 141,
+            "short_desc": "Get models_created",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRia": {
+            "name": "setRia",
+            "line": 152,
+            "short_desc": "Set ria",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaModelCompletion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ria": {
+                    "name": "ria",
+                    "line": 152,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Entity\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRia": {
+            "name": "getRia",
+            "line": 164,
+            "short_desc": "Get ria",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getProgress": {
+            "name": "getProgress",
+            "line": 169,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isComplete": {
+            "name": "isComplete",
+            "line": 249,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setUsersAndUserGroups": {
+            "name": "setUsersAndUserGroups",
+            "line": 260,
+            "short_desc": "Set users_and_user_groups",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaModelCompletion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "usersAndUserGroups": {
+                    "name": "usersAndUserGroups",
+                    "line": 260,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getUsersAndUserGroups": {
+            "name": "getUsersAndUserGroups",
+            "line": 272,
+            "short_desc": "Get users_and_user_groups",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBillingComplete": {
+            "name": "setBillingComplete",
+            "line": 280,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "billingComplete": {
+                    "name": "billingComplete",
+                    "line": 280,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "isBillingComplete": {
+            "name": "isBillingComplete",
+            "line": 288,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getBillingComplete": {
+            "name": "getBillingComplete",
+            "line": 298,
+            "short_desc": "Get billingComplete",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSelectCustodians": {
+            "name": "setSelectCustodians",
+            "line": 310,
+            "short_desc": "Set select_custodians",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaModelCompletion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "selectCustodians": {
+                    "name": "selectCustodians",
+                    "line": 310,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSelectCustodians": {
+            "name": "getSelectCustodians",
+            "line": 322,
+            "short_desc": "Get select_custodians",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRebalancingSettings": {
+            "name": "setRebalancingSettings",
+            "line": 333,
+            "short_desc": "Set rebalancing_settings",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaModelCompletion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "rebalancingSettings": {
+                    "name": "rebalancingSettings",
+                    "line": 333,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRebalancingSettings": {
+            "name": "getRebalancingSettings",
+            "line": 345,
+            "short_desc": "Get rebalancing_settings",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCustomizeProposals": {
+            "name": "setCustomizeProposals",
+            "line": 356,
+            "short_desc": "Set customize_proposals",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaModelCompletion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "customizeProposals": {
+                    "name": "customizeProposals",
+                    "line": 356,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCustomizeProposals": {
+            "name": "getCustomizeProposals",
+            "line": 368,
+            "short_desc": "Get customize_proposals",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCreateSecurities": {
+            "name": "setCreateSecurities",
+            "line": 379,
+            "short_desc": "Set create_securities",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaModelCompletion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "createSecurities": {
+                    "name": "createSecurities",
+                    "line": 379,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCreateSecurities": {
+            "name": "getCreateSecurities",
+            "line": 391,
+            "short_desc": "Get create_securities",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAssignSecurities": {
+            "name": "setAssignSecurities",
+            "line": 402,
+            "short_desc": "Set assign_securities",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaModelCompletion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "assignSecurities": {
+                    "name": "assignSecurities",
+                    "line": 402,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAssignSecurities": {
+            "name": "getAssignSecurities",
+            "line": 414,
+            "short_desc": "Get assign_securities",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setProposalDocuments": {
+            "name": "setProposalDocuments",
+            "line": 425,
+            "short_desc": "Set proposalDocuments",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaModelCompletion",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "proposalDocuments": {
+                    "name": "proposalDocuments",
+                    "line": 425,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getProposalDocuments": {
+            "name": "getProposalDocuments",
+            "line": 437,
+            "short_desc": "Get proposalDocuments",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

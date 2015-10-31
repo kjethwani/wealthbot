@@ -1,0 +1,23 @@
+{
+    "name": "Wealthbot\\AdminBundle\\Form\\Handler\\CategoriesFormHandler",
+    "line": 13,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/Form\/Handler\/CategoriesFormHandler.php",
+    "relative_file": null,
+    "hash": "a3082eba9b397243d21260187e3344e3a7855e8c",
+    "parent": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

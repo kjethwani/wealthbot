@@ -1,0 +1,264 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Twig\\WorkflowTwigExtension",
+    "line": 17,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Twig",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Twig\/WorkflowTwigExtension.php",
+    "relative_file": null,
+    "hash": "0f4e02c51f4600479d7a498331f047d8bfcba450",
+    "parent": "Twig_Extension",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Workflow": "Wealthbot\\ClientBundle\\Entity\\Workflow",
+        "WorkflowManager": "Wealthbot\\ClientBundle\\Manager\\WorkflowManager",
+        "Document": "Wealthbot\\UserBundle\\Entity\\Document",
+        "DocumentManager": "Wealthbot\\UserBundle\\Manager\\DocumentManager"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 25,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "manager": {
+                    "name": "manager",
+                    "line": 25,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Twig\\Wealthbot\\ClientBundle\\Manager\\WorkflowManager",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Manager\\WorkflowManager",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "documentManager": {
+                    "name": "documentManager",
+                    "line": 25,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Twig\\Wealthbot\\UserBundle\\Manager\\DocumentManager",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Manager\\DocumentManager",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFunctions": {
+            "name": "getFunctions",
+            "line": 31,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getActivity": {
+            "name": "getActivity",
+            "line": 42,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "workflow": {
+                    "name": "workflow",
+                    "line": 42,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Twig\\Wealthbot\\ClientBundle\\Entity\\Workflow",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\Workflow",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getWorkflowableObject": {
+            "name": "getWorkflowableObject",
+            "line": 47,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "workflow": {
+                    "name": "workflow",
+                    "line": 47,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Twig\\Wealthbot\\ClientBundle\\Entity\\Workflow",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\Workflow",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getWorkflowableObjects": {
+            "name": "getWorkflowableObjects",
+            "line": 52,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "workflow": {
+                    "name": "workflow",
+                    "line": 52,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Twig\\Wealthbot\\ClientBundle\\Entity\\Workflow",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\Workflow",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getWorkflowDocuments": {
+            "name": "getWorkflowDocuments",
+            "line": 57,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "workflow": {
+                    "name": "workflow",
+                    "line": 57,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Twig\\Wealthbot\\ClientBundle\\Entity\\Workflow",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\Workflow",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getWorkflowDocumentsLink": {
+            "name": "getWorkflowDocumentsLink",
+            "line": 62,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "workflow": {
+                    "name": "workflow",
+                    "line": 62,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Twig\\Wealthbot\\ClientBundle\\Entity\\Workflow",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\Workflow",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getName": {
+            "name": "getName",
+            "line": 89,
+            "short_desc": "Returns the name of the extension.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "The extension name",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,46 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Form\\Handler\\RiaCompanyInformationThreeFormHandler",
+    "line": 12,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Form\/Handler\/RiaCompanyInformationThreeFormHandler.php",
+    "relative_file": null,
+    "hash": "2c83c2375435c52154991ab4533231b01a64c33b",
+    "parent": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Subclass": "Wealthbot\\AdminBundle\\Entity\\Subclass",
+        "AbstractFormHandler": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+        "CeModelManager": "Wealthbot\\AdminBundle\\Manager\\CeModelManager",
+        "CeModel": "Wealthbot\\AdminBundle\\Entity\\CeModel",
+        "CeModelInterface": "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+        "RiaCompanyInformation": "Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+        "User": "Wealthbot\\UserBundle\\Entity\\User"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "success": {
+            "name": "success",
+            "line": 14,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

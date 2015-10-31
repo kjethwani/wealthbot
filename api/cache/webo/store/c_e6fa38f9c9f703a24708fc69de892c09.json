@@ -1,0 +1,80 @@
+{
+    "name": "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration\\AccountTransferForm",
+    "line": 18,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/SignatureBundle\/Model\/TabsConfiguration\/AccountTransferForm.php",
+    "relative_file": null,
+    "hash": "f9efbbd24602299c01306559a2b7226fb18c90ab",
+    "parent": "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration\\AbstractTabsConfiguration",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ClientAccount": "Wealthbot\\ClientBundle\\Model\\ClientAccount",
+        "SystemAccount": "Wealthbot\\ClientBundle\\Model\\SystemAccount",
+        "RadioGroupTab": "Wealthbot\\SignatureBundle\\Model\\Tab\\RadioGroupTab",
+        "TextTab": "Wealthbot\\SignatureBundle\\Model\\Tab\\TextTab",
+        "TabCollection": "Wealthbot\\SignatureBundle\\Model\\TabCollection"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 23,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "account": {
+                    "name": "account",
+                    "line": 23,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration\\Wealthbot\\ClientBundle\\Model\\ClientAccount",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Model\\ClientAccount",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "generate": {
+            "name": "generate",
+            "line": 33,
+            "short_desc": "Generate collection of tabs",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Model\\TabCollection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

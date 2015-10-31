@@ -1,0 +1,320 @@
+{
+    "name": "Wealthbot\\AdminBundle\\Entity\\TransactionFee",
+    "line": 10,
+    "short_desc": "TransactionFee",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\Entity",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/Entity\/TransactionFee.php",
+    "relative_file": null,
+    "hash": "bf083aba736c44b131aee28e8043150f93beac72",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ORM": "Doctrine\\ORM\\Mapping"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getId": {
+            "name": "getId",
+            "line": 48,
+            "short_desc": "Get id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFee": {
+            "name": "setFee",
+            "line": 59,
+            "short_desc": "Set fee",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\TransactionFee",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "fee": {
+                    "name": "fee",
+                    "line": 59,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFee": {
+            "name": "getFee",
+            "line": 71,
+            "short_desc": "Get fee",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTransactionId": {
+            "name": "setTransactionId",
+            "line": 82,
+            "short_desc": "Set transaction_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\TransactionFee",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "transactionId": {
+                    "name": "transactionId",
+                    "line": 82,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTransactionId": {
+            "name": "getTransactionId",
+            "line": 94,
+            "short_desc": "Get transaction_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFeeTypeId": {
+            "name": "setFeeTypeId",
+            "line": 105,
+            "short_desc": "Set fee_type_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\TransactionFee",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "feeTypeId": {
+                    "name": "feeTypeId",
+                    "line": 105,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFeeTypeId": {
+            "name": "getFeeTypeId",
+            "line": 117,
+            "short_desc": "Get fee_type_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTransaction": {
+            "name": "setTransaction",
+            "line": 128,
+            "short_desc": "Set transaction",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\TransactionFee",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "transaction": {
+                    "name": "transaction",
+                    "line": 128,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Entity\\Wealthbot\\AdminBundle\\Entity\\Transaction",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\Transaction",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTransaction": {
+            "name": "getTransaction",
+            "line": 140,
+            "short_desc": "Get transaction",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\Transaction",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFeeType": {
+            "name": "setFeeType",
+            "line": 151,
+            "short_desc": "Set feeType",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\TransactionFee",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "feeType": {
+                    "name": "feeType",
+                    "line": 151,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Entity\\Wealthbot\\AdminBundle\\Entity\\TransactionFeeType",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\TransactionFeeType",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFeeType": {
+            "name": "getFeeType",
+            "line": 163,
+            "short_desc": "Get feeType",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\TransactionFeeType",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

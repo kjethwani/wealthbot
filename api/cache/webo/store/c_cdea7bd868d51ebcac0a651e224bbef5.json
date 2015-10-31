@@ -1,0 +1,31 @@
+{
+    "name": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM\\LoadTransferCustodianQuestionData",
+    "line": 19,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/FixturesBundle\/DataFixtures\/ORM\/LoadTransferCustodianQuestionData.php",
+    "relative_file": null,
+    "hash": "0664fe6cc80f133354525292e0057e9d41e5a609",
+    "parent": "Doctrine\\Common\\DataFixtures\\AbstractFixture",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AbstractFixture": "Doctrine\\Common\\DataFixtures\\AbstractFixture",
+        "OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface",
+        "ObjectManager": "Doctrine\\Common\\Persistence\\ObjectManager",
+        "TransferCustodian": "Wealthbot\\ClientBundle\\Entity\\TransferCustodian",
+        "TransferCustodianQuestion": "Wealthbot\\ClientBundle\\Entity\\TransferCustodianQuestion"
+    },
+    "errors": [],
+    "interfaces": {
+        "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

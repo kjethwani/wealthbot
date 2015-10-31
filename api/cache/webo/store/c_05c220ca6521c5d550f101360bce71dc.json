@@ -1,0 +1,444 @@
+{
+    "name": "Wealthbot\\AdminBundle\\Entity\\SecurityPrice",
+    "line": 10,
+    "short_desc": "SecurityPrice",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\Entity",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/Entity\/SecurityPrice.php",
+    "relative_file": null,
+    "hash": "d48df88d8ba62782d351811ca516d6bd76cc68b1",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ORM": "Doctrine\\ORM\\Mapping"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 53,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getId": {
+            "name": "getId",
+            "line": 63,
+            "short_desc": "Get id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSecurityId": {
+            "name": "setSecurityId",
+            "line": 74,
+            "short_desc": "Set security_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\SecurityPrice",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "securityId": {
+                    "name": "securityId",
+                    "line": 74,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSecurityId": {
+            "name": "getSecurityId",
+            "line": 86,
+            "short_desc": "Get security_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPrice": {
+            "name": "setPrice",
+            "line": 97,
+            "short_desc": "Set price",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\SecurityPrice",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "price": {
+                    "name": "price",
+                    "line": 97,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getPrice": {
+            "name": "getPrice",
+            "line": 109,
+            "short_desc": "Get price",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSource": {
+            "name": "setSource",
+            "line": 120,
+            "short_desc": "Set source",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\SecurityPrice",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "source": {
+                    "name": "source",
+                    "line": 120,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSource": {
+            "name": "getSource",
+            "line": 132,
+            "short_desc": "Get source",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsPosted": {
+            "name": "setIsPosted",
+            "line": 143,
+            "short_desc": "Set is_posted",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\SecurityPrice",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isPosted": {
+                    "name": "isPosted",
+                    "line": 143,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsPosted": {
+            "name": "getIsPosted",
+            "line": 155,
+            "short_desc": "Get is_posted",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsCurrent": {
+            "name": "setIsCurrent",
+            "line": 166,
+            "short_desc": "Set is_current",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\SecurityPrice",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isCurrent": {
+                    "name": "isCurrent",
+                    "line": 166,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsCurrent": {
+            "name": "getIsCurrent",
+            "line": 178,
+            "short_desc": "Get is_current",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setDatetime": {
+            "name": "setDatetime",
+            "line": 189,
+            "short_desc": "Set datetime",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\SecurityPrice",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "datetime": {
+                    "name": "datetime",
+                    "line": 189,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getDatetime": {
+            "name": "getDatetime",
+            "line": 201,
+            "short_desc": "Get datetime",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSecurity": {
+            "name": "setSecurity",
+            "line": 212,
+            "short_desc": "Set security",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\SecurityPrice",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "security": {
+                    "name": "security",
+                    "line": 212,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Entity\\Wealthbot\\AdminBundle\\Entity\\Security",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\Security",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSecurity": {
+            "name": "getSecurity",
+            "line": 224,
+            "short_desc": "Get security",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\Security",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

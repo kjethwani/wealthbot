@@ -1,0 +1,55 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Tests\\Docusign\\TransferInformationPolicyConditionTest",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Tests\\Docusign",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Tests\/Docusign\/TransferInformationPolicyConditionTest.php",
+    "relative_file": null,
+    "hash": "251730464a835c4e6855e5c75c720ae939035fd4",
+    "parent": "PHPUnit_Framework_TestCase",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "TransferInformationPolicyCondition": "Wealthbot\\ClientBundle\\Docusign\\TransferInformationPolicyCondition",
+        "TransferInformation": "Wealthbot\\ClientBundle\\Entity\\TransferInformation"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "testDocusignAllowed": {
+            "name": "testDocusignAllowed",
+            "line": 26,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "testDocusignNotAllowed": {
+            "name": "testDocusignNotAllowed",
+            "line": 34,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM\\LoadSecurityData",
+    "line": 21,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/FixturesBundle\/DataFixtures\/ORM\/LoadSecurityData.php",
+    "relative_file": null,
+    "hash": "c1ed2680c1a895a64e1ebbaeae654f55a1a56080",
+    "parent": "Doctrine\\Common\\DataFixtures\\AbstractFixture",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AbstractFixture": "Doctrine\\Common\\DataFixtures\\AbstractFixture",
+        "OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface",
+        "ObjectManager": "Doctrine\\Common\\Persistence\\ObjectManager",
+        "SecurityAssignment": "Wealthbot\\AdminBundle\\Entity\\SecurityAssignment",
+        "Security": "Wealthbot\\AdminBundle\\Entity\\Security",
+        "SecurityType": "Wealthbot\\AdminBundle\\Entity\\SecurityType",
+        "Subclass": "Wealthbot\\AdminBundle\\Entity\\Subclass"
+    },
+    "errors": [],
+    "interfaces": {
+        "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getOrder": {
+            "name": "getOrder",
+            "line": 243,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

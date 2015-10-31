@@ -1,0 +1,28 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Form\\Handler\\TransferInformationFormHandler",
+    "line": 17,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Form\/Handler\/TransferInformationFormHandler.php",
+    "relative_file": null,
+    "hash": "90e7db244f8af74259d58ed1cb94dce8304215e8",
+    "parent": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AbstractFormHandler": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+        "TransferInformation": "Wealthbot\\ClientBundle\\Entity\\TransferInformation",
+        "Document": "Wealthbot\\UserBundle\\Entity\\Document",
+        "User": "Wealthbot\\UserBundle\\Entity\\User"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

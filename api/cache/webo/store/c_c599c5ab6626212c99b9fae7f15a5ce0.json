@@ -1,0 +1,154 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Service\\DoctrineSubscriber",
+    "line": 27,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Service",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Service\/DoctrineSubscriber.php",
+    "relative_file": null,
+    "hash": "86a9d58c6097621dead7d4c6a45ad45e3e018500",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "EventSubscriber": "Doctrine\\Common\\EventSubscriber",
+        "PostFlushEventArgs": "Doctrine\\ORM\\Event\\PostFlushEventArgs",
+        "OnFlushEventArgs": "Doctrine\\ORM\\Event\\OnFlushEventArgs",
+        "Events": "Doctrine\\ORM\\Events",
+        "Activity": "Wealthbot\\ClientBundle\\Document\\Activity",
+        "ClientPortfolio": "Wealthbot\\ClientBundle\\Entity\\ClientPortfolio",
+        "Distribution": "Wealthbot\\ClientBundle\\Entity\\Distribution",
+        "SystemAccount": "Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+        "Workflow": "Wealthbot\\ClientBundle\\Entity\\Workflow",
+        "ActivityInterface": "Wealthbot\\ClientBundle\\Model\\ActivityInterface",
+        "BaseContribution": "Wealthbot\\ClientBundle\\Model\\BaseContribution",
+        "WorkflowRepository": "Wealthbot\\ClientBundle\\Repository\\WorkflowRepository",
+        "DocumentSignature": "Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "ContainerInterface": "Symfony\\Component\\DependencyInjection\\ContainerInterface"
+    },
+    "errors": [],
+    "interfaces": {
+        "Doctrine\\Common\\EventSubscriber": "Doctrine\\Common\\EventSubscriber"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 36,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "container": {
+                    "name": "container",
+                    "line": 36,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Service\\Symfony\\Component\\DependencyInjection\\ContainerInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\DependencyInjection\\ContainerInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSubscribedEvents": {
+            "name": "getSubscribedEvents",
+            "line": 46,
+            "short_desc": "Returns an array of events this subscriber wants to listen to.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "onFlush": {
+            "name": "onFlush",
+            "line": 54,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "eventArgs": {
+                    "name": "eventArgs",
+                    "line": 54,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Service\\Doctrine\\ORM\\Event\\OnFlushEventArgs",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Doctrine\\ORM\\Event\\OnFlushEventArgs",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "PostFlush": {
+            "name": "PostFlush",
+            "line": 139,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "eventArgs": {
+                    "name": "eventArgs",
+                    "line": 139,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Service\\Doctrine\\ORM\\Event\\PostFlushEventArgs",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Doctrine\\ORM\\Event\\PostFlushEventArgs",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM\\LoadAdminData",
+    "line": 20,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/FixturesBundle\/DataFixtures\/ORM\/LoadAdminData.php",
+    "relative_file": null,
+    "hash": "dff313775bbdc5373efe9f87919c6fd2b0edda1c",
+    "parent": "Doctrine\\Common\\DataFixtures\\AbstractFixture",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AbstractFixture": "Doctrine\\Common\\DataFixtures\\AbstractFixture",
+        "OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface",
+        "ObjectManager": "Doctrine\\Common\\Persistence\\ObjectManager",
+        "BillingSpec": "Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+        "Fee": "Wealthbot\\AdminBundle\\Entity\\Fee",
+        "Group": "Wealthbot\\UserBundle\\Entity\\Group",
+        "User": "Wealthbot\\UserBundle\\Entity\\User"
+    },
+    "errors": [],
+    "interfaces": {
+        "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

@@ -1,0 +1,40 @@
+{
+    "name": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM\\LoadRiaData",
+    "line": 27,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/FixturesBundle\/DataFixtures\/ORM\/LoadRiaData.php",
+    "relative_file": null,
+    "hash": "51c19aeb269b312b2e74df09d8de9bab46d4cfa4",
+    "parent": "Doctrine\\Common\\DataFixtures\\AbstractFixture",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AbstractFixture": "Doctrine\\Common\\DataFixtures\\AbstractFixture",
+        "OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface",
+        "ObjectManager": "Doctrine\\Common\\Persistence\\ObjectManager",
+        "ArrayCollection": "Model\\WealthbotRebalancer\\ArrayCollection",
+        "CeModel": "Wealthbot\\AdminBundle\\Entity\\CeModel",
+        "Custodian": "Wealthbot\\AdminBundle\\Entity\\Custodian",
+        "Fee": "Wealthbot\\AdminBundle\\Entity\\Fee",
+        "CeModelManager": "Wealthbot\\AdminBundle\\Manager\\CeModelManager",
+        "RiaCompanyInformation": "Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+        "AdvisorCode": "Wealthbot\\RiaBundle\\Entity\\AdvisorCode",
+        "RiskQuestionRepository": "Wealthbot\\RiaBundle\\Repository\\RiskQuestionRepository",
+        "Document": "Wealthbot\\UserBundle\\Entity\\Document",
+        "Profile": "Wealthbot\\UserBundle\\Entity\\Profile",
+        "User": "Wealthbot\\UserBundle\\Entity\\User"
+    },
+    "errors": [],
+    "interfaces": {
+        "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

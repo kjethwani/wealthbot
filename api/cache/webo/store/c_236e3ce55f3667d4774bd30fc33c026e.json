@@ -1,0 +1,1317 @@
+{
+    "name": "Wealthbot\\AdminBundle\\Model\\CeModel",
+    "line": 18,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/Model\/CeModel.php",
+    "relative_file": null,
+    "hash": "333daa040b31bda6ce9503bc442df5e8e34196c8",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ArrayCollection": "Doctrine\\Common\\Collections\\ArrayCollection",
+        "UserInterface": "FOS\\UserBundle\\Model\\UserInterface",
+        "Workflow": "Wealthbot\\ClientBundle\\Model\\Workflow",
+        "WorkflowableInterface": "Wealthbot\\ClientBundle\\Model\\WorkflowableInterface",
+        "User": "Wealthbot\\UserBundle\\Entity\\User"
+    },
+    "errors": [],
+    "interfaces": {
+        "Wealthbot\\AdminBundle\\Model\\CeModelInterface": "Wealthbot\\AdminBundle\\Model\\CeModelInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 117,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 117,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getId": {
+            "name": "getId",
+            "line": 135,
+            "short_desc": "Set id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setOwnerId": {
+            "name": "setOwnerId",
+            "line": 140,
+            "short_desc": "Set id of model owner",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ownerId": {
+                    "name": "ownerId",
+                    "line": 140,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOwnerId": {
+            "name": "getOwnerId",
+            "line": 147,
+            "short_desc": "Get id of model owner",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setOwner": {
+            "name": "setOwner",
+            "line": 152,
+            "short_desc": "Set owner",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "owner": {
+                    "name": "owner",
+                    "line": 152,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Model\\FOS\\UserBundle\\Model\\UserInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "FOS\\UserBundle\\Model\\UserInterface",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOwner": {
+            "name": "getOwner",
+            "line": 159,
+            "short_desc": "Get owner",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\FOS\\UserBundle\\Model\\UserInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setParentId": {
+            "name": "setParentId",
+            "line": 164,
+            "short_desc": "Set parent id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "parentId": {
+                    "name": "parentId",
+                    "line": 164,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getParentId": {
+            "name": "getParentId",
+            "line": 171,
+            "short_desc": "Get parent id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setParent": {
+            "name": "setParent",
+            "line": 176,
+            "short_desc": "Set parent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "parent": {
+                    "name": "parent",
+                    "line": 176,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Model\\Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getParent": {
+            "name": "getParent",
+            "line": 183,
+            "short_desc": "Get parent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setName": {
+            "name": "setName",
+            "line": 188,
+            "short_desc": "Set name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 188,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getName": {
+            "name": "getName",
+            "line": 195,
+            "short_desc": "Get name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRiskRating": {
+            "name": "setRiskRating",
+            "line": 200,
+            "short_desc": "Set model risk rating",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "riskRating": {
+                    "name": "riskRating",
+                    "line": 200,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRiskRating": {
+            "name": "getRiskRating",
+            "line": 210,
+            "short_desc": "Get model risk rating",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setType": {
+            "name": "setType",
+            "line": 215,
+            "short_desc": "Set type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "type": {
+                    "name": "type",
+                    "line": 215,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getType": {
+            "name": "getType",
+            "line": 226,
+            "short_desc": "Get type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "hasType": {
+            "name": "hasType",
+            "line": 231,
+            "short_desc": "Returns true if model has $type type and false otherwise",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "type": {
+                    "name": "type",
+                    "line": 231,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTypeName": {
+            "name": "getTypeName",
+            "line": 236,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isStrategy": {
+            "name": "isStrategy",
+            "line": 241,
+            "short_desc": "Returns true if model has strategy type and false otherwise",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isCustom": {
+            "name": "isCustom",
+            "line": 246,
+            "short_desc": "Returns true if model has custom type and false otherwise",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCommissionMin": {
+            "name": "setCommissionMin",
+            "line": 251,
+            "short_desc": "Set commission min",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "commissionMin": {
+                    "name": "commissionMin",
+                    "line": 251,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCommissionMin": {
+            "name": "getCommissionMin",
+            "line": 258,
+            "short_desc": "Get commission min",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCommissionMax": {
+            "name": "setCommissionMax",
+            "line": 263,
+            "short_desc": "Set commission max",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "commissionMax": {
+                    "name": "commissionMax",
+                    "line": 263,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCommissionMax": {
+            "name": "getCommissionMax",
+            "line": 270,
+            "short_desc": "Get commission max",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCommissions": {
+            "name": "getCommissions",
+            "line": 275,
+            "short_desc": "Get commissions\nIf commission_max and commission_min specified and more than 0,\n   then returns array(commissionMin, commissionMax)\nIf specified only commission_min or only commission_max,\n   then returns array(commissionMin|commissionMax) with one value\nOtherwise return empty array",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setForecast": {
+            "name": "setForecast",
+            "line": 292,
+            "short_desc": "Set forecast",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "forecast": {
+                    "name": "forecast",
+                    "line": 292,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getForecast": {
+            "name": "getForecast",
+            "line": 299,
+            "short_desc": "Get forecast",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setGenerousMarketReturn": {
+            "name": "setGenerousMarketReturn",
+            "line": 304,
+            "short_desc": "Set generous market return",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "generousMarketReturn": {
+                    "name": "generousMarketReturn",
+                    "line": 304,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getGenerousMarketReturn": {
+            "name": "getGenerousMarketReturn",
+            "line": 311,
+            "short_desc": "Get generous market return",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setLowMarketReturn": {
+            "name": "setLowMarketReturn",
+            "line": 316,
+            "short_desc": "Set low market return",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "lowMarketReturn": {
+                    "name": "lowMarketReturn",
+                    "line": 316,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getLowMarketReturn": {
+            "name": "getLowMarketReturn",
+            "line": 323,
+            "short_desc": "Get low market return",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsAssumptionLocked": {
+            "name": "setIsAssumptionLocked",
+            "line": 328,
+            "short_desc": "Set is assumption locked",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isAssumptionLocked": {
+                    "name": "isAssumptionLocked",
+                    "line": 328,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsAssumptionLocked": {
+            "name": "getIsAssumptionLocked",
+            "line": 335,
+            "short_desc": "Get is assumption locked",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addModelEntity": {
+            "name": "addModelEntity",
+            "line": 340,
+            "short_desc": "Add model entity",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "modelEntity": {
+                    "name": "modelEntity",
+                    "line": 340,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Model\\Wealthbot\\AdminBundle\\Model\\CeModelEntityInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Model\\CeModelEntityInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeModelEntity": {
+            "name": "removeModelEntity",
+            "line": 347,
+            "short_desc": "Remove model entity",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "modelEntity": {
+                    "name": "modelEntity",
+                    "line": 347,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Model\\Wealthbot\\AdminBundle\\Model\\CeModelEntityInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Model\\CeModelEntityInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getModelEntities": {
+            "name": "getModelEntities",
+            "line": 358,
+            "short_desc": "Get model entities",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Doctrine\\Common\\Collections\\Collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getQualifiedModelEntities": {
+            "name": "getQualifiedModelEntities",
+            "line": 363,
+            "short_desc": "Get qualified model entities",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getNonQualifiedModelEntities": {
+            "name": "getNonQualifiedModelEntities",
+            "line": 368,
+            "short_desc": "Get non qualified model entities",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addChildren": {
+            "name": "addChildren",
+            "line": 373,
+            "short_desc": "Add children",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "children": {
+                    "name": "children",
+                    "line": 373,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Model\\Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeChildren": {
+            "name": "removeChildren",
+            "line": 380,
+            "short_desc": "Remove children",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "children": {
+                    "name": "children",
+                    "line": 380,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Model\\Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getChildren": {
+            "name": "getChildren",
+            "line": 386,
+            "short_desc": "Get children",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Doctrine\\Common\\Collections\\Collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getAssumption": {
+            "name": "getAssumption",
+            "line": 396,
+            "short_desc": "Get array of assumption values",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAssumption": {
+            "name": "setAssumption",
+            "line": 414,
+            "short_desc": "Set assumption values",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "assumption": {
+                    "name": "assumption",
+                    "line": 414,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setSlug": {
+            "name": "setSlug",
+            "line": 429,
+            "short_desc": "Set slug",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModel",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "slug": {
+                    "name": "slug",
+                    "line": 429,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSlug": {
+            "name": "getSlug",
+            "line": 441,
+            "short_desc": "Get slug",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsDeleted": {
+            "name": "setIsDeleted",
+            "line": 452,
+            "short_desc": "Set isDeleted",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModel",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isDeleted": {
+                    "name": "isDeleted",
+                    "line": 452,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsDeleted": {
+            "name": "getIsDeleted",
+            "line": 464,
+            "short_desc": "Get isDeleted",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCopy": {
+            "name": "getCopy",
+            "line": 474,
+            "short_desc": "Copy model",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModel",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "buildGroupModelEntities": {
+            "name": "buildGroupModelEntities",
+            "line": 505,
+            "short_desc": "Build group of model entities",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,267 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Document\\TempPortfolio",
+    "line": 17,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "MongoDB\\Document": [
+            [
+                "(collection=\"tempPortfolio\")"
+            ]
+        ]
+    },
+    "namespace": "Wealthbot\\ClientBundle\\Document",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Document\/TempPortfolio.php",
+    "relative_file": null,
+    "hash": "14cae07214a8d1d1316cc35462ec1d282c652a2b",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "MongoDB": "Doctrine\\ODM\\MongoDB\\Mapping\\Annotations"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 43,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getId": {
+            "name": "getId",
+            "line": 53,
+            "short_desc": "Get id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "$id",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setClientUserId": {
+            "name": "setClientUserId",
+            "line": 64,
+            "short_desc": "Set clientUserId",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Document\\TempPortfolio",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientUserId": {
+                    "name": "clientUserId",
+                    "line": 64,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClientUserId": {
+            "name": "getClientUserId",
+            "line": 75,
+            "short_desc": "Get clientUserId",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "$clientUserId",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setModelId": {
+            "name": "setModelId",
+            "line": 86,
+            "short_desc": "Set modelId",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Document\\TempPortfolio",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "modelId": {
+                    "name": "modelId",
+                    "line": 86,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getModelId": {
+            "name": "getModelId",
+            "line": 97,
+            "short_desc": "Get modelId",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "$modelId",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStatus": {
+            "name": "setStatus",
+            "line": 109,
+            "short_desc": "Set status",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Document\\TempPortfolio",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "status": {
+                    "name": "status",
+                    "line": 109,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getStatus": {
+            "name": "getStatus",
+            "line": 124,
+            "short_desc": "Get status",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "$status",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isApproved": {
+            "name": "isApproved",
+            "line": 134,
+            "short_desc": "Is portfolio approved",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "STATUS_NOT_APPROVED": {
+            "name": "STATUS_NOT_APPROVED",
+            "line": 34,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_APPROVED": {
+            "name": "STATUS_APPROVED",
+            "line": 35,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

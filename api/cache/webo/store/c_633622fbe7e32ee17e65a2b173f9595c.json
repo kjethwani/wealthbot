@@ -1,0 +1,26 @@
+{
+    "name": "Wealthbot\\AdminBundle\\Form\\Handler\\CeModelFormHandler",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/Form\/Handler\/CeModelFormHandler.php",
+    "relative_file": null,
+    "hash": "cdd4a80849a79131b61767e4601d912732edb75d",
+    "parent": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "CeModel": "Wealthbot\\AdminBundle\\Entity\\CeModel",
+        "Request": "Symfony\\Component\\HttpFoundation\\Request"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

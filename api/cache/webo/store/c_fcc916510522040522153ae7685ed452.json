@@ -1,0 +1,143 @@
+{
+    "name": "Wealthbot\\UserBundle\\Controller\\ChangePasswordController",
+    "line": 29,
+    "short_desc": "Controller managing the password change",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "author": [
+            [
+                "Thibault",
+                "Duplessis",
+                "<thibault.duplessis@gmail.com>"
+            ],
+            [
+                "Christophe",
+                "Coevoet",
+                "<stof@notk.org>"
+            ]
+        ]
+    },
+    "namespace": "Wealthbot\\UserBundle\\Controller",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/UserBundle\/Controller\/ChangePasswordController.php",
+    "relative_file": null,
+    "hash": "a0f50fc49c4a2a45d8450cef0710b647bf50c086",
+    "parent": "FOS\\UserBundle\\Controller\\RegistrationController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "EntityManager": "Doctrine\\ORM\\EntityManager",
+        "MailerInterface": "Wealthbot\\RiaBundle\\Mailer\\MailerInterface",
+        "RedirectResponse": "Symfony\\Component\\HttpFoundation\\RedirectResponse",
+        "Request": "Symfony\\Component\\HttpFoundation\\Request",
+        "NotFoundHttpException": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
+        "AccessDeniedException": "Symfony\\Component\\Security\\Core\\Exception\\AccessDeniedException",
+        "UserInterface": "FOS\\UserBundle\\Model\\UserInterface",
+        "BaseController": "FOS\\UserBundle\\Controller\\RegistrationController"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "changePasswordAction": {
+            "name": "changePasswordAction",
+            "line": 34,
+            "short_desc": "Change user password",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "resetPasswordAction": {
+            "name": "resetPasswordAction",
+            "line": 55,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 55,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "createNotFoundException": {
+            "name": "createNotFoundException",
+            "line": 105,
+            "short_desc": "Returns a NotFoundHttpException.",
+            "long_desc": "This will result in a 404 response code. Usage example:\n\n    throw $this->createNotFoundException('Page not found!');",
+            "hint": [
+                [
+                    "\\Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "message": {
+                    "name": "message",
+                    "line": 105,
+                    "short_desc": "A message",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "'Not Found'",
+                    "is_by_ref": false
+                },
+                "previous": {
+                    "name": "previous",
+                    "line": 105,
+                    "short_desc": "The previous exception",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Controller\\Exception",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Exception",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

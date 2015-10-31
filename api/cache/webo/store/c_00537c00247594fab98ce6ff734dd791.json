@@ -1,0 +1,30 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Form\\Handler\\ChooseClientPortfolioFormHandler",
+    "line": 13,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Form\/Handler\/ChooseClientPortfolioFormHandler.php",
+    "relative_file": null,
+    "hash": "c4325e993ce1ba58a186bdd9890c3fb315898b0e",
+    "parent": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AbstractFormHandler": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+        "CeModelManager": "Wealthbot\\AdminBundle\\Manager\\CeModelManager",
+        "ClientPortfolioManager": "Wealthbot\\ClientBundle\\Manager\\ClientPortfolioManager",
+        "ClientPortfolio": "Wealthbot\\ClientBundle\\Model\\ClientPortfolio",
+        "Profile": "Wealthbot\\UserBundle\\Entity\\Profile",
+        "Request": "Symfony\\Component\\HttpFoundation\\Request"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

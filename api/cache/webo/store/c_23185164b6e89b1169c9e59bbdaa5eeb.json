@@ -1,0 +1,121 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Model\\ClientAccountOwner",
+    "line": 13,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Model\/ClientAccountOwner.php",
+    "relative_file": null,
+    "hash": "ad50173aa9369f8570e8e8ac58aac175d14974d2",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getOwnerTypeChoices": {
+            "name": "getOwnerTypeChoices",
+            "line": 32,
+            "short_desc": "Get choices for owner_type column",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setOwnerType": {
+            "name": "setOwnerType",
+            "line": 56,
+            "short_desc": "Set owner_type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "ownerType": {
+                    "name": "ownerType",
+                    "line": 56,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOwnerType": {
+            "name": "getOwnerType",
+            "line": 75,
+            "short_desc": "Get owner_type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "OWNER_TYPE_SELF": {
+            "name": "OWNER_TYPE_SELF",
+            "line": 20,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "OWNER_TYPE_SPOUSE": {
+            "name": "OWNER_TYPE_SPOUSE",
+            "line": 21,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "OWNER_TYPE_OTHER": {
+            "name": "OWNER_TYPE_OTHER",
+            "line": 22,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

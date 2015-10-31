@@ -1,0 +1,112 @@
+{
+    "name": "Wealthbot\\MailerBundle\\DQL\\DatetimeFunction\\Year",
+    "line": 15,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\MailerBundle\\DQL\\DatetimeFunction",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/MailerBundle\/DQL\/DatetimeFunction\/Year.php",
+    "relative_file": null,
+    "hash": "313fe9b1e8507f1ff10f3ba449d18ee4143d166f",
+    "parent": "Doctrine\\ORM\\Query\\AST\\Functions\\FunctionNode",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "FunctionNode": "Doctrine\\ORM\\Query\\AST\\Functions\\FunctionNode",
+        "Lexer": "Doctrine\\ORM\\Query\\Lexer"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "date": {
+            "name": "date",
+            "line": 17,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": null,
+            "errors": []
+        }
+    },
+    "methods": {
+        "getSql": {
+            "name": "getSql",
+            "line": 24,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "sqlWalker": {
+                    "name": "sqlWalker",
+                    "line": 24,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\MailerBundle\\DQL\\DatetimeFunction\\Doctrine\\ORM\\Query\\SqlWalker",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Doctrine\\ORM\\Query\\SqlWalker",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "parse": {
+            "name": "parse",
+            "line": 34,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "parser": {
+                    "name": "parser",
+                    "line": 34,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\MailerBundle\\DQL\\DatetimeFunction\\Doctrine\\ORM\\Query\\Parser",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Doctrine\\ORM\\Query\\Parser",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

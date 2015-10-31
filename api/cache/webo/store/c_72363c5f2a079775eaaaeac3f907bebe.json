@@ -1,0 +1,45 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Form\\Handler\\RiaProposalFormHandler",
+    "line": 19,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Form\/Handler\/RiaProposalFormHandler.php",
+    "relative_file": null,
+    "hash": "c30cd42100788c5885f84029811ee9b951638551",
+    "parent": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AbstractFormHandler": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+        "MailerInterface": "Wealthbot\\MailerBundle\\Mailer\\MailerInterface",
+        "RiaCompanyInformation": "Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+        "Document": "Wealthbot\\UserBundle\\Entity\\Document",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "UploadedFile": "Symfony\\Component\\HttpFoundation\\File\\UploadedFile"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "success": {
+            "name": "success",
+            "line": 21,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

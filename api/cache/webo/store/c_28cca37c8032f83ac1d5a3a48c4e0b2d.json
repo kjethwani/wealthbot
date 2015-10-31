@@ -1,0 +1,25 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Form\\Handler\\WorkflowNoteFormHandler",
+    "line": 15,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Form\/Handler\/WorkflowNoteFormHandler.php",
+    "relative_file": null,
+    "hash": "c3ea006458d3e9ea64992fe8e6cd270498f98b1c",
+    "parent": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AbstractFormHandler": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

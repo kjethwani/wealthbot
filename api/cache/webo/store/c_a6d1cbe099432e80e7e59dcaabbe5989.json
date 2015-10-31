@@ -1,0 +1,26 @@
+{
+    "name": "Wealthbot\\UserBundle\\Form\\Handler\\ClientRegistrationFormHandler",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\UserBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/UserBundle\/Form\/Handler\/ClientRegistrationFormHandler.php",
+    "relative_file": null,
+    "hash": "5df0681502cf47c6e6b8d38777df72931c6f1112",
+    "parent": "FOS\\UserBundle\\Form\\Handler\\RegistrationFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "RegistrationFormHandler": "FOS\\UserBundle\\Form\\Handler\\RegistrationFormHandler",
+        "UserInterface": "FOS\\UserBundle\\Model\\UserInterface"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

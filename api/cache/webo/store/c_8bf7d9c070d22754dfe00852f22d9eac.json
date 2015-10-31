@@ -1,0 +1,103 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Model\\AccountContribution",
+    "line": 13,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Model\/AccountContribution.php",
+    "relative_file": null,
+    "hash": "b7cc3a1898d8591da8453cb845bbb106022c6141",
+    "parent": "Wealthbot\\ClientBundle\\Model\\BaseContribution",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "setTransactionFrequency": {
+            "name": "setTransactionFrequency",
+            "line": 22,
+            "short_desc": "Set transaction_frequency",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\AccountContribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "transactionFrequency": {
+                    "name": "transactionFrequency",
+                    "line": 22,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTransactionFrequencyAsString": {
+            "name": "getTransactionFrequencyAsString",
+            "line": 41,
+            "short_desc": "Get transaction_frequency as string",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isOneTimeContribution": {
+            "name": "isOneTimeContribution",
+            "line": 57,
+            "short_desc": "Returns true if transaction_frequency is TRANSACTION_FREQUENCY_ONE_TIME and false otherwise",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

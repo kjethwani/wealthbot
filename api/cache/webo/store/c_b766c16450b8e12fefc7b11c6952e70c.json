@@ -1,0 +1,2396 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+    "line": 15,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Model\/AccountOwnerInterface.php",
+    "relative_file": null,
+    "hash": "ce70323058f1c70eca006599e4801d556c71883b",
+    "parent": null,
+    "modifiers": "Stmt_Interface",
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": {
+        "State": "Wealthbot\\AdminBundle\\Entity\\State"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getId": {
+            "name": "getId",
+            "line": 22,
+            "short_desc": "Get owner id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getFirstName": {
+            "name": "getFirstName",
+            "line": 29,
+            "short_desc": "Get owner first name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFirstName": {
+            "name": "setFirstName",
+            "line": 37,
+            "short_desc": "Set owner first name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "firstName": {
+                    "name": "firstName",
+                    "line": 37,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getMiddleName": {
+            "name": "getMiddleName",
+            "line": 44,
+            "short_desc": "Get owner middle name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setMiddleName": {
+            "name": "setMiddleName",
+            "line": 52,
+            "short_desc": "Set owner middle name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "middleName": {
+                    "name": "middleName",
+                    "line": 52,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getLastName": {
+            "name": "getLastName",
+            "line": 59,
+            "short_desc": "Get owner last name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setLastName": {
+            "name": "setLastName",
+            "line": 67,
+            "short_desc": "Set owner last name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "lastName": {
+                    "name": "lastName",
+                    "line": 67,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFullName": {
+            "name": "getFullName",
+            "line": 74,
+            "short_desc": "Get owner full name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getEmail": {
+            "name": "getEmail",
+            "line": 81,
+            "short_desc": "Get email",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setEmail": {
+            "name": "setEmail",
+            "line": 89,
+            "short_desc": "Set email",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "email": {
+                    "name": "email",
+                    "line": 89,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getType": {
+            "name": "getType",
+            "line": 92,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getStreet": {
+            "name": "getStreet",
+            "line": 99,
+            "short_desc": "Get street",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStreet": {
+            "name": "setStreet",
+            "line": 107,
+            "short_desc": "Set street",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "street": {
+                    "name": "street",
+                    "line": 107,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCity": {
+            "name": "getCity",
+            "line": 114,
+            "short_desc": "Get city",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCity": {
+            "name": "setCity",
+            "line": 122,
+            "short_desc": "Set city",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "city": {
+                    "name": "city",
+                    "line": 122,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getState": {
+            "name": "getState",
+            "line": 129,
+            "short_desc": "Get state",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\State",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setState": {
+            "name": "setState",
+            "line": 137,
+            "short_desc": "Set state",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "state": {
+                    "name": "state",
+                    "line": 137,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Model\\Wealthbot\\AdminBundle\\Entity\\State",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\State",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getZip": {
+            "name": "getZip",
+            "line": 144,
+            "short_desc": "Get zip code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setZip": {
+            "name": "setZip",
+            "line": 152,
+            "short_desc": "Set zip code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "zip": {
+                    "name": "zip",
+                    "line": 152,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsDifferentAddress": {
+            "name": "getIsDifferentAddress",
+            "line": 159,
+            "short_desc": "Returns true if mailing address is different and false otherwise",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsDifferentAddress": {
+            "name": "setIsDifferentAddress",
+            "line": 167,
+            "short_desc": "Set is mailing address is different",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isDifferentAddress": {
+                    "name": "isDifferentAddress",
+                    "line": 167,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getMailingStreet": {
+            "name": "getMailingStreet",
+            "line": 174,
+            "short_desc": "Get mailing street",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setMailingStreet": {
+            "name": "setMailingStreet",
+            "line": 182,
+            "short_desc": "Set mailing street",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "mailingStreet": {
+                    "name": "mailingStreet",
+                    "line": 182,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getMailingCity": {
+            "name": "getMailingCity",
+            "line": 189,
+            "short_desc": "Get mailing city",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setMailingCity": {
+            "name": "setMailingCity",
+            "line": 197,
+            "short_desc": "Set mailing city",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "mailingCity": {
+                    "name": "mailingCity",
+                    "line": 197,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getMailingState": {
+            "name": "getMailingState",
+            "line": 204,
+            "short_desc": "Get mailing state",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\State",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setMailingState": {
+            "name": "setMailingState",
+            "line": 212,
+            "short_desc": "Set mailing state",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "mailingState": {
+                    "name": "mailingState",
+                    "line": 212,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Model\\Wealthbot\\AdminBundle\\Entity\\State",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\State",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getMailingZip": {
+            "name": "getMailingZip",
+            "line": 219,
+            "short_desc": "Get mailing zip code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setMailingZip": {
+            "name": "setMailingZip",
+            "line": 227,
+            "short_desc": "Set mailing zip code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "mailingZip": {
+                    "name": "mailingZip",
+                    "line": 227,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getBirthDate": {
+            "name": "getBirthDate",
+            "line": 234,
+            "short_desc": "Get date of birth",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBirthDate": {
+            "name": "setBirthDate",
+            "line": 242,
+            "short_desc": "Set date of birth",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "birthDate": {
+                    "name": "birthDate",
+                    "line": 242,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getPhoneNumber": {
+            "name": "getPhoneNumber",
+            "line": 249,
+            "short_desc": "Get phone number",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPhoneNumber": {
+            "name": "setPhoneNumber",
+            "line": 257,
+            "short_desc": "Set phone number",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "phoneNumber": {
+                    "name": "phoneNumber",
+                    "line": 257,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setDependents": {
+            "name": "setDependents",
+            "line": 259,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "dependents": {
+                    "name": "dependents",
+                    "line": 259,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getDependents": {
+            "name": "getDependents",
+            "line": 260,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSsnTin": {
+            "name": "setSsnTin",
+            "line": 268,
+            "short_desc": "Set social security number",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ssnTin": {
+                    "name": "ssnTin",
+                    "line": 268,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSsnTin": {
+            "name": "getSsnTin",
+            "line": 275,
+            "short_desc": "Get social security number",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIncomeSource": {
+            "name": "setIncomeSource",
+            "line": 283,
+            "short_desc": "Set source of income",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "incomeSource": {
+                    "name": "incomeSource",
+                    "line": 283,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIncomeSource": {
+            "name": "getIncomeSource",
+            "line": 290,
+            "short_desc": "Get source of income",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setEmployerName": {
+            "name": "setEmployerName",
+            "line": 298,
+            "short_desc": "Set employer name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "employerName": {
+                    "name": "employerName",
+                    "line": 298,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getEmployerName": {
+            "name": "getEmployerName",
+            "line": 305,
+            "short_desc": "Get employer name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIndustry": {
+            "name": "setIndustry",
+            "line": 313,
+            "short_desc": "Set industry",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "industry": {
+                    "name": "industry",
+                    "line": 313,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIndustry": {
+            "name": "getIndustry",
+            "line": 320,
+            "short_desc": "Get industry",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setOccupation": {
+            "name": "setOccupation",
+            "line": 328,
+            "short_desc": "Set occupation",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "occupation": {
+                    "name": "occupation",
+                    "line": 328,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOccupation": {
+            "name": "getOccupation",
+            "line": 335,
+            "short_desc": "Get occupation",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBusinessType": {
+            "name": "setBusinessType",
+            "line": 343,
+            "short_desc": "Set type of business",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "businessType": {
+                    "name": "businessType",
+                    "line": 343,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getBusinessType": {
+            "name": "getBusinessType",
+            "line": 350,
+            "short_desc": "Get type of business",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setEmployerAddress": {
+            "name": "setEmployerAddress",
+            "line": 358,
+            "short_desc": "Set employer address",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "employerAddress": {
+                    "name": "employerAddress",
+                    "line": 358,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getEmployerAddress": {
+            "name": "getEmployerAddress",
+            "line": 365,
+            "short_desc": "Get employer address",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setEmploymentCity": {
+            "name": "setEmploymentCity",
+            "line": 373,
+            "short_desc": "Set employment city",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "employmentCity": {
+                    "name": "employmentCity",
+                    "line": 373,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getEmploymentCity": {
+            "name": "getEmploymentCity",
+            "line": 380,
+            "short_desc": "Get employment city",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setEmploymentZip": {
+            "name": "setEmploymentZip",
+            "line": 388,
+            "short_desc": "Set employment zip code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "employmentZip": {
+                    "name": "employmentZip",
+                    "line": 388,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getEmploymentZip": {
+            "name": "getEmploymentZip",
+            "line": 395,
+            "short_desc": "Get employment zip code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getEmploymentState": {
+            "name": "getEmploymentState",
+            "line": 402,
+            "short_desc": "Get employment state",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\State",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setEmploymentState": {
+            "name": "setEmploymentState",
+            "line": 410,
+            "short_desc": "Set employment state",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "state": {
+                    "name": "state",
+                    "line": 410,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Model\\Wealthbot\\AdminBundle\\Entity\\State",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\State",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setIsSeniorPoliticalFigure": {
+            "name": "setIsSeniorPoliticalFigure",
+            "line": 412,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isSeniorPoliticalFigure": {
+                    "name": "isSeniorPoliticalFigure",
+                    "line": 412,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsSeniorPoliticalFigure": {
+            "name": "getIsSeniorPoliticalFigure",
+            "line": 413,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSeniorSpfName": {
+            "name": "setSeniorSpfName",
+            "line": 415,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "seniorSpfName": {
+                    "name": "seniorSpfName",
+                    "line": 415,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSeniorSpfName": {
+            "name": "getSeniorSpfName",
+            "line": 416,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSeniorPoliticalTitle": {
+            "name": "setSeniorPoliticalTitle",
+            "line": 418,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "seniorPoliticalTitle": {
+                    "name": "seniorPoliticalTitle",
+                    "line": 418,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSeniorPoliticalTitle": {
+            "name": "getSeniorPoliticalTitle",
+            "line": 419,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSeniorAccountOwnerRelationship": {
+            "name": "setSeniorAccountOwnerRelationship",
+            "line": 421,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "seniorAccountOwnerRelationship": {
+                    "name": "seniorAccountOwnerRelationship",
+                    "line": 421,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSeniorAccountOwnerRelationship": {
+            "name": "getSeniorAccountOwnerRelationship",
+            "line": 422,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSeniorCountryOffice": {
+            "name": "setSeniorCountryOffice",
+            "line": 424,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "seniorCountryOffice": {
+                    "name": "seniorCountryOffice",
+                    "line": 424,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSeniorCountryOffice": {
+            "name": "getSeniorCountryOffice",
+            "line": 425,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsPubliclyTradedCompany": {
+            "name": "setIsPubliclyTradedCompany",
+            "line": 427,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isPubliclyTradedCompany": {
+                    "name": "isPubliclyTradedCompany",
+                    "line": 427,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsPubliclyTradedCompany": {
+            "name": "getIsPubliclyTradedCompany",
+            "line": 428,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPublicleCompanyName": {
+            "name": "setPublicleCompanyName",
+            "line": 430,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "publicleCompanyName": {
+                    "name": "publicleCompanyName",
+                    "line": 430,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getPublicleCompanyName": {
+            "name": "getPublicleCompanyName",
+            "line": 431,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPublicleAddress": {
+            "name": "setPublicleAddress",
+            "line": 433,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "publicleAddress": {
+                    "name": "publicleAddress",
+                    "line": 433,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getPublicleAddress": {
+            "name": "getPublicleAddress",
+            "line": 434,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPublicleCity": {
+            "name": "setPublicleCity",
+            "line": 436,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "publicleCity": {
+                    "name": "publicleCity",
+                    "line": 436,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getPublicleCity": {
+            "name": "getPublicleCity",
+            "line": 437,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPublicleState": {
+            "name": "setPublicleState",
+            "line": 439,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "publicleState": {
+                    "name": "publicleState",
+                    "line": 439,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Model\\Wealthbot\\AdminBundle\\Entity\\State",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\State",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getPublicleState": {
+            "name": "getPublicleState",
+            "line": 440,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsBrokerSecurityExchangePerson": {
+            "name": "setIsBrokerSecurityExchangePerson",
+            "line": 442,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isBrokerSecurityExchangePerson": {
+                    "name": "isBrokerSecurityExchangePerson",
+                    "line": 442,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsBrokerSecurityExchangePerson": {
+            "name": "getIsBrokerSecurityExchangePerson",
+            "line": 443,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBrokerSecurityExchangeCompanyName": {
+            "name": "setBrokerSecurityExchangeCompanyName",
+            "line": 445,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "brokerSecurityExchangeCompanyName": {
+                    "name": "brokerSecurityExchangeCompanyName",
+                    "line": 445,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getBrokerSecurityExchangeCompanyName": {
+            "name": "getBrokerSecurityExchangeCompanyName",
+            "line": 446,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBrokerSecurityExchangeComplianceLetter": {
+            "name": "setBrokerSecurityExchangeComplianceLetter",
+            "line": 448,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "brokerSecurityExchangeComplianceLetter": {
+                    "name": "brokerSecurityExchangeComplianceLetter",
+                    "line": 448,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getBrokerSecurityExchangeComplianceLetter": {
+            "name": "getBrokerSecurityExchangeComplianceLetter",
+            "line": 449,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setComplianceLetterFile": {
+            "name": "setComplianceLetterFile",
+            "line": 451,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complianceLetterFile": {
+                    "name": "complianceLetterFile",
+                    "line": 451,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getComplianceLetterFile": {
+            "name": "getComplianceLetterFile",
+            "line": 452,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setEmploymentType": {
+            "name": "setEmploymentType",
+            "line": 454,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "employmentType": {
+                    "name": "employmentType",
+                    "line": 454,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getEmploymentType": {
+            "name": "getEmploymentType",
+            "line": 455,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setMaritalStatus": {
+            "name": "setMaritalStatus",
+            "line": 463,
+            "short_desc": "Set marital status",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "maritalStatus": {
+                    "name": "maritalStatus",
+                    "line": 463,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getMaritalStatus": {
+            "name": "getMaritalStatus",
+            "line": 470,
+            "short_desc": "Get marital status",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSpouseFirstName": {
+            "name": "setSpouseFirstName",
+            "line": 478,
+            "short_desc": "Set first name of spouse",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "spouseFirstName": {
+                    "name": "spouseFirstName",
+                    "line": 478,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSpouseFirstName": {
+            "name": "getSpouseFirstName",
+            "line": 485,
+            "short_desc": "Get first name of spouse",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSpouseMiddleName": {
+            "name": "setSpouseMiddleName",
+            "line": 493,
+            "short_desc": "Set middle name of spouse",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "spouseMiddleName": {
+                    "name": "spouseMiddleName",
+                    "line": 493,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSpouseMiddleName": {
+            "name": "getSpouseMiddleName",
+            "line": 500,
+            "short_desc": "Get middle name of spouse",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSpouseLastName": {
+            "name": "setSpouseLastName",
+            "line": 508,
+            "short_desc": "Set last name of spouse",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "spouseLastName": {
+                    "name": "spouseLastName",
+                    "line": 508,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSpouseLastName": {
+            "name": "getSpouseLastName",
+            "line": 515,
+            "short_desc": "Get last name of spouse",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSpouseBirthDate": {
+            "name": "setSpouseBirthDate",
+            "line": 523,
+            "short_desc": "Set spouse_birth_date",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\ClientBundle\\Model\\AccountOwnerInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "spouseBirthDate": {
+                    "name": "spouseBirthDate",
+                    "line": 523,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSpouseBirthDate": {
+            "name": "getSpouseBirthDate",
+            "line": 530,
+            "short_desc": "Get spouse_birth_date",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getObjectToSave": {
+            "name": "getObjectToSave",
+            "line": 538,
+            "short_desc": "Returns object to save for entity manager",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

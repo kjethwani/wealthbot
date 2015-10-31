@@ -1,0 +1,33 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Form\\Handler\\OutsideFundAssociationFormHandler",
+    "line": 15,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Form\/Handler\/OutsideFundAssociationFormHandler.php",
+    "relative_file": null,
+    "hash": "06561354ae4fa3e3466f552737fb6a59f1e229db",
+    "parent": "Wealthbot\\ClientBundle\\Form\\Handler\\AbstractOutsideFundFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AccountOutsideFund": "Wealthbot\\ClientBundle\\Entity\\AccountOutsideFund",
+        "Security": "Wealthbot\\AdminBundle\\Entity\\Security",
+        "AbstractOutsideFundFormHandler": "Wealthbot\\ClientBundle\\Form\\Handler\\AbstractOutsideFundFormHandler",
+        "Form": "Symfony\\Component\\Form\\Form",
+        "Request": "Symfony\\Component\\HttpFoundation\\Request",
+        "EntityManager": "Doctrine\\ORM\\EntityManager",
+        "ClientAccount": "Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "SecurityAssignment": "Wealthbot\\AdminBundle\\Entity\\SecurityAssignment"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

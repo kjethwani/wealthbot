@@ -1,0 +1,40 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Form\\Type\\PdfDocumentFormType",
+    "line": 14,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Form\\Type",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Form\/Type\/PdfDocumentFormType.php",
+    "relative_file": null,
+    "hash": "7ae55a90232c5a6d5033eb7eecf49c99860ab954",
+    "parent": "Wealthbot\\UserBundle\\Form\\Type\\ClientDocumentFormType",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ClientDocumentFormType": "Wealthbot\\UserBundle\\Form\\Type\\ClientDocumentFormType"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 20,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

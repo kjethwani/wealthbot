@@ -1,0 +1,356 @@
+{
+    "name": "Wealthbot\\SignatureBundle\\Model\\Envelope",
+    "line": 15,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\SignatureBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/SignatureBundle\/Model\/Envelope.php",
+    "relative_file": null,
+    "hash": "df3c8770f8218eb8123089ccb6256d586d5be4bc",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "InvalidEnvelopeStatusException": "Wealthbot\\SignatureBundle\\Exception\\InvalidEnvelopeStatusException"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 52,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setEmailBlurb": {
+            "name": "setEmailBlurb",
+            "line": 62,
+            "short_desc": "Set email blurb",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "emailBlurb": {
+                    "name": "emailBlurb",
+                    "line": 62,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getEmailBlurb": {
+            "name": "getEmailBlurb",
+            "line": 72,
+            "short_desc": "Get email blurb",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setEmailSubject": {
+            "name": "setEmailSubject",
+            "line": 82,
+            "short_desc": "Set email subject",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "emailSubject": {
+                    "name": "emailSubject",
+                    "line": 82,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getEmailSubject": {
+            "name": "getEmailSubject",
+            "line": 92,
+            "short_desc": "Get email subject",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRecipients": {
+            "name": "setRecipients",
+            "line": 102,
+            "short_desc": "Set recipients",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "recipients": {
+                    "name": "recipients",
+                    "line": 102,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "addRecipient": {
+            "name": "addRecipient",
+            "line": 112,
+            "short_desc": "Add recipient",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "recipient": {
+                    "name": "recipient",
+                    "line": 112,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Model\\Wealthbot\\SignatureBundle\\Model\\RecipientInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\SignatureBundle\\Model\\RecipientInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRecipients": {
+            "name": "getRecipients",
+            "line": 122,
+            "short_desc": "Get recipients",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getStatusChoices": {
+            "name": "getStatusChoices",
+            "line": 132,
+            "short_desc": "Get status choices",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStatus": {
+            "name": "setStatus",
+            "line": 156,
+            "short_desc": "Set status",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Exception\\InvalidEnvelopeStatusException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "status": {
+                    "name": "status",
+                    "line": 156,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getStatus": {
+            "name": "getStatus",
+            "line": 170,
+            "short_desc": "Get status",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "STATUS_CREATED": {
+            "name": "STATUS_CREATED",
+            "line": 37,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_SENT": {
+            "name": "STATUS_SENT",
+            "line": 38,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_DELIVERED": {
+            "name": "STATUS_DELIVERED",
+            "line": 39,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_SIGNED": {
+            "name": "STATUS_SIGNED",
+            "line": 40,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_COMPLETED": {
+            "name": "STATUS_COMPLETED",
+            "line": 41,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_PROCESSING": {
+            "name": "STATUS_PROCESSING",
+            "line": 42,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_DECLINED": {
+            "name": "STATUS_DECLINED",
+            "line": 43,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_TIMED_OUT": {
+            "name": "STATUS_TIMED_OUT",
+            "line": 44,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_VOIDED": {
+            "name": "STATUS_VOIDED",
+            "line": 45,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_DELETED": {
+            "name": "STATUS_DELETED",
+            "line": 46,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

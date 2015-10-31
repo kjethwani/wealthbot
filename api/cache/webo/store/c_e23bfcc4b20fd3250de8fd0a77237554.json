@@ -1,0 +1,3775 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+    "line": 16,
+    "short_desc": "Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Entity",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Entity\/RiaCompanyInformation.php",
+    "relative_file": null,
+    "hash": "f49e79068e4affb91ad77b39ae07d3491108a69f",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ORM": "Doctrine\\ORM\\Mapping",
+        "ArrayCollection": "Doctrine\\Common\\Collections\\ArrayCollection",
+        "CeModel": "Wealthbot\\AdminBundle\\Entity\\CeModel",
+        "CeModelInterface": "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+        "Document": "Wealthbot\\UserBundle\\Entity\\Document",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "Assert": "Symfony\\Component\\Validator\\Constraints"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "relationship_type_choices": {
+            "name": "relationship_type_choices",
+            "line": 106,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 9,
+            "default": {
+                "items": [
+                    {
+                        "key": {
+                            "class": {
+                                "parts": [
+                                    "self"
+                                ]
+                            },
+                            "name": "RELATIONSHIP_TYPE_TAMP"
+                        },
+                        "value": {
+                            "value": "TAMP"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "class": {
+                                "parts": [
+                                    "self"
+                                ]
+                            },
+                            "name": "RELATIONSHIP_TYPE_LICENSE_FEE"
+                        },
+                        "value": {
+                            "value": "License Fee"
+                        },
+                        "byRef": false
+                    }
+                ]
+            },
+            "errors": []
+        },
+        "account_managed_choices": {
+            "name": "account_managed_choices",
+            "line": 119,
+            "short_desc": "Choices for account management",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 9,
+            "default": {
+                "items": [
+                    {
+                        "key": {
+                            "class": {
+                                "parts": [
+                                    "self"
+                                ]
+                            },
+                            "name": "ACCOUNT_MANAGED_ACCOUNT"
+                        },
+                        "value": {
+                            "value": "Account Level"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "class": {
+                                "parts": [
+                                    "self"
+                                ]
+                            },
+                            "name": "ACCOUNT_MANAGED_HOUSEHOLD"
+                        },
+                        "value": {
+                            "value": "Household Level"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "class": {
+                                "parts": [
+                                    "self"
+                                ]
+                            },
+                            "name": "ACCOUNT_MANAGED_ACCOUNT_OR_HOUSEHOLD"
+                        },
+                        "value": {
+                            "value": "Account or Household Level"
+                        },
+                        "byRef": false
+                    }
+                ]
+            },
+            "errors": []
+        },
+        "rebalanced_method_choices": {
+            "name": "rebalanced_method_choices",
+            "line": 128,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "Choices for rebalanced method",
+            "tags": [],
+            "modifiers": 9,
+            "default": {
+                "items": [
+                    {
+                        "key": {
+                            "value": 1
+                        },
+                        "value": {
+                            "value": "Asset Class"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": 2
+                        },
+                        "value": {
+                            "value": "Subclass"
+                        },
+                        "byRef": false
+                    }
+                ]
+            },
+            "errors": []
+        },
+        "rebalanced_frequency_choices": {
+            "name": "rebalanced_frequency_choices",
+            "line": 142,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "Choices for rebalanced frequency choices",
+            "tags": [],
+            "modifiers": 9,
+            "default": {
+                "items": [
+                    {
+                        "key": {
+                            "value": 1
+                        },
+                        "value": {
+                            "value": "Quarterly"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": 2
+                        },
+                        "value": {
+                            "value": "Semi-Annually"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": 3
+                        },
+                        "value": {
+                            "value": "Annually"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": 4
+                        },
+                        "value": {
+                            "value": "Tolerance Bands"
+                        },
+                        "byRef": false
+                    }
+                ]
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 171,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getId": {
+            "name": "getId",
+            "line": 189,
+            "short_desc": "Get id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setName": {
+            "name": "setName",
+            "line": 200,
+            "short_desc": "Set name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 200,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getName": {
+            "name": "getName",
+            "line": 212,
+            "short_desc": "Get name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setWebsite": {
+            "name": "setWebsite",
+            "line": 223,
+            "short_desc": "Set website",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "website": {
+                    "name": "website",
+                    "line": 223,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getWebsite": {
+            "name": "getWebsite",
+            "line": 235,
+            "short_desc": "Get website",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAddress": {
+            "name": "setAddress",
+            "line": 252,
+            "short_desc": "Set address",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "address": {
+                    "name": "address",
+                    "line": 252,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAddress": {
+            "name": "getAddress",
+            "line": 264,
+            "short_desc": "Get address",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setOffice": {
+            "name": "setOffice",
+            "line": 275,
+            "short_desc": "Set office",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "office": {
+                    "name": "office",
+                    "line": 275,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOffice": {
+            "name": "getOffice",
+            "line": 287,
+            "short_desc": "Get office",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCity": {
+            "name": "setCity",
+            "line": 298,
+            "short_desc": "Set city",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "city": {
+                    "name": "city",
+                    "line": 298,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCity": {
+            "name": "getCity",
+            "line": 310,
+            "short_desc": "Get city",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setZipcode": {
+            "name": "setZipcode",
+            "line": 321,
+            "short_desc": "Set zipcode",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "zipcode": {
+                    "name": "zipcode",
+                    "line": 321,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getZipcode": {
+            "name": "getZipcode",
+            "line": 333,
+            "short_desc": "Get zipcode",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPhoneNumber": {
+            "name": "setPhoneNumber",
+            "line": 344,
+            "short_desc": "Set phone_number",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "phoneNumber": {
+                    "name": "phoneNumber",
+                    "line": 344,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getPhoneNumber": {
+            "name": "getPhoneNumber",
+            "line": 356,
+            "short_desc": "Get phone_number",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setContactEmail": {
+            "name": "setContactEmail",
+            "line": 367,
+            "short_desc": "Set contact_email",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "contactEmail": {
+                    "name": "contactEmail",
+                    "line": 367,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getContactEmail": {
+            "name": "getContactEmail",
+            "line": 379,
+            "short_desc": "Get contact_email",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setLogo": {
+            "name": "setLogo",
+            "line": 390,
+            "short_desc": "Set logo",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "logo": {
+                    "name": "logo",
+                    "line": 390,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getLogo": {
+            "name": "getLogo",
+            "line": 402,
+            "short_desc": "Get logo",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRiaUserId": {
+            "name": "setRiaUserId",
+            "line": 413,
+            "short_desc": "Set ria_user_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "riaUserId": {
+                    "name": "riaUserId",
+                    "line": 413,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRiaUserId": {
+            "name": "getRiaUserId",
+            "line": 425,
+            "short_desc": "Get ria_user_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRia": {
+            "name": "setRia",
+            "line": 436,
+            "short_desc": "Set ria",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ria": {
+                    "name": "ria",
+                    "line": 436,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Entity\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRia": {
+            "name": "getRia",
+            "line": 448,
+            "short_desc": "Get ria",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getLogoFile": {
+            "name": "getLogoFile",
+            "line": 459,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setLogoFile": {
+            "name": "setLogoFile",
+            "line": 464,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "logoFile": {
+                    "name": "logoFile",
+                    "line": 464,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAbsoluteLogo": {
+            "name": "getAbsoluteLogo",
+            "line": 473,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "preUpload": {
+            "name": "preUpload",
+            "line": 496,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "upload": {
+            "name": "upload",
+            "line": 504,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "removeUpload": {
+            "name": "removeUpload",
+            "line": 521,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAccountManaged": {
+            "name": "setAccountManaged",
+            "line": 534,
+            "short_desc": "Set account_managed",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "accountManaged": {
+                    "name": "accountManaged",
+                    "line": 534,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAccountManaged": {
+            "name": "getAccountManaged",
+            "line": 546,
+            "short_desc": "Get account_managed",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isAccountManagedLevel": {
+            "name": "isAccountManagedLevel",
+            "line": 551,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isHouseholdManagedLevel": {
+            "name": "isHouseholdManagedLevel",
+            "line": 556,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isClientByClientManagedLevel": {
+            "name": "isClientByClientManagedLevel",
+            "line": 561,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getAccountManagementAsString": {
+            "name": "getAccountManagementAsString",
+            "line": 566,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getAccountManagedChoices": {
+            "name": "getAccountManagedChoices",
+            "line": 571,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isShowSubclassPriority": {
+            "name": "isShowSubclassPriority",
+            "line": 582,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isRelationTypeTamp": {
+            "name": "isRelationTypeTamp",
+            "line": 587,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isRelationTypeLicenseFee": {
+            "name": "isRelationTypeLicenseFee",
+            "line": 592,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsAllowRetirementPlan": {
+            "name": "setIsAllowRetirementPlan",
+            "line": 603,
+            "short_desc": "Set is_allow_retirement_plan",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isAllowRetirementPlan": {
+                    "name": "isAllowRetirementPlan",
+                    "line": 603,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsAllowRetirementPlan": {
+            "name": "getIsAllowRetirementPlan",
+            "line": 615,
+            "short_desc": "Get is_allow_retirement_plan",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setMinimumBillingFee": {
+            "name": "setMinimumBillingFee",
+            "line": 636,
+            "short_desc": "Set minimum_billing_fee",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "minimumBillingFee": {
+                    "name": "minimumBillingFee",
+                    "line": 636,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getMinimumBillingFee": {
+            "name": "getMinimumBillingFee",
+            "line": 648,
+            "short_desc": "Get minimum_billing_fee",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsShowClientExpectedAssetClass": {
+            "name": "setIsShowClientExpectedAssetClass",
+            "line": 659,
+            "short_desc": "Set is_show_client_expected_asset_class",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isShowClientExpectedAssetClass": {
+                    "name": "isShowClientExpectedAssetClass",
+                    "line": 659,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsShowClientExpectedAssetClass": {
+            "name": "getIsShowClientExpectedAssetClass",
+            "line": 671,
+            "short_desc": "Get is_show_client_expected_asset_class",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setClientsTaxBracket": {
+            "name": "setClientsTaxBracket",
+            "line": 687,
+            "short_desc": "Set clients_tax_bracket",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientsTaxBracket": {
+                    "name": "clientsTaxBracket",
+                    "line": 687,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClientsTaxBracket": {
+            "name": "getClientsTaxBracket",
+            "line": 699,
+            "short_desc": "Get clients_tax_bracket",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsSearchableDb": {
+            "name": "setIsSearchableDb",
+            "line": 726,
+            "short_desc": "Set is_searchable_db",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isSearchableDb": {
+                    "name": "isSearchableDb",
+                    "line": 726,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsSearchableDb": {
+            "name": "getIsSearchableDb",
+            "line": 738,
+            "short_desc": "Get is_searchable_db",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setMinAssetSize": {
+            "name": "setMinAssetSize",
+            "line": 749,
+            "short_desc": "Set min_asset_size",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "minAssetSize": {
+                    "name": "minAssetSize",
+                    "line": 749,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getMinAssetSize": {
+            "name": "getMinAssetSize",
+            "line": 761,
+            "short_desc": "Get min_asset_size",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAdvCopy": {
+            "name": "setAdvCopy",
+            "line": 772,
+            "short_desc": "Set adv_copy",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "advCopy": {
+                    "name": "advCopy",
+                    "line": 772,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAdvCopy": {
+            "name": "getAdvCopy",
+            "line": 784,
+            "short_desc": "Get adv_copy",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getAbsoluteAdvCopy": {
+            "name": "getAbsoluteAdvCopy",
+            "line": 795,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getWebAdvCopy": {
+            "name": "getWebAdvCopy",
+            "line": 800,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getUploadAdvCopyRootDir": {
+            "name": "getUploadAdvCopyRootDir",
+            "line": 805,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "preUploadAdvCopy": {
+            "name": "preUploadAdvCopy",
+            "line": 817,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "uploadAdvCopy": {
+            "name": "uploadAdvCopy",
+            "line": 825,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "removeUploadAdvCopy": {
+            "name": "removeUploadAdvCopy",
+            "line": 839,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRebalancedMethod": {
+            "name": "setRebalancedMethod",
+            "line": 863,
+            "short_desc": "Set rebalanced_method",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "rebalancedMethod": {
+                    "name": "rebalancedMethod",
+                    "line": 863,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRebalancedMethod": {
+            "name": "getRebalancedMethod",
+            "line": 875,
+            "short_desc": "Get rebalanced_method",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRebalancedFrequency": {
+            "name": "setRebalancedFrequency",
+            "line": 886,
+            "short_desc": "Set rebalanced_frequency",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "rebalancedFrequency": {
+                    "name": "rebalancedFrequency",
+                    "line": 886,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRebalancedFrequency": {
+            "name": "getRebalancedFrequency",
+            "line": 898,
+            "short_desc": "Get rebalanced_frequency",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getRebalancedFrequencyName": {
+            "name": "getRebalancedFrequencyName",
+            "line": 903,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isRebalancedFrequencyToleranceBand": {
+            "name": "isRebalancedFrequencyToleranceBand",
+            "line": 912,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStateId": {
+            "name": "setStateId",
+            "line": 934,
+            "short_desc": "Set state_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "stateId": {
+                    "name": "stateId",
+                    "line": 934,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getStateId": {
+            "name": "getStateId",
+            "line": 946,
+            "short_desc": "Get state_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setState": {
+            "name": "setState",
+            "line": 957,
+            "short_desc": "Set state",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "state": {
+                    "name": "state",
+                    "line": 957,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Entity\\Wealthbot\\AdminBundle\\Entity\\State",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\State",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getState": {
+            "name": "getState",
+            "line": 969,
+            "short_desc": "Get state",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\State",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRiskAdjustment": {
+            "name": "setRiskAdjustment",
+            "line": 985,
+            "short_desc": "Set risk_adjustment",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "riskAdjustment": {
+                    "name": "riskAdjustment",
+                    "line": 985,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRiskAdjustment": {
+            "name": "getRiskAdjustment",
+            "line": 997,
+            "short_desc": "Get risk_adjustment",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getRiskAdjustmentFactor": {
+            "name": "getRiskAdjustmentFactor",
+            "line": 1007,
+            "short_desc": "Get risk adjustment factor",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addFee": {
+            "name": "addFee",
+            "line": 1026,
+            "short_desc": "Add fee",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "fee": {
+                    "name": "fee",
+                    "line": 1026,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Entity\\Wealthbot\\AdminBundle\\Entity\\Fee",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\Fee",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeFee": {
+            "name": "removeFee",
+            "line": 1036,
+            "short_desc": "Remove fee",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "fee": {
+                    "name": "fee",
+                    "line": 1036,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Entity\\Wealthbot\\AdminBundle\\Entity\\Fee",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\Fee",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getItems": {
+            "name": "getItems",
+            "line": 1046,
+            "short_desc": "Get fees",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Doctrine\\Common\\Collections\\Collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPrimaryFirstName": {
+            "name": "setPrimaryFirstName",
+            "line": 1067,
+            "short_desc": "Set primary_first_name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "primaryFirstName": {
+                    "name": "primaryFirstName",
+                    "line": 1067,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getPrimaryFirstName": {
+            "name": "getPrimaryFirstName",
+            "line": 1079,
+            "short_desc": "Get primary_first_name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPrimaryLastName": {
+            "name": "setPrimaryLastName",
+            "line": 1090,
+            "short_desc": "Set primary_last_name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "primaryLastName": {
+                    "name": "primaryLastName",
+                    "line": 1090,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getPrimaryLastName": {
+            "name": "getPrimaryLastName",
+            "line": 1102,
+            "short_desc": "Get primary_last_name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setUseMunicipalBond": {
+            "name": "setUseMunicipalBond",
+            "line": 1118,
+            "short_desc": "Set use_municipal_bond",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "useMunicipalBond": {
+                    "name": "useMunicipalBond",
+                    "line": 1118,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getUseMunicipalBond": {
+            "name": "getUseMunicipalBond",
+            "line": 1130,
+            "short_desc": "Get use_municipal_bond",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPortfolioModelId": {
+            "name": "setPortfolioModelId",
+            "line": 1151,
+            "short_desc": "Set portfolio_model_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "portfolioModelId": {
+                    "name": "portfolioModelId",
+                    "line": 1151,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getPortfolioModelId": {
+            "name": "getPortfolioModelId",
+            "line": 1163,
+            "short_desc": "Get portfolio_model_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPortfolioModel": {
+            "name": "setPortfolioModel",
+            "line": 1174,
+            "short_desc": "Set portfolioModel",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "portfolioModel": {
+                    "name": "portfolioModel",
+                    "line": 1174,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Entity\\Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getPortfolioModel": {
+            "name": "getPortfolioModel",
+            "line": 1186,
+            "short_desc": "Get portfolioModel",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setActivated": {
+            "name": "setActivated",
+            "line": 1198,
+            "short_desc": "Set activated",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "activated": {
+                    "name": "activated",
+                    "line": 1198,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getActivated": {
+            "name": "getActivated",
+            "line": 1210,
+            "short_desc": "Get activated",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTransactionAmount": {
+            "name": "setTransactionAmount",
+            "line": 1241,
+            "short_desc": "Set transaction_amount",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "transactionAmount": {
+                    "name": "transactionAmount",
+                    "line": 1241,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTransactionAmount": {
+            "name": "getTransactionAmount",
+            "line": 1253,
+            "short_desc": "Get transaction_amount",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTransactionAmountPercent": {
+            "name": "setTransactionAmountPercent",
+            "line": 1264,
+            "short_desc": "Set transaction_amount_percent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "transactionAmountPercent": {
+                    "name": "transactionAmountPercent",
+                    "line": 1264,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTransactionAmountPercent": {
+            "name": "getTransactionAmountPercent",
+            "line": 1276,
+            "short_desc": "Get transaction_amount_percent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsTransactionFees": {
+            "name": "setIsTransactionFees",
+            "line": 1287,
+            "short_desc": "Set is_transaction_fees",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isTransactionFees": {
+                    "name": "isTransactionFees",
+                    "line": 1287,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsTransactionFees": {
+            "name": "getIsTransactionFees",
+            "line": 1299,
+            "short_desc": "Get is_transaction_fees",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsTransactionMinimums": {
+            "name": "setIsTransactionMinimums",
+            "line": 1310,
+            "short_desc": "Set is_transaction_minimums",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isTransactionMinimums": {
+                    "name": "isTransactionMinimums",
+                    "line": 1310,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsTransactionMinimums": {
+            "name": "getIsTransactionMinimums",
+            "line": 1322,
+            "short_desc": "Get is_transaction_minimums",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsTransactionRedemptionFees": {
+            "name": "setIsTransactionRedemptionFees",
+            "line": 1336,
+            "short_desc": "Set is_transaction_redemption_fees",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isTransactionRedemptionFees": {
+                    "name": "isTransactionRedemptionFees",
+                    "line": 1336,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsTransactionRedemptionFees": {
+            "name": "getIsTransactionRedemptionFees",
+            "line": 1348,
+            "short_desc": "Get is_transaction_redemption_fees",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isShowTransactionEdit": {
+            "name": "isShowTransactionEdit",
+            "line": 1353,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsTaxLossHarvesting": {
+            "name": "setIsTaxLossHarvesting",
+            "line": 1389,
+            "short_desc": "Set is_tax_loss_harvesting",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isTaxLossHarvesting": {
+                    "name": "isTaxLossHarvesting",
+                    "line": 1389,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsTaxLossHarvesting": {
+            "name": "getIsTaxLossHarvesting",
+            "line": 1401,
+            "short_desc": "Get is_tax_loss_harvesting",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTaxLossHarvesting": {
+            "name": "setTaxLossHarvesting",
+            "line": 1412,
+            "short_desc": "Set tax_loss_harvesting",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "taxLossHarvesting": {
+                    "name": "taxLossHarvesting",
+                    "line": 1412,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTaxLossHarvesting": {
+            "name": "getTaxLossHarvesting",
+            "line": 1424,
+            "short_desc": "Get tax_loss_harvesting",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTaxLossHarvestingPercent": {
+            "name": "setTaxLossHarvestingPercent",
+            "line": 1435,
+            "short_desc": "Set tax_loss_harvesting_percent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "taxLossHarvestingPercent": {
+                    "name": "taxLossHarvestingPercent",
+                    "line": 1435,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTaxLossHarvestingPercent": {
+            "name": "getTaxLossHarvestingPercent",
+            "line": 1447,
+            "short_desc": "Get tax_loss_harvesting_percent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTaxLossHarvestingMinimum": {
+            "name": "setTaxLossHarvestingMinimum",
+            "line": 1458,
+            "short_desc": "Set tax_loss_harvesting_minimum",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "taxLossHarvestingMinimum": {
+                    "name": "taxLossHarvestingMinimum",
+                    "line": 1458,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTaxLossHarvestingMinimum": {
+            "name": "getTaxLossHarvestingMinimum",
+            "line": 1470,
+            "short_desc": "Get tax_loss_harvesting_minimum",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTaxLossHarvestingMinimumPercent": {
+            "name": "setTaxLossHarvestingMinimumPercent",
+            "line": 1481,
+            "short_desc": "Set tax_loss_harvesting_minimum_percent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "taxLossHarvestingMinimumPercent": {
+                    "name": "taxLossHarvestingMinimumPercent",
+                    "line": 1481,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTaxLossHarvestingMinimumPercent": {
+            "name": "getTaxLossHarvestingMinimumPercent",
+            "line": 1493,
+            "short_desc": "Get tax_loss_harvesting_minimum_percent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsUseQualifiedModels": {
+            "name": "setIsUseQualifiedModels",
+            "line": 1504,
+            "short_desc": "Set is_use_qualified_models",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isUseQualifiedModels": {
+                    "name": "isUseQualifiedModels",
+                    "line": 1504,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsUseQualifiedModels": {
+            "name": "getIsUseQualifiedModels",
+            "line": 1525,
+            "short_desc": "Get is_use_qualified_models",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isUseQualifiedModels": {
+            "name": "isUseQualifiedModels",
+            "line": 1535,
+            "short_desc": "Check is use qualified models",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getPortfolioProcessingChoices": {
+            "name": "getPortfolioProcessingChoices",
+            "line": 1544,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPortfolioProcessing": {
+            "name": "setPortfolioProcessing",
+            "line": 1556,
+            "short_desc": "Set portfolio_processing",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\RiaBundle\\Entity\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "portfolioProcessing": {
+                    "name": "portfolioProcessing",
+                    "line": 1556,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getPortfolioProcessing": {
+            "name": "getPortfolioProcessing",
+            "line": 1575,
+            "short_desc": "Get portfolio_processing",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isStraightThroughProcessing": {
+            "name": "isStraightThroughProcessing",
+            "line": 1585,
+            "short_desc": "Returns true if portfolio_processing is PORTFOLIO_PROCESSING_STRAIGHT_THROUGH",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isCollaborativeProcessing": {
+            "name": "isCollaborativeProcessing",
+            "line": 1595,
+            "short_desc": "Returns true if portfolio_processing is PORTFOLIO_PROCESSING_COLLABORATIVE",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getPortfolioProcessingAsString": {
+            "name": "getPortfolioProcessingAsString",
+            "line": 1605,
+            "short_desc": "Get portfolio_processing as string",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCustodianId": {
+            "name": "setCustodianId",
+            "line": 1626,
+            "short_desc": "Set custodian_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "custodianId": {
+                    "name": "custodianId",
+                    "line": 1626,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCustodianId": {
+            "name": "getCustodianId",
+            "line": 1638,
+            "short_desc": "Get custodian_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAllowNonElectronicallySigning": {
+            "name": "setAllowNonElectronicallySigning",
+            "line": 1649,
+            "short_desc": "Set allow_non_electronically_signing",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "allowNonElectronicallySigning": {
+                    "name": "allowNonElectronicallySigning",
+                    "line": 1649,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAllowNonElectronicallySigning": {
+            "name": "getAllowNonElectronicallySigning",
+            "line": 1661,
+            "short_desc": "Get allow_non_electronically_signing",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCustodian": {
+            "name": "setCustodian",
+            "line": 1677,
+            "short_desc": "Set custodian",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "custodian": {
+                    "name": "custodian",
+                    "line": 1677,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Entity\\Wealthbot\\AdminBundle\\Entity\\Custodian",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\Custodian",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCustodian": {
+            "name": "getCustodian",
+            "line": 1689,
+            "short_desc": "Get custodian",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\Custodian",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSlug": {
+            "name": "setSlug",
+            "line": 1706,
+            "short_desc": "Set slug",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "slug": {
+                    "name": "slug",
+                    "line": 1706,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSlug": {
+            "name": "getSlug",
+            "line": 1718,
+            "short_desc": "Get slug",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsShowExpectedCosts": {
+            "name": "setIsShowExpectedCosts",
+            "line": 1734,
+            "short_desc": "Set is_show_expected_costs",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isShowExpectedCosts": {
+                    "name": "isShowExpectedCosts",
+                    "line": 1734,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsShowExpectedCosts": {
+            "name": "getIsShowExpectedCosts",
+            "line": 1746,
+            "short_desc": "Get is_show_expected_costs",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFaxNumber": {
+            "name": "setFaxNumber",
+            "line": 1781,
+            "short_desc": "Set fax_number",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "faxNumber": {
+                    "name": "faxNumber",
+                    "line": 1781,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFaxNumber": {
+            "name": "getFaxNumber",
+            "line": 1793,
+            "short_desc": "Get fax_number",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getAdvDocument": {
+            "name": "getAdvDocument",
+            "line": 1803,
+            "short_desc": "Get adv document",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\Document",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStopTlhValue": {
+            "name": "setStopTlhValue",
+            "line": 1832,
+            "short_desc": "Set stop_tlh_value",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "stopTlhValue": {
+                    "name": "stopTlhValue",
+                    "line": 1832,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getStopTlhValue": {
+            "name": "getStopTlhValue",
+            "line": 1844,
+            "short_desc": "Get stop_tlh_value",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRelationshipType": {
+            "name": "setRelationshipType",
+            "line": 1855,
+            "short_desc": "Set relationship_type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "relationshipType": {
+                    "name": "relationshipType",
+                    "line": 1855,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRelationshipType": {
+            "name": "getRelationshipType",
+            "line": 1867,
+            "short_desc": "Get relationship_type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addAdvisorCode": {
+            "name": "addAdvisorCode",
+            "line": 1883,
+            "short_desc": "Add advisor_codes",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "advisorCode": {
+                    "name": "advisorCode",
+                    "line": 1883,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Entity\\Wealthbot\\RiaBundle\\Entity\\AdvisorCode",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\RiaBundle\\Entity\\AdvisorCode",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeAdvisorCode": {
+            "name": "removeAdvisorCode",
+            "line": 1895,
+            "short_desc": "Remove advisor_codes",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "advisorCode": {
+                    "name": "advisorCode",
+                    "line": 1895,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Entity\\Wealthbot\\RiaBundle\\Entity\\AdvisorCode",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\RiaBundle\\Entity\\AdvisorCode",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAdvisorCodes": {
+            "name": "getAdvisorCodes",
+            "line": 1905,
+            "short_desc": "Get advisor_codes",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Doctrine\\Common\\Collections\\Collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTlhBuyBackOriginal": {
+            "name": "setTlhBuyBackOriginal",
+            "line": 1916,
+            "short_desc": "Set tlh_buy_back_original",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "tlhBuyBackOriginal": {
+                    "name": "tlhBuyBackOriginal",
+                    "line": 1916,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTlhBuyBackOriginal": {
+            "name": "getTlhBuyBackOriginal",
+            "line": 1928,
+            "short_desc": "Get tlh_buy_back_original",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "RELATIONSHIP_TYPE_LICENSE_FEE": {
+            "name": "RELATIONSHIP_TYPE_LICENSE_FEE",
+            "line": 103,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "RELATIONSHIP_TYPE_TAMP": {
+            "name": "RELATIONSHIP_TYPE_TAMP",
+            "line": 104,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ACCOUNT_MANAGED_ACCOUNT": {
+            "name": "ACCOUNT_MANAGED_ACCOUNT",
+            "line": 112,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ACCOUNT_MANAGED_HOUSEHOLD": {
+            "name": "ACCOUNT_MANAGED_HOUSEHOLD",
+            "line": 113,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ACCOUNT_MANAGED_ACCOUNT_OR_HOUSEHOLD": {
+            "name": "ACCOUNT_MANAGED_ACCOUNT_OR_HOUSEHOLD",
+            "line": 114,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "REBALANCED_FREQUENCY_QUARTERLY": {
+            "name": "REBALANCED_FREQUENCY_QUARTERLY",
+            "line": 134,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "REBALANCED_FREQUENCY_SEMI_ANNUALLY": {
+            "name": "REBALANCED_FREQUENCY_SEMI_ANNUALLY",
+            "line": 135,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "REBALANCED_FREQUENCY_ANNUALLY": {
+            "name": "REBALANCED_FREQUENCY_ANNUALLY",
+            "line": 136,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "REBALANCED_FREQUENCY_TOLERANCE_BANDS": {
+            "name": "REBALANCED_FREQUENCY_TOLERANCE_BANDS",
+            "line": 137,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "PORTFOLIO_PROCESSING_STRAIGHT_THROUGH": {
+            "name": "PORTFOLIO_PROCESSING_STRAIGHT_THROUGH",
+            "line": 154,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "PORTFOLIO_PROCESSING_COLLABORATIVE": {
+            "name": "PORTFOLIO_PROCESSING_COLLABORATIVE",
+            "line": 155,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "name": "Wealthbot\\AdminBundle\\Service\\PasInterfacesInformation",
+    "line": 14,
+    "short_desc": "Class PasFilesInformation",
+    "long_desc": "Get information about selected type PAS files.",
+    "hint": null,
+    "tags": {
+        "package": [
+            [
+                "Wealthbot\\AdminBundle\\Service"
+            ]
+        ]
+    },
+    "namespace": "Wealthbot\\AdminBundle\\Service",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/Service\/PasInterfacesInformation.php",
+    "relative_file": null,
+    "hash": "925512fd013d9f25398ae811d9f96d728a44fd10",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "DataInterface": "Wealthbot\\AdminBundle\\PasInterfaces\\DataInterface"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 27,
+            "short_desc": "Loaders are created by compiler pass from tagged services\nwith tag \"wealthbot_admin.pas_files_loader\".",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "loaders": {
+                    "name": "loaders",
+                    "line": 27,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Wealthbot\\AdminBundle\\PasInterfaces\\DataInterface",
+                            true
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "loadInformation": {
+            "name": "loadInformation",
+            "line": 50,
+            "short_desc": "Load data about files with needed type on date.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\Exception",
+                    ""
+                ]
+            ],
+            "errors": [
+                "\"3\" @param tags are expected but only \"2\" found"
+            ],
+            "parameters": {
+                "fileType": {
+                    "name": "fileType",
+                    "line": 50,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "date": {
+                    "name": "date",
+                    "line": 50,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Service\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "DateTime",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "page": {
+                    "name": "page",
+                    "line": 50,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "0",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "loadAllInformation": {
+            "name": "loadAllInformation",
+            "line": 68,
+            "short_desc": "Load data on date about files by selected array of types.",
+            "long_desc": "Returns array with keys by type (\"type_\" + type of file), for example, \"type_pos\".",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "fileTypes": {
+                    "name": "fileTypes",
+                    "line": 68,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "date": {
+                    "name": "date",
+                    "line": 68,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Service\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "DateTime",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

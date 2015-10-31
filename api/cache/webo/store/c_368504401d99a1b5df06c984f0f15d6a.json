@@ -1,0 +1,29 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Command\\UpdateClientStatusCommand",
+    "line": 12,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Command",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Command\/UpdateClientStatusCommand.php",
+    "relative_file": null,
+    "hash": "b4b39c7b90fcf1a5a3e92adcd39c4ee495be807b",
+    "parent": "Symfony\\Bundle\\FrameworkBundle\\Command\\ContainerAwareCommand",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Profile": "Wealthbot\\UserBundle\\Entity\\Profile",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "ContainerAwareCommand": "Symfony\\Bundle\\FrameworkBundle\\Command\\ContainerAwareCommand",
+        "InputInterface": "Symfony\\Component\\Console\\Input\\InputInterface",
+        "OutputInterface": "Symfony\\Component\\Console\\Output\\OutputInterface"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

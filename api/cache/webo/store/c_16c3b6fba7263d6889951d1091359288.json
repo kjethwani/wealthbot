@@ -1,0 +1,28 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Command\\SetWorkflowMessageCodeCommand",
+    "line": 11,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Command",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Command\/SetWorkflowMessageCodeCommand.php",
+    "relative_file": null,
+    "hash": "e189bac2010d011d9c9922cd0c448f11f94713ef",
+    "parent": "Symfony\\Bundle\\FrameworkBundle\\Command\\ContainerAwareCommand",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Workflow": "Wealthbot\\ClientBundle\\Entity\\Workflow",
+        "ContainerAwareCommand": "Symfony\\Bundle\\FrameworkBundle\\Command\\ContainerAwareCommand",
+        "InputInterface": "Symfony\\Component\\Console\\Input\\InputInterface",
+        "OutputInterface": "Symfony\\Component\\Console\\Output\\OutputInterface"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Model\\WorkflowableInterface",
+    "line": 13,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Model\/WorkflowableInterface.php",
+    "relative_file": null,
+    "hash": "65981e0934cea0ed7cc86e050e06e5110df1b1a7",
+    "parent": null,
+    "modifiers": "Stmt_Interface",
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getWorkflowMessageCode": {
+            "name": "getWorkflowMessageCode",
+            "line": 20,
+            "short_desc": "Get workflow message code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

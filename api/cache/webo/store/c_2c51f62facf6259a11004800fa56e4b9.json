@@ -1,0 +1,28 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Form\\Handler\\BankInformationFormHandler",
+    "line": 17,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Form\/Handler\/BankInformationFormHandler.php",
+    "relative_file": null,
+    "hash": "e9cdc42a18b29c5c942e062d9904f5eaacd4f891",
+    "parent": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AbstractFormHandler": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+        "BankInformation": "Wealthbot\\ClientBundle\\Entity\\BankInformation",
+        "Document": "Wealthbot\\UserBundle\\Entity\\Document",
+        "User": "Wealthbot\\UserBundle\\Entity\\User"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

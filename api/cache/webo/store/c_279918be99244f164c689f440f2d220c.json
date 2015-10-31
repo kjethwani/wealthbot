@@ -1,0 +1,722 @@
+{
+    "name": "Wealthbot\\AdminBundle\\Model\\CeModelEntity",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/Model\/CeModelEntity.php",
+    "relative_file": null,
+    "hash": "ad632ffc9e929c3327b79717c6dcddd06628c8b6",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "SecurityAssignment": "Wealthbot\\AdminBundle\\Entity\\SecurityAssignment",
+        "Subclass": "Wealthbot\\AdminBundle\\Entity\\Subclass"
+    },
+    "errors": [],
+    "interfaces": {
+        "Wealthbot\\AdminBundle\\Model\\CeModelEntityInterface": "Wealthbot\\AdminBundle\\Model\\CeModelEntityInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 60,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getId": {
+            "name": "getId",
+            "line": 70,
+            "short_desc": "Get id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isBonds": {
+            "name": "isBonds",
+            "line": 75,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isStocks": {
+            "name": "isStocks",
+            "line": 80,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isMunicipal": {
+            "name": "isMunicipal",
+            "line": 85,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsQualified": {
+            "name": "setIsQualified",
+            "line": 90,
+            "short_desc": "Set is qualified",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelEntityInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isQualified": {
+                    "name": "isQualified",
+                    "line": 90,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setAssetClassId": {
+            "name": "setAssetClassId",
+            "line": 97,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "assetClassId": {
+                    "name": "assetClassId",
+                    "line": 97,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAssetClassId": {
+            "name": "getAssetClassId",
+            "line": 105,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAssetClass": {
+            "name": "setAssetClass",
+            "line": 111,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "assetClass": {
+                    "name": "assetClass",
+                    "line": 111,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Model\\Wealthbot\\AdminBundle\\Entity\\AssetClass",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\AssetClass",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAssetClass": {
+            "name": "getAssetClass",
+            "line": 118,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getIsQualified": {
+            "name": "getIsQualified",
+            "line": 123,
+            "short_desc": "Get is qualified",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPercent": {
+            "name": "setPercent",
+            "line": 128,
+            "short_desc": "Set percent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelEntityInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "percent": {
+                    "name": "percent",
+                    "line": 128,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getPercent": {
+            "name": "getPercent",
+            "line": 135,
+            "short_desc": "Get percent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setModel": {
+            "name": "setModel",
+            "line": 146,
+            "short_desc": "Set model",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Model\\CeModelEntity",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "model": {
+                    "name": "model",
+                    "line": 146,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Model\\Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Model\\CeModelInterface",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getModel": {
+            "name": "getModel",
+            "line": 158,
+            "short_desc": "Get model",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\CeModel",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSecurityAssignment": {
+            "name": "setSecurityAssignment",
+            "line": 163,
+            "short_desc": "Set securityAssignment",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelEntityInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "securityAssignment": {
+                    "name": "securityAssignment",
+                    "line": 163,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Model\\Wealthbot\\AdminBundle\\Entity\\SecurityAssignment",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\SecurityAssignment",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSecurityAssignment": {
+            "name": "getSecurityAssignment",
+            "line": 170,
+            "short_desc": "Get securityAssignment",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\SecurityAssignment",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSubclassId": {
+            "name": "setSubclassId",
+            "line": 175,
+            "short_desc": "Set id of subclass",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelEntityInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "subclassId": {
+                    "name": "subclassId",
+                    "line": 175,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSubclassId": {
+            "name": "getSubclassId",
+            "line": 182,
+            "short_desc": "Get id of subclass",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSubclass": {
+            "name": "setSubclass",
+            "line": 187,
+            "short_desc": "Set subclass",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelEntityInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "subclass": {
+                    "name": "subclass",
+                    "line": 187,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Model\\Wealthbot\\AdminBundle\\Entity\\Subclass",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\Subclass",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSubclass": {
+            "name": "getSubclass",
+            "line": 194,
+            "short_desc": "Get subclass",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\Subclass",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setMuniSubstitutionId": {
+            "name": "setMuniSubstitutionId",
+            "line": 199,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "muniSubstitutionId": {
+                    "name": "muniSubstitutionId",
+                    "line": 199,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getMuniSubstitutionId": {
+            "name": "getMuniSubstitutionId",
+            "line": 206,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setMuniSubstitution": {
+            "name": "setMuniSubstitution",
+            "line": 211,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "muniSubstitution": {
+                    "name": "muniSubstitution",
+                    "line": 211,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Model\\Wealthbot\\AdminBundle\\Entity\\SecurityAssignment",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\SecurityAssignment",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getMuniSubstitution": {
+            "name": "getMuniSubstitution",
+            "line": 218,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTaxLossHarvestingId": {
+            "name": "setTaxLossHarvestingId",
+            "line": 223,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "taxLossHarvestingId": {
+                    "name": "taxLossHarvestingId",
+                    "line": 223,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTaxLossHarvestingId": {
+            "name": "getTaxLossHarvestingId",
+            "line": 230,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTaxLossHarvesting": {
+            "name": "setTaxLossHarvesting",
+            "line": 235,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "taxLossHarvesting": {
+                    "name": "taxLossHarvesting",
+                    "line": 235,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Model\\Wealthbot\\AdminBundle\\Entity\\SecurityAssignment",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\SecurityAssignment",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTaxLossHarvesting": {
+            "name": "getTaxLossHarvesting",
+            "line": 242,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "toArray": {
+            "name": "toArray",
+            "line": 247,
+            "short_desc": "Return array of securityAssignment name and percent values",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCopy": {
+            "name": "getCopy",
+            "line": 255,
+            "short_desc": "Copy model entity\nreturns new model entity with exist model entity data",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\AdminBundle\\Model\\CeModelEntityInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

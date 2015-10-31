@@ -1,0 +1,25 @@
+{
+    "name": "Wealthbot\\RiaBundle\\WealthbotRiaBundle",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/WealthbotRiaBundle.php",
+    "relative_file": null,
+    "hash": "c0173f5cd52a1c101c2cabefc78f2b75e538627d",
+    "parent": "Symfony\\Component\\HttpKernel\\Bundle\\Bundle",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Bundle": "Symfony\\Component\\HttpKernel\\Bundle\\Bundle"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

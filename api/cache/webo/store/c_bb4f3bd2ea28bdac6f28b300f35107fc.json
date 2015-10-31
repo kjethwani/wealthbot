@@ -1,0 +1,30 @@
+{
+    "name": "Wealthbot\\RiaBundle\\RiaEvents",
+    "line": 13,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/RiaEvents.php",
+    "relative_file": null,
+    "hash": "6fb910baaad517c01e7260e378819c93729ee64c",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": {
+        "RIA_FLASH_MESSAGE": {
+            "name": "RIA_FLASH_MESSAGE",
+            "line": 15,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

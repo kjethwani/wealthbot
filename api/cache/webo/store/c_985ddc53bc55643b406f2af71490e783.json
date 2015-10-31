@@ -1,0 +1,129 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Model\\AccountGroup",
+    "line": 13,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Model\/AccountGroup.php",
+    "relative_file": null,
+    "hash": "6f827243df9f507afef550c630e2a245878b3a66",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "setName": {
+            "name": "setName",
+            "line": 38,
+            "short_desc": "Set name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\AccountGroup",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 38,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getName": {
+            "name": "getName",
+            "line": 56,
+            "short_desc": "Get name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getGroupChoices": {
+            "name": "getGroupChoices",
+            "line": 67,
+            "short_desc": "Get array ENUM values name column",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "GROUP_FINANCIAL_INSTITUTION": {
+            "name": "GROUP_FINANCIAL_INSTITUTION",
+            "line": 26,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "GROUP_DEPOSIT_MONEY": {
+            "name": "GROUP_DEPOSIT_MONEY",
+            "line": 27,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "GROUP_OLD_EMPLOYER_RETIREMENT": {
+            "name": "GROUP_OLD_EMPLOYER_RETIREMENT",
+            "line": 28,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "GROUP_EMPLOYER_RETIREMENT": {
+            "name": "GROUP_EMPLOYER_RETIREMENT",
+            "line": 29,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

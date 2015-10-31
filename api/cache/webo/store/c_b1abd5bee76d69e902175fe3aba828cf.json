@@ -1,0 +1,293 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Model\\PersonalInformation",
+    "line": 12,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Model\/PersonalInformation.php",
+    "relative_file": null,
+    "hash": "6e4cdd3853ee469be2f7eec84eb0d594f3048db5",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getIncomeSourceChoices": {
+            "name": "getIncomeSourceChoices",
+            "line": 46,
+            "short_desc": "Get array ENUM values income_source column",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIncomeSource": {
+            "name": "setIncomeSource",
+            "line": 71,
+            "short_desc": "Set income_source",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\PersonalInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "incomeSource": {
+                    "name": "incomeSource",
+                    "line": 71,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIncomeSource": {
+            "name": "getIncomeSource",
+            "line": 89,
+            "short_desc": "Get income_source",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBrokerSecurityExchangeComplianceLetter": {
+            "name": "setBrokerSecurityExchangeComplianceLetter",
+            "line": 100,
+            "short_desc": "Set broker_security_exchange_compliance_letter",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\PersonalInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "brokerSecurityExchangeComplianceLetter": {
+                    "name": "brokerSecurityExchangeComplianceLetter",
+                    "line": 100,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getBrokerSecurityExchangeComplianceLetter": {
+            "name": "getBrokerSecurityExchangeComplianceLetter",
+            "line": 112,
+            "short_desc": "Get broker_security_exchange_compliance_letter",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setComplianceLetterFile": {
+            "name": "setComplianceLetterFile",
+            "line": 117,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complianceLetterFile": {
+                    "name": "complianceLetterFile",
+                    "line": 117,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "INCOME_SOURCE_ALIMONY": {
+            "name": "INCOME_SOURCE_ALIMONY",
+            "line": 20,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INCOME_SOURCE_CONSULTING": {
+            "name": "INCOME_SOURCE_CONSULTING",
+            "line": 21,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INCOME_SOURCE_DISABILITY": {
+            "name": "INCOME_SOURCE_DISABILITY",
+            "line": 22,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INCOME_SOURCE_DIVIDENDS": {
+            "name": "INCOME_SOURCE_DIVIDENDS",
+            "line": 23,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INCOME_SOURCE_INHERITANCE": {
+            "name": "INCOME_SOURCE_INHERITANCE",
+            "line": 24,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INCOME_SOURCE_INTEREST": {
+            "name": "INCOME_SOURCE_INTEREST",
+            "line": 25,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INCOME_SOURCE_REAL_ESTATE": {
+            "name": "INCOME_SOURCE_REAL_ESTATE",
+            "line": 26,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INCOME_SOURCE_RENTAL": {
+            "name": "INCOME_SOURCE_RENTAL",
+            "line": 27,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INCOME_SOURCE_SALES": {
+            "name": "INCOME_SOURCE_SALES",
+            "line": 28,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INCOME_SOURCE_SECURITIES": {
+            "name": "INCOME_SOURCE_SECURITIES",
+            "line": 29,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INCOME_SOURCE_SETTLEMENT": {
+            "name": "INCOME_SOURCE_SETTLEMENT",
+            "line": 30,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INCOME_SOURCE_SEVERANCE": {
+            "name": "INCOME_SOURCE_SEVERANCE",
+            "line": 31,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INCOME_SOURCE_SPOUSE": {
+            "name": "INCOME_SOURCE_SPOUSE",
+            "line": 32,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INCOME_SOURCE_STIPEND": {
+            "name": "INCOME_SOURCE_STIPEND",
+            "line": 33,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INCOME_SOURCE_TEACHING": {
+            "name": "INCOME_SOURCE_TEACHING",
+            "line": 34,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INCOME_SOURCE_TRADING_AND_INVESTMENTS": {
+            "name": "INCOME_SOURCE_TRADING_AND_INVESTMENTS",
+            "line": 35,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INCOME_SOURCE_UNEMPLOYMENT_BENEFITS": {
+            "name": "INCOME_SOURCE_UNEMPLOYMENT_BENEFITS",
+            "line": 36,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

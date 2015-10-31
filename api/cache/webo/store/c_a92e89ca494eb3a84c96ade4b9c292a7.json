@@ -1,0 +1,25 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Form\\Handler\\ClientChangeProfileTransferPersonalFormHandler",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Form\/Handler\/ClientChangeProfileTransferPersonalFormHandler.php",
+    "relative_file": null,
+    "hash": "bf246775aa80a03ee89deb8814cec6ffc6ed48f4",
+    "parent": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AbstractFormHandler": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

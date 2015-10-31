@@ -1,0 +1,134 @@
+{
+    "name": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM\\LoadLotData",
+    "line": 15,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/FixturesBundle\/DataFixtures\/ORM\/LoadLotData.php",
+    "relative_file": null,
+    "hash": "1910fde548f43448587a04782a8f5e009fcb526c",
+    "parent": "Wealthbot\\FixturesBundle\\Model\\AbstractCsvFixture",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AbstractFixture": "Doctrine\\Common\\DataFixtures\\AbstractFixture",
+        "OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface",
+        "ObjectManager": "Doctrine\\Common\\Persistence\\ObjectManager",
+        "Transaction": "Wealthbot\\AdminBundle\\Entity\\Transaction",
+        "TransactionType": "Wealthbot\\AdminBundle\\Entity\\TransactionType",
+        "SecurityRepository": "Wealthbot\\AdminBundle\\Repository\\SecurityRepository",
+        "Lot": "Wealthbot\\ClientBundle\\Entity\\Lot",
+        "AbstractCsvFixture": "Wealthbot\\FixturesBundle\\Model\\AbstractCsvFixture"
+    },
+    "errors": [],
+    "interfaces": {
+        "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "findLot": {
+            "name": "findLot",
+            "line": 253,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "null",
+                    false
+                ],
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Lot",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "\"5\" @param tags are expected but only \"4\" found"
+            ],
+            "parameters": {
+                "date": {
+                    "name": "date",
+                    "line": 253,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\FixturesBundle\\DataFixtures\\ORM\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "DateTime",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "security": {
+                    "name": "security",
+                    "line": 253,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "account": {
+                    "name": "account",
+                    "line": 253,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "qty": {
+                    "name": "qty",
+                    "line": 253,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "type": {
+                    "name": "type",
+                    "line": 253,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "FINDLOT_MF": {
+            "name": "FINDLOT_MF",
+            "line": 243,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "FINDLOT_INITIAL": {
+            "name": "FINDLOT_INITIAL",
+            "line": 244,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

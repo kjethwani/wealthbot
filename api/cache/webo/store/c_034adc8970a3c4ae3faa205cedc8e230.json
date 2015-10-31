@@ -1,0 +1,65 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Controller\\CategoriesController",
+    "line": 21,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Controller",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Controller\/CategoriesController.php",
+    "relative_file": null,
+    "hash": "a34e03a75cd5e197383f107f7894f1a2dbce7944",
+    "parent": "Wealthbot\\AdminBundle\\Controller\\CategoriesController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "EntityManager": "Doctrine\\ORM\\EntityManager",
+        "CategoriesFormHandler": "Wealthbot\\AdminBundle\\Form\\Handler\\CategoriesFormHandler",
+        "AssetClassRepository": "Wealthbot\\AdminBundle\\Repository\\AssetClassRepository",
+        "RiaCompanyInformation": "Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+        "BaseController": "Wealthbot\\AdminBundle\\Controller\\CategoriesController",
+        "Request": "Symfony\\Component\\HttpFoundation\\Request",
+        "AssetCollection": "Wealthbot\\AdminBundle\\Collection\\AssetCollection",
+        "CategoriesFormType": "Wealthbot\\AdminBundle\\Form\\Type\\CategoriesFormType",
+        "User": "Wealthbot\\UserBundle\\Entity\\User"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "indexAction": {
+            "name": "indexAction",
+            "line": 23,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 23,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

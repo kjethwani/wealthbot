@@ -1,0 +1,99 @@
+{
+    "name": "Wealthbot\\AdminBundle\\PasInterfaces\\SecuritiesData",
+    "line": 10,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\PasInterfaces",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/PasInterfaces\/SecuritiesData.php",
+    "relative_file": null,
+    "hash": "1c5e23c8ee98d8d0772aa0b49f1ff2e3acb57439",
+    "parent": "Wealthbot\\AdminBundle\\PasInterfaces\\BaseData",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "DocumentManager": "Doctrine\\ODM\\MongoDB\\DocumentManager",
+        "EntityManager": "Doctrine\\ORM\\EntityManager",
+        "Security": "Wealthbot\\AdminBundle\\Document\\Security"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "load": {
+            "name": "load",
+            "line": 21,
+            "short_desc": "Implement loading data for pas-admin",
+            "long_desc": "Use services with tag wealthbot_admin.pas_files_loader",
+            "hint": [
+                [
+                    "Array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "date": {
+                    "name": "date",
+                    "line": 21,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\PasInterfaces\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "DateTime",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "page": {
+                    "name": "page",
+                    "line": 21,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "0",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFileType": {
+            "name": "getFileType",
+            "line": 49,
+            "short_desc": "Method must return FileType, for example \"POS\"",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

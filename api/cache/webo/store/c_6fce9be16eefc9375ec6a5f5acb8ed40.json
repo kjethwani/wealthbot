@@ -1,0 +1,71 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Tests\\Docusign\\TransferInformationConsolidatorConditionTest",
+    "line": 18,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Tests\\Docusign",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Tests\/Docusign\/TransferInformationConsolidatorConditionTest.php",
+    "relative_file": null,
+    "hash": "28682d79213a91f452df065840f6b123dd0c6f2d",
+    "parent": "PHPUnit_Framework_TestCase",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "SystemAccount": "Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+        "TransferInformationConsolidatorCondition": "Wealthbot\\ClientBundle\\Docusign\\TransferInformationConsolidatorCondition",
+        "ClientAccount": "Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+        "ClientAccountOwner": "Wealthbot\\ClientBundle\\Entity\\ClientAccountOwner"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "setUp": {
+            "name": "setUp",
+            "line": 27,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "testDocusignNotAllowed": {
+            "name": "testDocusignNotAllowed",
+            "line": 52,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "testDocusignAllowed": {
+            "name": "testDocusignAllowed",
+            "line": 74,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

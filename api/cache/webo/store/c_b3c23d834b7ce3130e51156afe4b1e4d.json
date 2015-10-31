@@ -1,0 +1,168 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Form\\Handler\\CloseAccountsFormHandler",
+    "line": 23,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Form\/Handler\/CloseAccountsFormHandler.php",
+    "relative_file": null,
+    "hash": "7b070174e28666f6698cc597ead0232ece578f9c",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "EntityManager": "Doctrine\\ORM\\EntityManager",
+        "ClosingAccountHistory": "Wealthbot\\ClientBundle\\Entity\\ClosingAccountHistory",
+        "SystemAccount": "Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+        "TwigSwiftMailer": "Wealthbot\\MailerBundle\\Mailer\\TwigSwiftMailer",
+        "SystemAccountRepository": "Wealthbot\\ClientBundle\\Repository\\SystemAccountRepository",
+        "NotValidException": "Symfony\\Component\\Form\\Exception\\NotValidException",
+        "Form": "Symfony\\Component\\Form\\Form",
+        "Request": "Symfony\\Component\\HttpFoundation\\Request",
+        "User": "Wealthbot\\UserBundle\\Entity\\User"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 36,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "form": {
+                    "name": "form",
+                    "line": 36,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Form\\Handler\\Symfony\\Component\\Form\\Form",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Form\\Form",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "request": {
+                    "name": "request",
+                    "line": 36,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Form\\Handler\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "em": {
+                    "name": "em",
+                    "line": 36,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Form\\Handler\\Doctrine\\ORM\\EntityManager",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Doctrine\\ORM\\EntityManager",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "mailer": {
+                    "name": "mailer",
+                    "line": 36,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Form\\Handler\\Wealthbot\\MailerBundle\\Mailer\\TwigSwiftMailer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\MailerBundle\\Mailer\\TwigSwiftMailer",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "process": {
+            "name": "process",
+            "line": 54,
+            "short_desc": "Submit form process",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\Symfony\\Component\\Form\\Exception\\NotValidException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "client": {
+                    "name": "client",
+                    "line": 54,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Form\\Handler\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSavedObjects": {
+            "name": "getSavedObjects",
+            "line": 111,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

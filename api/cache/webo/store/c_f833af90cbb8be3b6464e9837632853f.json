@@ -1,0 +1,26 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Docusign\\TransferInformationQuestionnaireCondition",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Docusign",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Docusign\/TransferInformationQuestionnaireCondition.php",
+    "relative_file": null,
+    "hash": "71e8862be1f1e12d6f681d43bf5e9237c10ef0d0",
+    "parent": "Wealthbot\\ClientBundle\\Docusign\\AbstractTransferInformationCondition",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "TransferCustodianQuestionAnswer": "Wealthbot\\ClientBundle\\Entity\\TransferCustodianQuestionAnswer",
+        "TransferInformation": "Wealthbot\\ClientBundle\\Entity\\TransferInformation"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

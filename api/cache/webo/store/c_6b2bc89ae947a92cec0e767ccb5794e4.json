@@ -1,0 +1,59 @@
+{
+    "name": "Wealthbot\\AdminBundle\\WealthbotAdminBundle",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/WealthbotAdminBundle.php",
+    "relative_file": null,
+    "hash": "66bf8e0615ecdaceb2d83b8d8542e42f79235178",
+    "parent": "Symfony\\Component\\HttpKernel\\Bundle\\Bundle",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "PasInterfacesLoadersPass": "Wealthbot\\AdminBundle\\DependencyInjection\\PasInterfacesLoadersPass",
+        "ContainerBuilder": "Symfony\\Component\\DependencyInjection\\ContainerBuilder",
+        "Bundle": "Symfony\\Component\\HttpKernel\\Bundle\\Bundle"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "build": {
+            "name": "build",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "container": {
+                    "name": "container",
+                    "line": 11,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Symfony\\Component\\DependencyInjection\\ContainerBuilder",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\DependencyInjection\\ContainerBuilder",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

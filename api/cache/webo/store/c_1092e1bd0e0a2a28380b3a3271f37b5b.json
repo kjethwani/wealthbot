@@ -1,0 +1,513 @@
+{
+    "name": "Wealthbot\\SignatureBundle\\Model\\Recipient",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\SignatureBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/SignatureBundle\/Model\/Recipient.php",
+    "relative_file": null,
+    "hash": "093de89ba0807da05cc69b43ef5567504fa4b28c",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "InvalidRecipientTypeException": "Wealthbot\\SignatureBundle\\Exception\\InvalidRecipientTypeException",
+        "AbstractTab": "Wealthbot\\SignatureBundle\\Model\\Tab\\AbstractTab"
+    },
+    "errors": [],
+    "interfaces": {
+        "Wealthbot\\SignatureBundle\\Model\\RecipientInterface": "Wealthbot\\SignatureBundle\\Model\\RecipientInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 58,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setEmail": {
+            "name": "setEmail",
+            "line": 69,
+            "short_desc": "Set recipient email",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ],
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "email": {
+                    "name": "email",
+                    "line": 69,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getEmail": {
+            "name": "getEmail",
+            "line": 80,
+            "short_desc": "Get recipient email",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setName": {
+            "name": "setName",
+            "line": 91,
+            "short_desc": "Set recipient name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 91,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getName": {
+            "name": "getName",
+            "line": 101,
+            "short_desc": "Get recipient name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRoleName": {
+            "name": "setRoleName",
+            "line": 112,
+            "short_desc": "Set recipient role name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "roleName": {
+                    "name": "roleName",
+                    "line": 112,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRoleName": {
+            "name": "getRoleName",
+            "line": 122,
+            "short_desc": "Get recipient role name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setClientUserId": {
+            "name": "setClientUserId",
+            "line": 133,
+            "short_desc": "Set recipient client user id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientUserId": {
+                    "name": "clientUserId",
+                    "line": 133,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClientUserId": {
+            "name": "getClientUserId",
+            "line": 143,
+            "short_desc": "Get recipient client user id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getTypeChoices": {
+            "name": "getTypeChoices",
+            "line": 153,
+            "short_desc": "Get type choices for recipients",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setType": {
+            "name": "setType",
+            "line": 178,
+            "short_desc": "Set recipient type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ],
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Exception\\InvalidRecipientTypeException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "type": {
+                    "name": "type",
+                    "line": 178,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getType": {
+            "name": "getType",
+            "line": 192,
+            "short_desc": "Get recipient type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTabs": {
+            "name": "setTabs",
+            "line": 200,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "tabs": {
+                    "name": "tabs",
+                    "line": 200,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Model\\Wealthbot\\SignatureBundle\\Model\\TabCollection",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\SignatureBundle\\Model\\TabCollection",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "addTab": {
+            "name": "addTab",
+            "line": 205,
+            "short_desc": "Add tab element",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "tab": {
+                    "name": "tab",
+                    "line": 205,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Model\\Wealthbot\\SignatureBundle\\Model\\Tab\\AbstractTab",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\SignatureBundle\\Model\\Tab\\AbstractTab",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeTab": {
+            "name": "removeTab",
+            "line": 210,
+            "short_desc": "Remove tab element",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "tab": {
+                    "name": "tab",
+                    "line": 210,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Model\\Wealthbot\\SignatureBundle\\Model\\Tab\\AbstractTab",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\SignatureBundle\\Model\\Tab\\AbstractTab",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTabs": {
+            "name": "getTabs",
+            "line": 218,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Model\\TabCollection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "TYPE_SIGNER": {
+            "name": "TYPE_SIGNER",
+            "line": 48,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TYPE_AGENT": {
+            "name": "TYPE_AGENT",
+            "line": 49,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TYPE_EDITOR": {
+            "name": "TYPE_EDITOR",
+            "line": 50,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TYPE_CARBON_COPY": {
+            "name": "TYPE_CARBON_COPY",
+            "line": 51,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TYPE_CERTIFIED_DELIVERY": {
+            "name": "TYPE_CERTIFIED_DELIVERY",
+            "line": 52,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TYPE_IN_PERSON_SIGNER": {
+            "name": "TYPE_IN_PERSON_SIGNER",
+            "line": 53,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

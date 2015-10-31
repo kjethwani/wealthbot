@@ -1,0 +1,69 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Tests\\Docusign\\TransferInformationQuestionnaireConditionTest",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Tests\\Docusign",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Tests\/Docusign\/TransferInformationQuestionnaireConditionTest.php",
+    "relative_file": null,
+    "hash": "0c17bdd398b0f0ab2d8fb6f4f233fd86041f148f",
+    "parent": "PHPUnit_Framework_TestCase",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "TransferInformationQuestionnaireCondition": "Wealthbot\\ClientBundle\\Docusign\\TransferInformationQuestionnaireCondition",
+        "TransferInformation": "Wealthbot\\ClientBundle\\Entity\\TransferInformation"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "setUp": {
+            "name": "setUp",
+            "line": 21,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "testDocusignAllowed": {
+            "name": "testDocusignAllowed",
+            "line": 26,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "testDocusignNotAllowed": {
+            "name": "testDocusignNotAllowed",
+            "line": 44,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,117 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Form\\Type\\TypedClientAccountFormType",
+    "line": 21,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Form\\Type",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Form\/Type\/TypedClientAccountFormType.php",
+    "relative_file": null,
+    "hash": "38b2f8216abef496d6e970c1bbadb6fdd72db3a9",
+    "parent": "Wealthbot\\ClientBundle\\Form\\Type\\ClientAccountFormType",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "EntityManager": "Doctrine\\ORM\\EntityManager",
+        "EntityRepository": "Doctrine\\ORM\\EntityRepository",
+        "AccountGroup": "Wealthbot\\ClientBundle\\Entity\\AccountGroup",
+        "AccountGroupType": "Wealthbot\\ClientBundle\\Entity\\AccountGroupType",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "FormBuilderInterface": "Symfony\\Component\\Form\\FormBuilderInterface",
+        "NotBlank": "Symfony\\Component\\Validator\\Constraints\\NotBlank"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 26,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "em": {
+                    "name": "em",
+                    "line": 26,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Form\\Type\\Doctrine\\ORM\\EntityManager",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Doctrine\\ORM\\EntityManager",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "client": {
+                    "name": "client",
+                    "line": 26,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Form\\Type\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "groupType": {
+                    "name": "groupType",
+                    "line": 26,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Form\\Type\\Wealthbot\\ClientBundle\\Entity\\AccountGroupType",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\AccountGroupType",
+                    "default": "null",
+                    "is_by_ref": false
+                },
+                "group": {
+                    "name": "group",
+                    "line": 26,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "AccountGroup::GROUP_EMPLOYER_RETIREMENT",
+                    "is_by_ref": false
+                },
+                "validateAdditionalFields": {
+                    "name": "validateAdditionalFields",
+                    "line": 26,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "true",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

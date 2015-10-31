@@ -1,0 +1,145 @@
+{
+    "name": "Wealthbot\\UserBundle\\Form\\Handler\\RiaRegistrationFormHandler",
+    "line": 24,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\UserBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/UserBundle\/Form\/Handler\/RiaRegistrationFormHandler.php",
+    "relative_file": null,
+    "hash": "30b280fb2e79d6d4dfa5137d029da8f59e10a1fa",
+    "parent": "FOS\\UserBundle\\Form\\Handler\\RegistrationFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "RegistrationFormHandler": "FOS\\UserBundle\\Form\\Handler\\RegistrationFormHandler",
+        "UserInterface": "FOS\\UserBundle\\Model\\UserInterface",
+        "UserManagerInterface": "FOS\\UserBundle\\Model\\UserManagerInterface",
+        "FeeManager": "Wealthbot\\AdminBundle\\Manager\\FeeManager",
+        "RiaCompanyInformation": "Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+        "FormInterface": "Symfony\\Component\\Form\\FormInterface",
+        "Request": "Symfony\\Component\\HttpFoundation\\Request",
+        "MailerInterface": "FOS\\UserBundle\\Mailer\\MailerInterface",
+        "TokenGeneratorInterface": "FOS\\UserBundle\\Util\\TokenGeneratorInterface"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 28,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "form": {
+                    "name": "form",
+                    "line": 28,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Form\\Handler\\Symfony\\Component\\Form\\FormInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Form\\FormInterface",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "request": {
+                    "name": "request",
+                    "line": 29,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Form\\Handler\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "userManager": {
+                    "name": "userManager",
+                    "line": 30,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Form\\Handler\\FOS\\UserBundle\\Model\\UserManagerInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "FOS\\UserBundle\\Model\\UserManagerInterface",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "mailer": {
+                    "name": "mailer",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Form\\Handler\\FOS\\UserBundle\\Mailer\\MailerInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "FOS\\UserBundle\\Mailer\\MailerInterface",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "tokenGenerator": {
+                    "name": "tokenGenerator",
+                    "line": 32,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Form\\Handler\\FOS\\UserBundle\\Util\\TokenGeneratorInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "FOS\\UserBundle\\Util\\TokenGeneratorInterface",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "feeManager": {
+                    "name": "feeManager",
+                    "line": 33,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Form\\Handler\\Wealthbot\\AdminBundle\\Manager\\FeeManager",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Manager\\FeeManager",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

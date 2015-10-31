@@ -1,0 +1,25 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Docusign\\TransferInformationConsolidatorCondition",
+    "line": 15,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Docusign",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Docusign\/TransferInformationConsolidatorCondition.php",
+    "relative_file": null,
+    "hash": "c55614197ff6f175393c65d2265b1bab8e9c68fd",
+    "parent": "Wealthbot\\ClientBundle\\Docusign\\AbstractTransferInformationCondition",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "TransferInformation": "Wealthbot\\ClientBundle\\Entity\\TransferInformation"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

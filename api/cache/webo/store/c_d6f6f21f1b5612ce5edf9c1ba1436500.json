@@ -1,0 +1,156 @@
+{
+    "name": "Wealthbot\\AdminBundle\\PasInterfaces\\DataInterface",
+    "line": 6,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\PasInterfaces",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/PasInterfaces\/DataInterface.php",
+    "relative_file": null,
+    "hash": "3e914791b58484528731882710ae0ba00aa67881",
+    "parent": null,
+    "modifiers": "Stmt_Interface",
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "load": {
+            "name": "load",
+            "line": 28,
+            "short_desc": "Implement loading data for pas-admin",
+            "long_desc": "Use services with tag wealthbot_admin.pas_files_loader",
+            "hint": [
+                [
+                    "Array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "date": {
+                    "name": "date",
+                    "line": 28,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\PasInterfaces\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "DateTime",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "page": {
+                    "name": "page",
+                    "line": 28,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFileType": {
+            "name": "getFileType",
+            "line": 35,
+            "short_desc": "Method must return FileType, for example \"POS\"",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "DATA_TYPE_ALL_FILES": {
+            "name": "DATA_TYPE_ALL_FILES",
+            "line": 8,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "DATA_TYPE_SECURITIES": {
+            "name": "DATA_TYPE_SECURITIES",
+            "line": 9,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "DATA_TYPE_PRICES": {
+            "name": "DATA_TYPE_PRICES",
+            "line": 10,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "DATA_TYPE_ACCOUNTS": {
+            "name": "DATA_TYPE_ACCOUNTS",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "DATA_TYPE_POSITIONS": {
+            "name": "DATA_TYPE_POSITIONS",
+            "line": 12,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "DATA_TYPE_TRANSACTIONS": {
+            "name": "DATA_TYPE_TRANSACTIONS",
+            "line": 13,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "DATA_TYPE_UNREALIZED_GAINS": {
+            "name": "DATA_TYPE_UNREALIZED_GAINS",
+            "line": 14,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "DATA_TYPE_REALIZED_GAINS": {
+            "name": "DATA_TYPE_REALIZED_GAINS",
+            "line": 15,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "DATA_TYPE_TRADE_RECON": {
+            "name": "DATA_TYPE_TRADE_RECON",
+            "line": 16,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "DATA_TYPE_FEE_RECON": {
+            "name": "DATA_TYPE_FEE_RECON",
+            "line": 17,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

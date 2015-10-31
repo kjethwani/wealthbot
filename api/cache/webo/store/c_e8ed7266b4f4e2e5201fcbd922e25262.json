@@ -1,0 +1,82 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Repository\\AccountOutsideFundRepository",
+    "line": 15,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "deprecated": [
+            [
+                "AccountOutsideFundRepository\n\nThis",
+                "class",
+                "was",
+                "generated",
+                "by",
+                "the",
+                "Doctrine",
+                "ORM.",
+                "Add",
+                "your",
+                "own",
+                "custom\nrepository",
+                "methods",
+                "below."
+            ]
+        ]
+    },
+    "namespace": "Wealthbot\\ClientBundle\\Repository",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Repository\/AccountOutsideFundRepository.php",
+    "relative_file": null,
+    "hash": "2dbd07d3fc34075cf24c95a58e622bc326a17aa4",
+    "parent": "Doctrine\\ORM\\EntityRepository",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "EntityRepository": "Doctrine\\ORM\\EntityRepository"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "findOneBySecurityIdAndAccountId": {
+            "name": "findOneBySecurityIdAndAccountId",
+            "line": 17,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "securityId": {
+                    "name": "securityId",
+                    "line": 17,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "accountId": {
+                    "name": "accountId",
+                    "line": 17,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

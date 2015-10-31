@@ -1,0 +1,45 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Model\\PaymentActivityInterface",
+    "line": 12,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Model\/PaymentActivityInterface.php",
+    "relative_file": null,
+    "hash": "c560525ad445e6d26fae72abc33f920ca0d902aa",
+    "parent": null,
+    "modifiers": "Stmt_Interface",
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [],
+    "errors": [],
+    "interfaces": {
+        "Wealthbot\\ClientBundle\\Model\\ActivityInterface": "Wealthbot\\ClientBundle\\Model\\ActivityInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getActivityAmount": {
+            "name": "getActivityAmount",
+            "line": 19,
+            "short_desc": "Get activity amount",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

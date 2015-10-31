@@ -1,0 +1,154 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Form\\Factory\\DistributionFormFactory",
+    "line": 23,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Form\\Factory",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Form\/Factory\/DistributionFormFactory.php",
+    "relative_file": null,
+    "hash": "243f4183b1e5a16a88f2ac6dffabf83b712aba40",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Distribution": "Wealthbot\\ClientBundle\\Entity\\Distribution",
+        "SystemAccount": "Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+        "ScheduledDistributionFormEventSubscriber": "Wealthbot\\ClientBundle\\Form\\EventListener\\ScheduledDistributionFormEventSubscriber",
+        "OneTimeDistributionFormEventSubscriber": "Wealthbot\\ClientBundle\\Form\\EventListener\\OneTimeDistributionFormEventSubscriber",
+        "ScheduledDistributionFormType": "Wealthbot\\ClientBundle\\Form\\Type\\ScheduledDistributionFormType",
+        "OneTimeDistributionFormType": "Wealthbot\\ClientBundle\\Form\\Type\\OneTimeDistributionFormType",
+        "ScheduledDistributionFormValidator": "Wealthbot\\ClientBundle\\Form\\Validator\\ScheduledDistributionFormValidator",
+        "DistributionManager": "Wealthbot\\ClientBundle\\Manager\\DistributionManager",
+        "FormFactoryInterface": "Symfony\\Component\\Form\\FormFactoryInterface"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 32,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "factory": {
+                    "name": "factory",
+                    "line": 32,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Form\\Factory\\Symfony\\Component\\Form\\FormFactoryInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Form\\FormFactoryInterface",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "manager": {
+                    "name": "manager",
+                    "line": 32,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Form\\Factory\\Wealthbot\\ClientBundle\\Manager\\DistributionManager",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Manager\\DistributionManager",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "create": {
+            "name": "create",
+            "line": 47,
+            "short_desc": "Create distribution form",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Symfony\\Component\\Form\\FormInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "type": {
+                    "name": "type",
+                    "line": 47,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "account": {
+                    "name": "account",
+                    "line": 47,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Form\\Factory\\Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "options": {
+                    "name": "options",
+                    "line": 47,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,77 @@
+{
+    "name": "Wealthbot\\AdminBundle\\Validator\\Validator",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\Validator",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/Validator\/Validator.php",
+    "relative_file": null,
+    "hash": "099eba9cd08c236f2d10b00bc93c52dadb2a79c7",
+    "parent": "Symfony\\Component\\Validator\\Validator",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "baseValidator": "Symfony\\Component\\Validator\\Validator"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "validateForJson": {
+            "name": "validateForJson",
+            "line": 19,
+            "short_desc": "This method using to display errors for JSON responses. All constraint errors collecting to array like:\n[fieldName]      => \"Message one\",\n[anotherField]   => \"Message two\"",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "object": {
+                    "name": "object",
+                    "line": 19,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "groups": {
+                    "name": "groups",
+                    "line": 19,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "null",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Validator\\Constraint\\CurrentPassword",
+    "line": 19,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "Annotation": [
+            [
+                ""
+            ]
+        ]
+    },
+    "namespace": "Wealthbot\\RiaBundle\\Validator\\Constraint",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Validator\/Constraint\/CurrentPassword.php",
+    "relative_file": null,
+    "hash": "b84a771ea109cf58e420dedf1e6dc205e064e29c",
+    "parent": "Symfony\\Component\\Validator\\Constraint",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Constraint": "Symfony\\Component\\Validator\\Constraint"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "message": {
+            "name": "message",
+            "line": 21,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "value": "This value should be the user current password."
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "validatedBy": {
+            "name": "validatedBy",
+            "line": 23,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

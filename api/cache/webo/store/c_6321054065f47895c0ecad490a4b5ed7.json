@@ -1,0 +1,47 @@
+{
+    "name": "Wealthbot\\FixturesBundle\\Command\\LoadDataFixturesDoctrineCommand",
+    "line": 21,
+    "short_desc": "Load data fixtures from bundles.",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "author": [
+            [
+                "Fabien",
+                "Potencier",
+                "<fabien@symfony.com>"
+            ],
+            [
+                "Jonathan",
+                "H.",
+                "Wage",
+                "<jonwage@gmail.com>"
+            ]
+        ]
+    },
+    "namespace": "Wealthbot\\FixturesBundle\\Command",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/FixturesBundle\/Command\/LoadDataFixturesDoctrineCommand.php",
+    "relative_file": null,
+    "hash": "2a1ab471c26aaecd166d7d46de9fb84031cee4a0",
+    "parent": "Doctrine\\Bundle\\DoctrineBundle\\Command\\DoctrineCommand",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "DataFixturesLoader": "Wealthbot\\FixturesBundle\\DataFixtures\\DataFixturesLoader",
+        "InputOption": "Symfony\\Component\\Console\\Input\\InputOption",
+        "InputInterface": "Symfony\\Component\\Console\\Input\\InputInterface",
+        "OutputInterface": "Symfony\\Component\\Console\\Output\\OutputInterface",
+        "Output": "Symfony\\Component\\Console\\Output\\Output",
+        "DoctrineCommand": "Doctrine\\Bundle\\DoctrineBundle\\Command\\DoctrineCommand",
+        "ORMExecutor": "Doctrine\\Common\\DataFixtures\\Executor\\ORMExecutor",
+        "ORMPurger": "Doctrine\\Common\\DataFixtures\\Purger\\ORMPurger",
+        "InvalidArgumentException": "InvalidArgumentException"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

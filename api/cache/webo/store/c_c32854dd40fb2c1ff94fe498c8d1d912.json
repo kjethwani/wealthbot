@@ -1,0 +1,1374 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Entity\\Distribution",
+    "line": 13,
+    "short_desc": "Distribution",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Entity",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Entity\/Distribution.php",
+    "relative_file": null,
+    "hash": "4839454485602b45cd7aee1bc249b7b4ef992610",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ORM": "Doctrine\\ORM\\Mapping",
+        "PaymentWorkflowableInterface": "Wealthbot\\ClientBundle\\Model\\PaymentWorkflowableInterface",
+        "DocumentSignature": "Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+        "SignableInterface": "Wealthbot\\SignatureBundle\\Model\\SignableInterface"
+    },
+    "errors": [],
+    "interfaces": {
+        "Wealthbot\\SignatureBundle\\Model\\SignableInterface": "Wealthbot\\SignatureBundle\\Model\\SignableInterface",
+        "Wealthbot\\ClientBundle\\Model\\PaymentWorkflowableInterface": "Wealthbot\\ClientBundle\\Model\\PaymentWorkflowableInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getId": {
+            "name": "getId",
+            "line": 165,
+            "short_desc": "Get id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getTypeChoices": {
+            "name": "getTypeChoices",
+            "line": 170,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setType": {
+            "name": "setType",
+            "line": 182,
+            "short_desc": "Set type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "type": {
+                    "name": "type",
+                    "line": 182,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getType": {
+            "name": "getType",
+            "line": 198,
+            "short_desc": "Get type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isScheduled": {
+            "name": "isScheduled",
+            "line": 208,
+            "short_desc": "Is scheduled distribution",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isOneTime": {
+            "name": "isOneTime",
+            "line": 218,
+            "short_desc": "Is one-time distribution",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getTransferMethodChoices": {
+            "name": "getTransferMethodChoices",
+            "line": 228,
+            "short_desc": "Get transfer method choices",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTransferMethod": {
+            "name": "setTransferMethod",
+            "line": 252,
+            "short_desc": "Set transferMethod",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "transferMethod": {
+                    "name": "transferMethod",
+                    "line": 252,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTransferMethod": {
+            "name": "getTransferMethod",
+            "line": 268,
+            "short_desc": "Get transferMethod",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAmount": {
+            "name": "setAmount",
+            "line": 279,
+            "short_desc": "Set amount",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "amount": {
+                    "name": "amount",
+                    "line": 279,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAmount": {
+            "name": "getAmount",
+            "line": 291,
+            "short_desc": "Get amount",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTransferDate": {
+            "name": "setTransferDate",
+            "line": 302,
+            "short_desc": "Set transferDate",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "transferDate": {
+                    "name": "transferDate",
+                    "line": 302,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTransferDate": {
+            "name": "getTransferDate",
+            "line": 314,
+            "short_desc": "Get transferDate",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getFrequencyChoices": {
+            "name": "getFrequencyChoices",
+            "line": 324,
+            "short_desc": "Get frequency choices",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFrequency": {
+            "name": "setFrequency",
+            "line": 336,
+            "short_desc": "Set frequency",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "frequency": {
+                    "name": "frequency",
+                    "line": 336,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFrequency": {
+            "name": "getFrequency",
+            "line": 352,
+            "short_desc": "Get frequency",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCreatedAt": {
+            "name": "setCreatedAt",
+            "line": 363,
+            "short_desc": "Set createdAt",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "createdAt": {
+                    "name": "createdAt",
+                    "line": 363,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCreatedAt": {
+            "name": "getCreatedAt",
+            "line": 375,
+            "short_desc": "Get createdAt",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setUpdatedAt": {
+            "name": "setUpdatedAt",
+            "line": 386,
+            "short_desc": "Set updatedAt",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "updatedAt": {
+                    "name": "updatedAt",
+                    "line": 386,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getUpdatedAt": {
+            "name": "getUpdatedAt",
+            "line": 398,
+            "short_desc": "Get updatedAt",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSystemClientAccount": {
+            "name": "setSystemClientAccount",
+            "line": 409,
+            "short_desc": "Set systemClientAccount",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "systemClientAccount": {
+                    "name": "systemClientAccount",
+                    "line": 409,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSystemClientAccount": {
+            "name": "getSystemClientAccount",
+            "line": 421,
+            "short_desc": "Get systemClientAccount",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBankInformation": {
+            "name": "setBankInformation",
+            "line": 432,
+            "short_desc": "Set bankInformation",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "bankInformation": {
+                    "name": "bankInformation",
+                    "line": 432,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\BankInformation",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\BankInformation",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getBankInformation": {
+            "name": "getBankInformation",
+            "line": 444,
+            "short_desc": "Get bankInformation",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\BankInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getDistributionMethodChoices": {
+            "name": "getDistributionMethodChoices",
+            "line": 454,
+            "short_desc": "Get distribution_method choices",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setDistributionMethod": {
+            "name": "setDistributionMethod",
+            "line": 466,
+            "short_desc": "Set distributionMethod",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "distributionMethod": {
+                    "name": "distributionMethod",
+                    "line": 466,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getDistributionMethod": {
+            "name": "getDistributionMethod",
+            "line": 487,
+            "short_desc": "Get distributionMethod",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getDistributionMethodAsString": {
+            "name": "getDistributionMethodAsString",
+            "line": 497,
+            "short_desc": "Get distribution_method as string",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getFederalWithholdingChoices": {
+            "name": "getFederalWithholdingChoices",
+            "line": 511,
+            "short_desc": "Get federal_withholding choices",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFederalWithholding": {
+            "name": "setFederalWithholding",
+            "line": 523,
+            "short_desc": "Set federalWithholding",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "federalWithholding": {
+                    "name": "federalWithholding",
+                    "line": 523,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFederalWithholding": {
+            "name": "getFederalWithholding",
+            "line": 544,
+            "short_desc": "Get federalWithholding",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFederalWithholdMoney": {
+            "name": "setFederalWithholdMoney",
+            "line": 555,
+            "short_desc": "Set federalWithholdMoney",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "federalWithholdMoney": {
+                    "name": "federalWithholdMoney",
+                    "line": 555,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFederalWithholdMoney": {
+            "name": "getFederalWithholdMoney",
+            "line": 567,
+            "short_desc": "Get federalWithholdMoney",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFederalWithholdPercent": {
+            "name": "setFederalWithholdPercent",
+            "line": 578,
+            "short_desc": "Set federalWithholdPercent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "federalWithholdPercent": {
+                    "name": "federalWithholdPercent",
+                    "line": 578,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFederalWithholdPercent": {
+            "name": "getFederalWithholdPercent",
+            "line": 590,
+            "short_desc": "Get federalWithholdPercent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getStateWithholdingChoices": {
+            "name": "getStateWithholdingChoices",
+            "line": 600,
+            "short_desc": "Get state_withholding choices",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStateWithholding": {
+            "name": "setStateWithholding",
+            "line": 612,
+            "short_desc": "Set stateWithholding",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "stateWithholding": {
+                    "name": "stateWithholding",
+                    "line": 612,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getStateWithholding": {
+            "name": "getStateWithholding",
+            "line": 633,
+            "short_desc": "Get stateWithholding",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStateWithholdMoney": {
+            "name": "setStateWithholdMoney",
+            "line": 644,
+            "short_desc": "Set stateWithholdMoney",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "stateWithholdMoney": {
+                    "name": "stateWithholdMoney",
+                    "line": 644,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getStateWithholdMoney": {
+            "name": "getStateWithholdMoney",
+            "line": 656,
+            "short_desc": "Get stateWithholdMoney",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStateWithholdPercent": {
+            "name": "setStateWithholdPercent",
+            "line": 667,
+            "short_desc": "Set stateWithholdPercent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "stateWithholdPercent": {
+                    "name": "stateWithholdPercent",
+                    "line": 667,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getStateWithholdPercent": {
+            "name": "getStateWithholdPercent",
+            "line": 679,
+            "short_desc": "Get stateWithholdPercent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setResidenceState": {
+            "name": "setResidenceState",
+            "line": 690,
+            "short_desc": "Set residenceState",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\Distribution",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "residenceState": {
+                    "name": "residenceState",
+                    "line": 690,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Entity\\Wealthbot\\AdminBundle\\Entity\\State",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\State",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getResidenceState": {
+            "name": "getResidenceState",
+            "line": 702,
+            "short_desc": "Get residenceState",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\AdminBundle\\Entity\\State",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getClientAccount": {
+            "name": "getClientAccount",
+            "line": 712,
+            "short_desc": "Get client account object",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\ClientAccount",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getSourceObjectId": {
+            "name": "getSourceObjectId",
+            "line": 722,
+            "short_desc": "Get id of source object",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getDocumentSignatureType": {
+            "name": "getDocumentSignatureType",
+            "line": 732,
+            "short_desc": "Get type of document signature",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getWorkflowMessageCode": {
+            "name": "getWorkflowMessageCode",
+            "line": 748,
+            "short_desc": "Get workflow message code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getWorkflowAmount": {
+            "name": "getWorkflowAmount",
+            "line": 758,
+            "short_desc": "Get workflow amount",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "TYPE_SCHEDULED": {
+            "name": "TYPE_SCHEDULED",
+            "line": 25,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TYPE_ONE_TIME": {
+            "name": "TYPE_ONE_TIME",
+            "line": 26,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TRANSFER_METHOD_RECEIVE_CHECK": {
+            "name": "TRANSFER_METHOD_RECEIVE_CHECK",
+            "line": 38,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TRANSFER_METHOD_WIRE_TRANSFER": {
+            "name": "TRANSFER_METHOD_WIRE_TRANSFER",
+            "line": 39,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TRANSFER_METHOD_BANK_TRANSFER": {
+            "name": "TRANSFER_METHOD_BANK_TRANSFER",
+            "line": 40,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TRANSFER_METHOD_NOT_FUNDING": {
+            "name": "TRANSFER_METHOD_NOT_FUNDING",
+            "line": 41,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "FREQUENCY_EVERY_OTHER_WEEK": {
+            "name": "FREQUENCY_EVERY_OTHER_WEEK",
+            "line": 61,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "FREQUENCY_MONTHLY": {
+            "name": "FREQUENCY_MONTHLY",
+            "line": 62,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "FREQUENCY_QUARTERLY": {
+            "name": "FREQUENCY_QUARTERLY",
+            "line": 63,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "DISTRIBUTION_METHOD_NORMAL": {
+            "name": "DISTRIBUTION_METHOD_NORMAL",
+            "line": 97,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "DISTRIBUTION_METHOD_PREMATURE": {
+            "name": "DISTRIBUTION_METHOD_PREMATURE",
+            "line": 98,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "FEDERAL_WITHHOLDING_TAXES": {
+            "name": "FEDERAL_WITHHOLDING_TAXES",
+            "line": 111,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "FEDERAL_WITHHOLDING_NO": {
+            "name": "FEDERAL_WITHHOLDING_NO",
+            "line": 112,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATE_WITHHOLDING_TAXES": {
+            "name": "STATE_WITHHOLDING_TAXES",
+            "line": 134,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATE_WITHHOLDING_RESIDENCE_STATE": {
+            "name": "STATE_WITHHOLDING_RESIDENCE_STATE",
+            "line": 135,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATE_WITHHOLDING_NO": {
+            "name": "STATE_WITHHOLDING_NO",
+            "line": 136,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

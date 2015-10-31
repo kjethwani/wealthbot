@@ -1,0 +1,79 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Service\\DoctrineSubscriber",
+    "line": 15,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Service",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Service\/DoctrineSubscriber.php",
+    "relative_file": null,
+    "hash": "4098250a52efa603a454b1e786ce24092039eef2",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "EventSubscriber": "Doctrine\\Common\\EventSubscriber",
+        "LifecycleEventArgs": "Doctrine\\ORM\\Event\\LifecycleEventArgs",
+        "OnFlushEventArgs": "Doctrine\\ORM\\Event\\OnFlushEventArgs",
+        "PostFlushEventArgs": "Doctrine\\ORM\\Event\\PostFlushEventArgs",
+        "BillingSpec": "Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+        "SecurityContext": "Symfony\\Component\\Security\\Core\\SecurityContext",
+        "Events": "Doctrine\\ORM\\Events"
+    },
+    "errors": [],
+    "interfaces": {
+        "Doctrine\\Common\\EventSubscriber": "Doctrine\\Common\\EventSubscriber"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getSubscribedEvents": {
+            "name": "getSubscribedEvents",
+            "line": 17,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "onFlush": {
+            "name": "onFlush",
+            "line": 31,
+            "short_desc": "This method is executing in FLUSH action before it change data in database.",
+            "long_desc": "Logic: leave only 1 master BillingSpec for every user that specs was changed.\n\nProcessing: create, update and delete specs.",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "args": {
+                    "name": "args",
+                    "line": 31,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Service\\Doctrine\\ORM\\Event\\OnFlushEventArgs",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Doctrine\\ORM\\Event\\OnFlushEventArgs",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

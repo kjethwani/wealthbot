@@ -1,0 +1,466 @@
+{
+    "name": "Wealthbot\\RiaBundle\\RiskManagement\\BaselinePortfolio",
+    "line": 12,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\RiskManagement",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/RiskManagement\/BaselinePortfolio.php",
+    "relative_file": null,
+    "hash": "60255575074713827a7f1a36889a1e22239fc46a",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "models": {
+            "name": "models",
+            "line": 14,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 9,
+            "default": {
+                "items": [
+                    {
+                        "key": null,
+                        "value": {
+                            "value": "100 Stocks"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": null,
+                        "value": {
+                            "value": "90\/10"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": null,
+                        "value": {
+                            "value": "80\/20"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": null,
+                        "value": {
+                            "value": "70\/30"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": null,
+                        "value": {
+                            "value": "60\/40"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": null,
+                        "value": {
+                            "value": "50\/50"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": null,
+                        "value": {
+                            "value": "40\/60"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": null,
+                        "value": {
+                            "value": "30\/70"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": null,
+                        "value": {
+                            "value": "20\/80"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": null,
+                        "value": {
+                            "value": "10\/90"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": null,
+                        "value": {
+                            "value": "100 Bonds"
+                        },
+                        "byRef": false
+                    }
+                ]
+            },
+            "errors": []
+        },
+        "modelPercentage": {
+            "name": "modelPercentage",
+            "line": 16,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 9,
+            "default": {
+                "items": [
+                    {
+                        "key": {
+                            "value": "100_stocks"
+                        },
+                        "value": {
+                            "items": [
+                                {
+                                    "key": {
+                                        "value": "stock"
+                                    },
+                                    "value": {
+                                        "value": 100
+                                    },
+                                    "byRef": false
+                                },
+                                {
+                                    "key": {
+                                        "value": "bond"
+                                    },
+                                    "value": {
+                                        "value": 0
+                                    },
+                                    "byRef": false
+                                }
+                            ]
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": "90_10"
+                        },
+                        "value": {
+                            "items": [
+                                {
+                                    "key": {
+                                        "value": "stock"
+                                    },
+                                    "value": {
+                                        "value": 90
+                                    },
+                                    "byRef": false
+                                },
+                                {
+                                    "key": {
+                                        "value": "bond"
+                                    },
+                                    "value": {
+                                        "value": 10
+                                    },
+                                    "byRef": false
+                                }
+                            ]
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": "80_20"
+                        },
+                        "value": {
+                            "items": [
+                                {
+                                    "key": {
+                                        "value": "stock"
+                                    },
+                                    "value": {
+                                        "value": 80
+                                    },
+                                    "byRef": false
+                                },
+                                {
+                                    "key": {
+                                        "value": "bond"
+                                    },
+                                    "value": {
+                                        "value": 20
+                                    },
+                                    "byRef": false
+                                }
+                            ]
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": "70_30"
+                        },
+                        "value": {
+                            "items": [
+                                {
+                                    "key": {
+                                        "value": "stock"
+                                    },
+                                    "value": {
+                                        "value": 70
+                                    },
+                                    "byRef": false
+                                },
+                                {
+                                    "key": {
+                                        "value": "bond"
+                                    },
+                                    "value": {
+                                        "value": 30
+                                    },
+                                    "byRef": false
+                                }
+                            ]
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": "60_40"
+                        },
+                        "value": {
+                            "items": [
+                                {
+                                    "key": {
+                                        "value": "stock"
+                                    },
+                                    "value": {
+                                        "value": 60
+                                    },
+                                    "byRef": false
+                                },
+                                {
+                                    "key": {
+                                        "value": "bond"
+                                    },
+                                    "value": {
+                                        "value": 40
+                                    },
+                                    "byRef": false
+                                }
+                            ]
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": "50_50"
+                        },
+                        "value": {
+                            "items": [
+                                {
+                                    "key": {
+                                        "value": "stock"
+                                    },
+                                    "value": {
+                                        "value": 50
+                                    },
+                                    "byRef": false
+                                },
+                                {
+                                    "key": {
+                                        "value": "bond"
+                                    },
+                                    "value": {
+                                        "value": 50
+                                    },
+                                    "byRef": false
+                                }
+                            ]
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": "40_60"
+                        },
+                        "value": {
+                            "items": [
+                                {
+                                    "key": {
+                                        "value": "stock"
+                                    },
+                                    "value": {
+                                        "value": 40
+                                    },
+                                    "byRef": false
+                                },
+                                {
+                                    "key": {
+                                        "value": "bond"
+                                    },
+                                    "value": {
+                                        "value": 60
+                                    },
+                                    "byRef": false
+                                }
+                            ]
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": "30_70"
+                        },
+                        "value": {
+                            "items": [
+                                {
+                                    "key": {
+                                        "value": "stock"
+                                    },
+                                    "value": {
+                                        "value": 30
+                                    },
+                                    "byRef": false
+                                },
+                                {
+                                    "key": {
+                                        "value": "bond"
+                                    },
+                                    "value": {
+                                        "value": 70
+                                    },
+                                    "byRef": false
+                                }
+                            ]
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": "20_80"
+                        },
+                        "value": {
+                            "items": [
+                                {
+                                    "key": {
+                                        "value": "stock"
+                                    },
+                                    "value": {
+                                        "value": 20
+                                    },
+                                    "byRef": false
+                                },
+                                {
+                                    "key": {
+                                        "value": "bond"
+                                    },
+                                    "value": {
+                                        "value": 80
+                                    },
+                                    "byRef": false
+                                }
+                            ]
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": "10_90"
+                        },
+                        "value": {
+                            "items": [
+                                {
+                                    "key": {
+                                        "value": "stock"
+                                    },
+                                    "value": {
+                                        "value": 10
+                                    },
+                                    "byRef": false
+                                },
+                                {
+                                    "key": {
+                                        "value": "bond"
+                                    },
+                                    "value": {
+                                        "value": 90
+                                    },
+                                    "byRef": false
+                                }
+                            ]
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": "100_bonds"
+                        },
+                        "value": {
+                            "items": [
+                                {
+                                    "key": {
+                                        "value": "stock"
+                                    },
+                                    "value": {
+                                        "value": 0
+                                    },
+                                    "byRef": false
+                                },
+                                {
+                                    "key": {
+                                        "value": "bond"
+                                    },
+                                    "value": {
+                                        "value": 100
+                                    },
+                                    "byRef": false
+                                }
+                            ]
+                        },
+                        "byRef": false
+                    }
+                ]
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "getInitialSuggestedPortfolio": {
+            "name": "getInitialSuggestedPortfolio",
+            "line": 30,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 30,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

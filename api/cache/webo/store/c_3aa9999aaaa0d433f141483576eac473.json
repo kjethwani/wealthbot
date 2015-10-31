@@ -1,0 +1,30 @@
+{
+    "name": "Wealthbot\\AdminBundle\\Form\\Handler\\SecurityFormHandler",
+    "line": 20,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/Form\/Handler\/SecurityFormHandler.php",
+    "relative_file": null,
+    "hash": "fe713ad99cf44426b8c26c9c00aad79331464533",
+    "parent": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "SecurityAssignment": "Wealthbot\\AdminBundle\\Entity\\SecurityAssignment",
+        "Security": "Wealthbot\\AdminBundle\\Entity\\Security",
+        "SecurityPrice": "Wealthbot\\AdminBundle\\Entity\\SecurityPrice",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "Request": "Symfony\\Component\\HttpFoundation\\Request",
+        "SecurityContextInterface": "Symfony\\Component\\Security\\Core\\SecurityContextInterface"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

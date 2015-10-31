@@ -1,0 +1,27 @@
+{
+    "name": "Wealthbot\\AdminBundle\\Controller\\AclController",
+    "line": 10,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\Controller",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/Controller\/AclController.php",
+    "relative_file": null,
+    "hash": "d4b4d6b1a9dffc1baa394531664789afeb4188ae",
+    "parent": "Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Acl": "Wealthbot\\AdminBundle\\Model\\Acl",
+        "Controller": "Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller",
+        "UserInterface": "Symfony\\Component\\Security\\Core\\User\\UserInterface"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

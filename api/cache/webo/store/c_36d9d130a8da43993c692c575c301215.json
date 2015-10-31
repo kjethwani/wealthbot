@@ -1,0 +1,123 @@
+{
+    "name": "Wealthbot\\RiaBundle\\EventListener\\FlashListener",
+    "line": 19,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\EventListener",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/EventListener\/FlashListener.php",
+    "relative_file": null,
+    "hash": "e46997eee64de767d856a5470f85f001cdabdd95",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "RiaEvents": "Wealthbot\\RiaBundle\\RiaEvents",
+        "Event": "Symfony\\Component\\EventDispatcher\\Event",
+        "EventSubscriberInterface": "Symfony\\Component\\EventDispatcher\\EventSubscriberInterface",
+        "Session": "Symfony\\Component\\HttpFoundation\\Session\\Session",
+        "SessionInterface": "Symfony\\Component\\HttpFoundation\\Session\\SessionInterface"
+    },
+    "errors": [],
+    "interfaces": {
+        "Symfony\\Component\\EventDispatcher\\EventSubscriberInterface": "Symfony\\Component\\EventDispatcher\\EventSubscriberInterface"
+    },
+    "traits": [],
+    "properties": {
+        "messages": {
+            "name": "messages",
+            "line": 22,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "items": []
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "getSubscribedEvents": {
+            "name": "getSubscribedEvents",
+            "line": 29,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "__construct": {
+            "name": "__construct",
+            "line": 36,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "session": {
+                    "name": "session",
+                    "line": 36,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\EventListener\\Symfony\\Component\\HttpFoundation\\Session\\SessionInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Session\\SessionInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "addFlash": {
+            "name": "addFlash",
+            "line": 41,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "event": {
+                    "name": "event",
+                    "line": 41,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\EventListener\\Symfony\\Component\\EventDispatcher\\Event",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\EventDispatcher\\Event",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

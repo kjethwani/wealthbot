@@ -1,0 +1,99 @@
+{
+    "name": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM\\LoadCecRiaData",
+    "line": 41,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/FixturesBundle\/DataFixtures\/ORM\/LoadCecRiaData.php",
+    "relative_file": null,
+    "hash": "28202341e3cbd4992bc4db47cc1d97558e6ce78a",
+    "parent": "Doctrine\\Common\\DataFixtures\\AbstractFixture",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AbstractFixture": "Doctrine\\Common\\DataFixtures\\AbstractFixture",
+        "OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface",
+        "ObjectManager": "Doctrine\\Common\\Persistence\\ObjectManager",
+        "AssetClass": "Wealthbot\\AdminBundle\\Entity\\AssetClass",
+        "CeModelEntity": "Wealthbot\\AdminBundle\\Entity\\CeModelEntity",
+        "Custodian": "Wealthbot\\AdminBundle\\Entity\\Custodian",
+        "Fee": "Wealthbot\\AdminBundle\\Entity\\Fee",
+        "Security": "Wealthbot\\AdminBundle\\Entity\\Security",
+        "SecurityAssignment": "Wealthbot\\AdminBundle\\Entity\\SecurityAssignment",
+        "SecurityType": "Wealthbot\\AdminBundle\\Entity\\SecurityType",
+        "Subclass": "Wealthbot\\AdminBundle\\Entity\\Subclass",
+        "CeModelManager": "Wealthbot\\AdminBundle\\Manager\\CeModelManager",
+        "AccountContribution": "Wealthbot\\ClientBundle\\Entity\\AccountContribution",
+        "AccountOutsideFund": "Wealthbot\\ClientBundle\\Entity\\AccountOutsideFund",
+        "ClientAccount": "Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+        "ClientAccountOwner": "Wealthbot\\ClientBundle\\Entity\\ClientAccountOwner",
+        "ClientAdditionalContact": "Wealthbot\\ClientBundle\\Entity\\ClientAdditionalContact",
+        "ClientPortfolio": "Wealthbot\\ClientBundle\\Entity\\ClientPortfolio",
+        "ClientQuestionnaireAnswer": "Wealthbot\\ClientBundle\\Entity\\ClientQuestionnaireAnswer",
+        "ClientSettings": "Wealthbot\\ClientBundle\\Entity\\ClientSettings",
+        "PersonalInformation": "Wealthbot\\ClientBundle\\Entity\\PersonalInformation",
+        "Beneficiary": "Wealthbot\\ClientBundle\\Entity\\Beneficiary",
+        "SystemAccount": "Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+        "Workflow": "Wealthbot\\ClientBundle\\Entity\\Workflow",
+        "WorkflowableInterface": "Wealthbot\\ClientBundle\\Model\\WorkflowableInterface",
+        "RiaCompanyInformation": "Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+        "RiskAnswer": "Wealthbot\\RiaBundle\\Entity\\RiskAnswer",
+        "RiskQuestion": "Wealthbot\\RiaBundle\\Entity\\RiskQuestion",
+        "Document": "Wealthbot\\UserBundle\\Entity\\Document",
+        "Group": "Wealthbot\\UserBundle\\Entity\\Group",
+        "Profile": "Wealthbot\\UserBundle\\Entity\\Profile",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "ContainerAwareInterface": "Symfony\\Component\\DependencyInjection\\ContainerAwareInterface",
+        "ContainerInterface": "Symfony\\Component\\DependencyInjection\\ContainerInterface"
+    },
+    "errors": [],
+    "interfaces": {
+        "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface",
+        "Symfony\\Component\\DependencyInjection\\ContainerAwareInterface": "Symfony\\Component\\DependencyInjection\\ContainerAwareInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "setContainer": {
+            "name": "setContainer",
+            "line": 919,
+            "short_desc": "Sets the Container.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "api": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "container": {
+                    "name": "container",
+                    "line": 919,
+                    "short_desc": "A ContainerInterface instance",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\FixturesBundle\\DataFixtures\\ORM\\Symfony\\Component\\DependencyInjection\\ContainerInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\DependencyInjection\\ContainerInterface",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,78 @@
+{
+    "name": "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration\\BeneficiaryDesignationForm",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/SignatureBundle\/Model\/TabsConfiguration\/BeneficiaryDesignationForm.php",
+    "relative_file": null,
+    "hash": "4f5b5ac0c5dd7aee522f738a773db9ea9d88b2b2",
+    "parent": "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration\\AbstractTabsConfiguration",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Beneficiary": "Wealthbot\\ClientBundle\\Entity\\Beneficiary",
+        "TextTab": "Wealthbot\\SignatureBundle\\Model\\Tab\\TextTab",
+        "TabCollection": "Wealthbot\\SignatureBundle\\Model\\TabCollection"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 21,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "beneficiary": {
+                    "name": "beneficiary",
+                    "line": 21,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration\\Wealthbot\\ClientBundle\\Entity\\Beneficiary",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\Beneficiary",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "generate": {
+            "name": "generate",
+            "line": 31,
+            "short_desc": "Generate collection of tabs",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Model\\TabCollection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

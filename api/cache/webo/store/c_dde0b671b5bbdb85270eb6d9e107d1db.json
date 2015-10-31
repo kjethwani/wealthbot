@@ -1,0 +1,339 @@
+{
+    "name": "Wealthbot\\SignatureBundle\\Service\\ElectronicSignatureService",
+    "line": 27,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\SignatureBundle\\Service",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/SignatureBundle\/Service\/ElectronicSignatureService.php",
+    "relative_file": null,
+    "hash": "a7686a449d981911307334876307f92898addf9d",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Distribution": "Wealthbot\\ClientBundle\\Entity\\Distribution",
+        "SystemAccount": "Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+        "ClientAccount": "Wealthbot\\ClientBundle\\Model\\ClientAccount",
+        "AccountOwnerRecipientAdapter": "Wealthbot\\SignatureBundle\\Adapter\\AccountOwnerRecipientAdapter",
+        "AbstractDocusign": "Wealthbot\\SignatureBundle\\Docusign\\AbstractDocusign",
+        "DocumentSignature": "Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+        "AccountDocusignManager": "Wealthbot\\SignatureBundle\\Manager\\AccountDocusignManager",
+        "DocumentSignatureManager": "Wealthbot\\SignatureBundle\\Manager\\DocumentSignatureManager",
+        "AccountTabsConfigurationFactory": "Wealthbot\\SignatureBundle\\Model\\AccountTabsConfigurationFactory",
+        "Envelope": "Wealthbot\\SignatureBundle\\Model\\Envelope",
+        "RecipientInterface": "Wealthbot\\SignatureBundle\\Model\\RecipientInterface",
+        "SignableInterface": "Wealthbot\\SignatureBundle\\Model\\SignableInterface",
+        "InvalidConfigurationException": "Symfony\\Component\\Config\\Definition\\Exception\\InvalidConfigurationException"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 41,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "docusignApi": {
+                    "name": "docusignApi",
+                    "line": 42,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Service\\Wealthbot\\SignatureBundle\\Docusign\\AbstractDocusign",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\SignatureBundle\\Docusign\\AbstractDocusign",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "signatureManager": {
+                    "name": "signatureManager",
+                    "line": 43,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Service\\Wealthbot\\SignatureBundle\\Manager\\DocumentSignatureManager",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\SignatureBundle\\Manager\\DocumentSignatureManager",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "accountDocusignManager": {
+                    "name": "accountDocusignManager",
+                    "line": 44,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Service\\Wealthbot\\SignatureBundle\\Manager\\AccountDocusignManager",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\SignatureBundle\\Manager\\AccountDocusignManager",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "templates": {
+                    "name": "templates",
+                    "line": 45,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "sendEnvelopeForSignableObject": {
+            "name": "sendEnvelopeForSignableObject",
+            "line": 60,
+            "short_desc": "Send envelope from template for signable object",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\RuntimeException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "object": {
+                    "name": "object",
+                    "line": 60,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Service\\Wealthbot\\SignatureBundle\\Model\\SignableInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\SignatureBundle\\Model\\SignableInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "sendEnvelopeForDraftSignature": {
+            "name": "sendEnvelopeForDraftSignature",
+            "line": 74,
+            "short_desc": "Send envelope for draft signature and update signature",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "signature": {
+                    "name": "signature",
+                    "line": 74,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Service\\Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "sendEnvelopeForApplication": {
+            "name": "sendEnvelopeForApplication",
+            "line": 94,
+            "short_desc": "Send envelope for all signatures for application",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\RuntimeException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "account": {
+                    "name": "account",
+                    "line": 94,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Service\\Wealthbot\\ClientBundle\\Model\\ClientAccount",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Model\\ClientAccount",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "updateDocumentSignaturesStatusByEnvelopeId": {
+            "name": "updateDocumentSignaturesStatusByEnvelopeId",
+            "line": 173,
+            "short_desc": "Update document and document owner signatures",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "envelopeId": {
+                    "name": "envelopeId",
+                    "line": 173,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "signatures": {
+                    "name": "signatures",
+                    "line": 173,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "updateAccountSignatureStatusByAccountAndType": {
+            "name": "updateAccountSignatureStatusByAccountAndType",
+            "line": 209,
+            "short_desc": "Update account and account owners signatures",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "account": {
+                    "name": "account",
+                    "line": 209,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Service\\Wealthbot\\ClientBundle\\Model\\ClientAccount",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Model\\ClientAccount",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "type": {
+                    "name": "type",
+                    "line": 209,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

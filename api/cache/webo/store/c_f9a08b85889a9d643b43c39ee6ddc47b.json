@@ -1,0 +1,265 @@
+{
+    "name": "Wealthbot\\MailerBundle\\Entity\\AlertsConfiguration",
+    "line": 10,
+    "short_desc": "AlertsConfiguration",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\MailerBundle\\Entity",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/MailerBundle\/Entity\/AlertsConfiguration.php",
+    "relative_file": null,
+    "hash": "df2fc038f9718dd55ee44d41d6e540abf1588896",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ORM": "Doctrine\\ORM\\Mapping"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getId": {
+            "name": "getId",
+            "line": 43,
+            "short_desc": "Get id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setUserId": {
+            "name": "setUserId",
+            "line": 54,
+            "short_desc": "Set user_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\MailerBundle\\Entity\\AlertsConfiguration",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "userId": {
+                    "name": "userId",
+                    "line": 54,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getUserId": {
+            "name": "getUserId",
+            "line": 66,
+            "short_desc": "Get user_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsClientPortfolioSuggestion": {
+            "name": "setIsClientPortfolioSuggestion",
+            "line": 77,
+            "short_desc": "Set is_client_portfolio_suggestion",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\MailerBundle\\Entity\\AlertsConfiguration",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isClientPortfolioSuggestion": {
+                    "name": "isClientPortfolioSuggestion",
+                    "line": 77,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsClientPortfolioSuggestion": {
+            "name": "getIsClientPortfolioSuggestion",
+            "line": 89,
+            "short_desc": "Get is_client_portfolio_suggestion",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsClientDrivenAccountClosures": {
+            "name": "setIsClientDrivenAccountClosures",
+            "line": 100,
+            "short_desc": "Set is_client_driven_account_closures",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\MailerBundle\\Entity\\AlertsConfiguration",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isClientDrivenAccountClosures": {
+                    "name": "isClientDrivenAccountClosures",
+                    "line": 100,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsClientDrivenAccountClosures": {
+            "name": "getIsClientDrivenAccountClosures",
+            "line": 112,
+            "short_desc": "Get is_client_driven_account_closures",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setUser": {
+            "name": "setUser",
+            "line": 123,
+            "short_desc": "Set user",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\MailerBundle\\Entity\\AlertsConfiguration",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "user": {
+                    "name": "user",
+                    "line": 123,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\MailerBundle\\Entity\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getUser": {
+            "name": "getUser",
+            "line": 135,
+            "short_desc": "Get user",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

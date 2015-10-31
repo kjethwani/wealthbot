@@ -1,0 +1,56 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Tests\\Manager\\ClientAllocationValuesManagerTest",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Tests\\Manager",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Tests\/Manager\/ClientAllocationValuesManagerTest.php",
+    "relative_file": null,
+    "hash": "153326f56b1a4a0094abbba3dfc6f1b67ba53008",
+    "parent": "Wealthbot\\UserBundle\\TestSuit\\ExtendedWebTestCase",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ClientAllocationValuesManager": "Wealthbot\\ClientBundle\\Manager\\ClientAllocationValuesManager",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "ExtendedWebTestCase": "Wealthbot\\UserBundle\\TestSuit\\ExtendedWebTestCase"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "setUp": {
+            "name": "setUp",
+            "line": 252,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "testGetValues": {
+            "name": "testGetValues",
+            "line": 258,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

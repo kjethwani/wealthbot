@@ -1,0 +1,32 @@
+{
+    "name": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM\\LoadCsvSecuritiesData",
+    "line": 20,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/FixturesBundle\/DataFixtures\/ORM\/LoadCsvSecuritiesData.php",
+    "relative_file": null,
+    "hash": "82bdb511419264b55f906f92aa3022baaed6be8f",
+    "parent": "Wealthbot\\FixturesBundle\\Model\\AbstractCsvFixture",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface",
+        "ObjectManager": "Doctrine\\Common\\Persistence\\ObjectManager",
+        "Security": "Wealthbot\\AdminBundle\\Entity\\Security",
+        "SecurityAssignment": "Wealthbot\\AdminBundle\\Entity\\SecurityAssignment",
+        "SecurityType": "Wealthbot\\AdminBundle\\Entity\\SecurityType",
+        "AbstractCsvFixture": "Wealthbot\\FixturesBundle\\Model\\AbstractCsvFixture"
+    },
+    "errors": [],
+    "interfaces": {
+        "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

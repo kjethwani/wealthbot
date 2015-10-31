@@ -1,0 +1,25 @@
+{
+    "name": "Wealthbot\\MailerBundle\\WealthbotMailerBundle",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\MailerBundle",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/MailerBundle\/WealthbotMailerBundle.php",
+    "relative_file": null,
+    "hash": "e6b16679dbf1f794d399547fd9924e03138f7e20",
+    "parent": "Symfony\\Component\\HttpKernel\\Bundle\\Bundle",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Bundle": "Symfony\\Component\\HttpKernel\\Bundle\\Bundle"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

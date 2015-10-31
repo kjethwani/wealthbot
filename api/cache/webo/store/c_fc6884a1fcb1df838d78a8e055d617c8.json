@@ -1,0 +1,28 @@
+{
+    "name": "Wealthbot\\UserBundle\\Form\\Handler\\ClientDocumentFormHandler",
+    "line": 18,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\UserBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/UserBundle\/Form\/Handler\/ClientDocumentFormHandler.php",
+    "relative_file": null,
+    "hash": "e74dd300e6966b238a60e8bd25af1e480bfbb7ed",
+    "parent": "Wealthbot\\UserBundle\\Form\\Handler\\DocumentFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ClientActivitySummary": "Wealthbot\\ClientBundle\\Entity\\ClientActivitySummary",
+        "Document": "Wealthbot\\UserBundle\\Entity\\Document",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "Request": "Symfony\\Component\\HttpFoundation\\Request"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

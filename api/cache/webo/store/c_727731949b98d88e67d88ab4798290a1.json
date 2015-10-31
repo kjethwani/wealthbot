@@ -1,0 +1,855 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Model\\SystemAccount",
+    "line": 6,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Model\/SystemAccount.php",
+    "relative_file": null,
+    "hash": "fc5371cd5a1ba105e0d2a10f97c71ed0f723c17f",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": {
+        "Wealthbot\\ClientBundle\\Model\\WorkflowableInterface": "Wealthbot\\ClientBundle\\Model\\WorkflowableInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 79,
+            "short_desc": "Constructor",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getTypeChoices": {
+            "name": "getTypeChoices",
+            "line": 90,
+            "short_desc": "Get choices for type column",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getTypeName": {
+            "name": "getTypeName",
+            "line": 101,
+            "short_desc": "Get type string name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "type": {
+                    "name": "type",
+                    "line": 101,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setType": {
+            "name": "setType",
+            "line": 115,
+            "short_desc": "Set type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\SystemAccount",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "type": {
+                    "name": "type",
+                    "line": 115,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getType": {
+            "name": "getType",
+            "line": 131,
+            "short_desc": "Get type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getTypeAsString": {
+            "name": "getTypeAsString",
+            "line": 141,
+            "short_desc": "Get type as string",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getStatusChoices": {
+            "name": "getStatusChoices",
+            "line": 155,
+            "short_desc": "Get choices for status column",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStatus": {
+            "name": "setStatus",
+            "line": 180,
+            "short_desc": "Set status",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\SystemAccount",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "status": {
+                    "name": "status",
+                    "line": 180,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getStatus": {
+            "name": "getStatus",
+            "line": 196,
+            "short_desc": "Get status",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStatusOpen": {
+            "name": "setStatusOpen",
+            "line": 201,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isOpen": {
+            "name": "isOpen",
+            "line": 208,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStatusActive": {
+            "name": "setStatusActive",
+            "line": 213,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isActive": {
+            "name": "isActive",
+            "line": 221,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStatusInitRebalance": {
+            "name": "setStatusInitRebalance",
+            "line": 226,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isInitRebalance": {
+            "name": "isInitRebalance",
+            "line": 233,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStatusInitRebalanceComplete": {
+            "name": "setStatusInitRebalanceComplete",
+            "line": 238,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isInitRebalanceComplete": {
+            "name": "isInitRebalanceComplete",
+            "line": 245,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStatusRebalanced": {
+            "name": "setStatusRebalanced",
+            "line": 250,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isRebalanced": {
+            "name": "isRebalanced",
+            "line": 257,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStatusAnalyzed": {
+            "name": "setStatusAnalyzed",
+            "line": 262,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isAnalyzed": {
+            "name": "isAnalyzed",
+            "line": 269,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStatusClosed": {
+            "name": "setStatusClosed",
+            "line": 274,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isClosed": {
+            "name": "isClosed",
+            "line": 282,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAccountNumber": {
+            "name": "setAccountNumber",
+            "line": 293,
+            "short_desc": "Set account_number",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\SystemAccount",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "accountNumber": {
+                    "name": "accountNumber",
+                    "line": 293,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAccountNumber": {
+            "name": "getAccountNumber",
+            "line": 305,
+            "short_desc": "Get account_number",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isPersonalType": {
+            "name": "isPersonalType",
+            "line": 315,
+            "short_desc": "Returns true if account has Personal Investment type and false otherwise",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isJointType": {
+            "name": "isJointType",
+            "line": 325,
+            "short_desc": "Returns true if account has Joint Investment type and false otherwise",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isRothIraType": {
+            "name": "isRothIraType",
+            "line": 335,
+            "short_desc": "Returns true if account has Roth IRA type and false otherwise",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isTraditionalIraType": {
+            "name": "isTraditionalIraType",
+            "line": 345,
+            "short_desc": "Returns true if account has Traditional IRA type and false otherwise",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isRetirementType": {
+            "name": "isRetirementType",
+            "line": 355,
+            "short_desc": "Returns true if account has Retirement type and false otherwise",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getLastFourDigitsOfAccountNumber": {
+            "name": "getLastFourDigitsOfAccountNumber",
+            "line": 360,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setActivatedOn": {
+            "name": "setActivatedOn",
+            "line": 371,
+            "short_desc": "Set activated_on",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\SystemAccount",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "activatedOn": {
+                    "name": "activatedOn",
+                    "line": 371,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getActivatedOn": {
+            "name": "getActivatedOn",
+            "line": 383,
+            "short_desc": "Get activated_on",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setClosed": {
+            "name": "setClosed",
+            "line": 394,
+            "short_desc": "Set closed",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\SystemAccount",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "closed": {
+                    "name": "closed",
+                    "line": 394,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClosed": {
+            "name": "getClosed",
+            "line": 406,
+            "short_desc": "Get closed",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getWorkflowMessageCode": {
+            "name": "getWorkflowMessageCode",
+            "line": 417,
+            "short_desc": "Get workflow message code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\RuntimeException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "TYPE_PERSONAL_INVESTMENT": {
+            "name": "TYPE_PERSONAL_INVESTMENT",
+            "line": 14,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TYPE_JOINT_INVESTMENT": {
+            "name": "TYPE_JOINT_INVESTMENT",
+            "line": 15,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TYPE_ROTH_IRA": {
+            "name": "TYPE_ROTH_IRA",
+            "line": 16,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TYPE_TRADITIONAL_IRA": {
+            "name": "TYPE_TRADITIONAL_IRA",
+            "line": 17,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TYPE_RETIREMENT": {
+            "name": "TYPE_RETIREMENT",
+            "line": 18,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "CREATION_TYPE_NEW_ACCOUNT": {
+            "name": "CREATION_TYPE_NEW_ACCOUNT",
+            "line": 20,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "CREATION_TYPE_TRANSFER_ACCOUNT": {
+            "name": "CREATION_TYPE_TRANSFER_ACCOUNT",
+            "line": 21,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "CREATION_TYPE_ROLLOVER_ACCOUNT": {
+            "name": "CREATION_TYPE_ROLLOVER_ACCOUNT",
+            "line": 22,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "DAYS_WAIT_TRANSFER_OR_ROLLOVER_ACCOUNT": {
+            "name": "DAYS_WAIT_TRANSFER_OR_ROLLOVER_ACCOUNT",
+            "line": 25,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "DAYS_WAIT_NEW_ACCOUNT": {
+            "name": "DAYS_WAIT_NEW_ACCOUNT",
+            "line": 26,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_REGISTERED": {
+            "name": "STATUS_REGISTERED",
+            "line": 54,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_ACTIVE": {
+            "name": "STATUS_ACTIVE",
+            "line": 55,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_INIT_REBALANCE": {
+            "name": "STATUS_INIT_REBALANCE",
+            "line": 56,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_INIT_REBALANCE_COMPLETE": {
+            "name": "STATUS_INIT_REBALANCE_COMPLETE",
+            "line": 57,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_REBALANCED": {
+            "name": "STATUS_REBALANCED",
+            "line": 58,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_ANALYZED": {
+            "name": "STATUS_ANALYZED",
+            "line": 59,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_CLOSED": {
+            "name": "STATUS_CLOSED",
+            "line": 60,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_WAITING_ACTIVATION": {
+            "name": "STATUS_WAITING_ACTIVATION",
+            "line": 61,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "name": "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration\\AbstractTabsConfiguration",
+    "line": 17,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/SignatureBundle\/Model\/TabsConfiguration\/AbstractTabsConfiguration.php",
+    "relative_file": null,
+    "hash": "c23c17676210fd29c2d77c32b5d1edba54202879",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AdvisorCode": "Wealthbot\\RiaBundle\\Entity\\AdvisorCode",
+        "RiaCompanyInformation": "Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+        "TabCollection": "Wealthbot\\SignatureBundle\\Model\\TabCollection",
+        "TabsConfigurationInterface": "Wealthbot\\SignatureBundle\\Model\\TabsConfigurationInterface"
+    },
+    "errors": [],
+    "interfaces": {
+        "Wealthbot\\SignatureBundle\\Model\\TabsConfigurationInterface": "Wealthbot\\SignatureBundle\\Model\\TabsConfigurationInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "generate": {
+            "name": "generate",
+            "line": 24,
+            "short_desc": "Generate collection of tabs",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Model\\TabCollection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "17",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

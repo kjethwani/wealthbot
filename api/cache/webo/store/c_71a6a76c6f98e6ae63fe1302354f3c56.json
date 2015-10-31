@@ -1,0 +1,91 @@
+{
+    "name": "Wealthbot\\SignatureBundle\\Docusign\\DocusignSessionPersistence",
+    "line": 15,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\SignatureBundle\\Docusign",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/SignatureBundle\/Docusign\/DocusignSessionPersistence.php",
+    "relative_file": null,
+    "hash": "3b2cf3ae5b7ff8f008592a4a1e1f9c7ce7eb24f3",
+    "parent": "Wealthbot\\SignatureBundle\\Docusign\\AbstractDocusign",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Session": "Symfony\\Component\\HttpFoundation\\Session\\Session"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 22,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "config": {
+                    "name": "config",
+                    "line": 22,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "session": {
+                    "name": "session",
+                    "line": 22,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Docusign\\Symfony\\Component\\HttpFoundation\\Session\\Session",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Session\\Session",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "prefix": {
+                    "name": "prefix",
+                    "line": 22,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "self::PREFIX",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "PREFIX": {
+            "name": "PREFIX",
+            "line": 17,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "name": "Wealthbot\\MailerBundle\\DQL\\DatetimeFunction\\DateDiff",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\MailerBundle\\DQL\\DatetimeFunction",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/MailerBundle\/DQL\/DatetimeFunction\/DateDiff.php",
+    "relative_file": null,
+    "hash": "4e54c5c8b7da40639aa6df7e1bac5b19997afaa1",
+    "parent": "Doctrine\\ORM\\Query\\AST\\Functions\\FunctionNode",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "FunctionNode": "Doctrine\\ORM\\Query\\AST\\Functions\\FunctionNode",
+        "Lexer": "Doctrine\\ORM\\Query\\Lexer"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "firstDateExpression": {
+            "name": "firstDateExpression",
+            "line": 10,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "name": {
+                    "parts": [
+                        "null"
+                    ]
+                }
+            },
+            "errors": []
+        },
+        "secondDateExpression": {
+            "name": "secondDateExpression",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "name": {
+                    "parts": [
+                        "null"
+                    ]
+                }
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "parse": {
+            "name": "parse",
+            "line": 13,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "parser": {
+                    "name": "parser",
+                    "line": 13,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\MailerBundle\\DQL\\DatetimeFunction\\Doctrine\\ORM\\Query\\Parser",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Doctrine\\ORM\\Query\\Parser",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSql": {
+            "name": "getSql",
+            "line": 23,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "sqlWalker": {
+                    "name": "sqlWalker",
+                    "line": 23,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\MailerBundle\\DQL\\DatetimeFunction\\Doctrine\\ORM\\Query\\SqlWalker",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Doctrine\\ORM\\Query\\SqlWalker",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

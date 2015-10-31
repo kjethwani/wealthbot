@@ -1,0 +1,30 @@
+{
+    "name": "Wealthbot\\AdminBundle\\AdminEvents",
+    "line": 5,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/AdminEvents.php",
+    "relative_file": null,
+    "hash": "1a765f731e76ae8f8804a220266702ab3eb51211",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": {
+        "USER_HISTORY": {
+            "name": "USER_HISTORY",
+            "line": 7,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

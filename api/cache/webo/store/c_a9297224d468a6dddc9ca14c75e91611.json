@@ -1,0 +1,46 @@
+{
+    "name": "Wealthbot\\UserBundle\\Controller\\RolesController",
+    "line": 20,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\UserBundle\\Controller",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/UserBundle\/Controller\/RolesController.php",
+    "relative_file": null,
+    "hash": "f90bef8acf2c6f120d918e134a0adae681c5bf1f",
+    "parent": "Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "UserInterface": "FOS\\UserBundle\\Model\\UserInterface",
+        "RiaCompanyInformation": "Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "Controller": "Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller",
+        "Request": "Symfony\\Component\\HttpFoundation\\Request",
+        "SecurityContext": "Symfony\\Component\\Security\\Core\\SecurityContext",
+        "SecurityContextInterface": "Symfony\\Component\\Security\\Core\\SecurityContextInterface"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "afterLoginAction": {
+            "name": "afterLoginAction",
+            "line": 22,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

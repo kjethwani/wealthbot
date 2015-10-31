@@ -1,0 +1,633 @@
+{
+    "name": "Wealthbot\\SignatureBundle\\Entity\\DocumentOwnerSignature",
+    "line": 11,
+    "short_desc": "DocumentOwnerSignature",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\SignatureBundle\\Entity",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/SignatureBundle\/Entity\/DocumentOwnerSignature.php",
+    "relative_file": null,
+    "hash": "9338cf79924eed6f995f363d52bc101291e2872e",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ORM": "Doctrine\\ORM\\Mapping",
+        "InvalidRecipientStatusException": "Wealthbot\\SignatureBundle\\Exception\\InvalidRecipientStatusException"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getId": {
+            "name": "getId",
+            "line": 81,
+            "short_desc": "Get id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setDocumentSignatureId": {
+            "name": "setDocumentSignatureId",
+            "line": 92,
+            "short_desc": "Set document_signature_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Entity\\DocumentOwnerSignature",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "documentSignatureId": {
+                    "name": "documentSignatureId",
+                    "line": 92,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getDocumentSignatureId": {
+            "name": "getDocumentSignatureId",
+            "line": 104,
+            "short_desc": "Get document_signature_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setOwnerClientUserId": {
+            "name": "setOwnerClientUserId",
+            "line": 115,
+            "short_desc": "Set owner_client_user_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Entity\\DocumentOwnerSignature",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ownerClientUserId": {
+                    "name": "ownerClientUserId",
+                    "line": 115,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOwnerClientUserId": {
+            "name": "getOwnerClientUserId",
+            "line": 127,
+            "short_desc": "Get owner_client_user_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setOwnerContactId": {
+            "name": "setOwnerContactId",
+            "line": 138,
+            "short_desc": "Set owner_contact_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Entity\\DocumentOwnerSignature",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ownerContactId": {
+                    "name": "ownerContactId",
+                    "line": 138,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOwnerContactId": {
+            "name": "getOwnerContactId",
+            "line": 150,
+            "short_desc": "Get owner_contact_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getStatusChoices": {
+            "name": "getStatusChoices",
+            "line": 160,
+            "short_desc": "Get status choices",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStatus": {
+            "name": "setStatus",
+            "line": 185,
+            "short_desc": "Set status",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\SignatureBundle\\Entity\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Exception\\InvalidRecipientStatusException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "status": {
+                    "name": "status",
+                    "line": 185,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getStatus": {
+            "name": "getStatus",
+            "line": 204,
+            "short_desc": "Get status",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCreated": {
+            "name": "setCreated",
+            "line": 215,
+            "short_desc": "Set created",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Entity\\DocumentOwnerSignature",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "created": {
+                    "name": "created",
+                    "line": 215,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCreated": {
+            "name": "getCreated",
+            "line": 227,
+            "short_desc": "Get created",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setUpdated": {
+            "name": "setUpdated",
+            "line": 238,
+            "short_desc": "Set updated",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Entity\\DocumentOwnerSignature",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "updated": {
+                    "name": "updated",
+                    "line": 238,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getUpdated": {
+            "name": "getUpdated",
+            "line": 250,
+            "short_desc": "Get updated",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setDocumentSignature": {
+            "name": "setDocumentSignature",
+            "line": 261,
+            "short_desc": "Set documentSignature",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Entity\\DocumentOwnerSignature",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "documentSignature": {
+                    "name": "documentSignature",
+                    "line": 261,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Entity\\Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getDocumentSignature": {
+            "name": "getDocumentSignature",
+            "line": 273,
+            "short_desc": "Get documentSignature",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setClientOwner": {
+            "name": "setClientOwner",
+            "line": 284,
+            "short_desc": "Set clientOwner",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Entity\\DocumentOwnerSignature",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientOwner": {
+                    "name": "clientOwner",
+                    "line": 284,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Entity\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClientOwner": {
+            "name": "getClientOwner",
+            "line": 296,
+            "short_desc": "Get clientOwner",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setContactOwner": {
+            "name": "setContactOwner",
+            "line": 307,
+            "short_desc": "Set contactOwner",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Entity\\DocumentOwnerSignature",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "contactOwner": {
+                    "name": "contactOwner",
+                    "line": 307,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Entity\\Wealthbot\\ClientBundle\\Entity\\ClientAdditionalContact",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\ClientAdditionalContact",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getContactOwner": {
+            "name": "getContactOwner",
+            "line": 319,
+            "short_desc": "Get contactOwner",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Entity\\ClientAdditionalContact",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isCompleted": {
+            "name": "isCompleted",
+            "line": 329,
+            "short_desc": "Is owner signature completed",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "STATUS_SENT": {
+            "name": "STATUS_SENT",
+            "line": 39,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_CREATED": {
+            "name": "STATUS_CREATED",
+            "line": 40,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_DELIVERED": {
+            "name": "STATUS_DELIVERED",
+            "line": 41,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_SIGNED": {
+            "name": "STATUS_SIGNED",
+            "line": 42,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_DECLINED": {
+            "name": "STATUS_DECLINED",
+            "line": 43,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_COMPLETED": {
+            "name": "STATUS_COMPLETED",
+            "line": 44,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_FAX_PENDING": {
+            "name": "STATUS_FAX_PENDING",
+            "line": 45,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_AUTO_RESPONDED": {
+            "name": "STATUS_AUTO_RESPONDED",
+            "line": 46,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

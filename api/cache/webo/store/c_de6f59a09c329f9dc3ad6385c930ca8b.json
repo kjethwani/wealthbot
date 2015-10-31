@@ -1,0 +1,102 @@
+{
+    "name": "Wealthbot\\AdminBundle\\Form\\FormErrorBag",
+    "line": 13,
+    "short_desc": "Fetch errors for Form",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "package": [
+            [
+                "Wealthbot\\AdminBundle\\Form"
+            ]
+        ]
+    },
+    "namespace": "Wealthbot\\AdminBundle\\Form",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/Form\/FormErrorBag.php",
+    "relative_file": null,
+    "hash": "86cf0e3f7c40009622b8ff2266d964716bf1d54f",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Form": "Symfony\\Component\\Form\\Form",
+        "FormError": "Symfony\\Component\\Form\\FormError"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 18,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "form": {
+                    "name": "form",
+                    "line": 18,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Form\\Symfony\\Component\\Form\\Form",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Form\\Form",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "toJson": {
+            "name": "toJson",
+            "line": 27,
+            "short_desc": "Convert all form errors to JSON format",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getAssociatedErrors": {
+            "name": "getAssociatedErrors",
+            "line": 36,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Form\\Handler\\RebalanceHistoryFilterFormHandler",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Form\/Handler\/RebalanceHistoryFilterFormHandler.php",
+    "relative_file": null,
+    "hash": "545001ea37319f476d8358135837448c07eaf240",
+    "parent": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AbstractFormHandler": "Wealthbot\\AdminBundle\\Form\\Handler\\AbstractFormHandler",
+        "Session": "Symfony\\Component\\HttpFoundation\\Session\\Session"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

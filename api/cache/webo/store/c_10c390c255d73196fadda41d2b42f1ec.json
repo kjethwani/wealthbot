@@ -1,0 +1,151 @@
+{
+    "name": "Wealthbot\\UserBundle\\Mailer\\TwigSwiftMailer",
+    "line": 17,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "author": [
+            [
+                ""
+            ]
+        ]
+    },
+    "namespace": "Wealthbot\\UserBundle\\Mailer",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/UserBundle\/Mailer\/TwigSwiftMailer.php",
+    "relative_file": null,
+    "hash": "50ce891c5fd9b35eb20c4d737a8e2dcd13304e30",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "MailerInterface": "Wealthbot\\UserBundle\\Mailer\\MailerInterface",
+        "UrlGeneratorInterface": "Symfony\\Component\\Routing\\Generator\\UrlGeneratorInterface"
+    },
+    "errors": [],
+    "interfaces": {
+        "Wealthbot\\UserBundle\\Mailer\\MailerInterface": "Wealthbot\\UserBundle\\Mailer\\MailerInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 24,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "mailer": {
+                    "name": "mailer",
+                    "line": 24,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Mailer\\Swift_Mailer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Swift_Mailer",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "router": {
+                    "name": "router",
+                    "line": 24,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Mailer\\Symfony\\Component\\Routing\\Generator\\UrlGeneratorInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Routing\\Generator\\UrlGeneratorInterface",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "twig": {
+                    "name": "twig",
+                    "line": 24,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Mailer\\Twig_Environment",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Twig_Environment",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "parameters": {
+                    "name": "parameters",
+                    "line": 24,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "sendAdvCopyEmailMessage": {
+            "name": "sendAdvCopyEmailMessage",
+            "line": 32,
+            "short_desc": "Send an email to a client with ria adv copy attachment",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "client": {
+                    "name": "client",
+                    "line": 32,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Mailer\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

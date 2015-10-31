@@ -1,0 +1,337 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Model\\TransferInformation",
+    "line": 13,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Model\/TransferInformation.php",
+    "relative_file": null,
+    "hash": "a0308bb660e57f02015f0f71309fcfd3e05b06e0",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getAccountTypeChoices": {
+            "name": "getAccountTypeChoices",
+            "line": 67,
+            "short_desc": "Get array ENUM values account_type column",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAccountType": {
+            "name": "setAccountType",
+            "line": 92,
+            "short_desc": "Set account_type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\TransferInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "accountType": {
+                    "name": "accountType",
+                    "line": 92,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAccountType": {
+            "name": "getAccountType",
+            "line": 110,
+            "short_desc": "Get account_type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getTransferFromChoices": {
+            "name": "getTransferFromChoices",
+            "line": 120,
+            "short_desc": "Get choices for transfer_from column",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTransferFrom": {
+            "name": "setTransferFrom",
+            "line": 132,
+            "short_desc": "Set transfer_from",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\TransferInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "transferFrom": {
+                    "name": "transferFrom",
+                    "line": 132,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ],
+                        [
+                            "null",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTransferFrom": {
+            "name": "getTransferFrom",
+            "line": 150,
+            "short_desc": "Get transfer_from",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getInsurancePolicyTypeChoices": {
+            "name": "getInsurancePolicyTypeChoices",
+            "line": 160,
+            "short_desc": "Get choices for insurance_policy_type column",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setInsurancePolicyType": {
+            "name": "setInsurancePolicyType",
+            "line": 172,
+            "short_desc": "Set insurance_policy_type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\TransferInformation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "insurancePolicyType": {
+                    "name": "insurancePolicyType",
+                    "line": 172,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ],
+                        [
+                            "null",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getInsurancePolicyType": {
+            "name": "getInsurancePolicyType",
+            "line": 190,
+            "short_desc": "Get insurance_policy_type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "ACCOUNT_TYPE_PERSONAL_INVESTMENT_ACCOUNT": {
+            "name": "ACCOUNT_TYPE_PERSONAL_INVESTMENT_ACCOUNT",
+            "line": 21,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ACCOUNT_TYPE_JOINT_ACCOUNT": {
+            "name": "ACCOUNT_TYPE_JOINT_ACCOUNT",
+            "line": 22,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ACCOUNT_TYPE_ROTH_IRA": {
+            "name": "ACCOUNT_TYPE_ROTH_IRA",
+            "line": 23,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "ACCOUNT_TYPE_TRADITIONAL_ROLLOVER_IRA": {
+            "name": "ACCOUNT_TYPE_TRADITIONAL_ROLLOVER_IRA",
+            "line": 24,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TRANSFER_FROM_BROKERAGE_FIRM": {
+            "name": "TRANSFER_FROM_BROKERAGE_FIRM",
+            "line": 33,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TRANSFER_FROM_MUTUAL_FUND_COMPANY": {
+            "name": "TRANSFER_FROM_MUTUAL_FUND_COMPANY",
+            "line": 34,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TRANSFER_FROM_BANK": {
+            "name": "TRANSFER_FROM_BANK",
+            "line": 35,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TRANSFER_FROM_DEPOSIT_CERTIFICATES": {
+            "name": "TRANSFER_FROM_DEPOSIT_CERTIFICATES",
+            "line": 36,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INSURANCE_POLICY_TYPE_TERMINATE_CONTACT_POLICY": {
+            "name": "INSURANCE_POLICY_TYPE_TERMINATE_CONTACT_POLICY",
+            "line": 50,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INSURANCE_POLICY_TYPE_TRANSFER_PENALTY_FREE_AMOUNT": {
+            "name": "INSURANCE_POLICY_TYPE_TRANSFER_PENALTY_FREE_AMOUNT",
+            "line": 51,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "INSURANCE_POLICY_TYPE_TRANSFER_PENALTY_FREE": {
+            "name": "INSURANCE_POLICY_TYPE_TRANSFER_PENALTY_FREE",
+            "line": 52,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

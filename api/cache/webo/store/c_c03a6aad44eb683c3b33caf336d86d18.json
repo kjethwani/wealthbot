@@ -1,0 +1,214 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Controller\\BillingSpecController",
+    "line": 22,
+    "short_desc": "Class BillingSpecController",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "package": [
+            [
+                "Wealthbot\\RiaBundle\\Controller"
+            ]
+        ]
+    },
+    "namespace": "Wealthbot\\RiaBundle\\Controller",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Controller\/BillingSpecController.php",
+    "relative_file": null,
+    "hash": "055a2334db61ccd0580241a6e3157a91910339ac",
+    "parent": "Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "SerializationContext": "JMS\\Serializer\\SerializationContext",
+        "SecureParam": "JMS\\SecurityExtraBundle\\Annotation\\SecureParam",
+        "BillingSpec": "Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+        "Fee": "Wealthbot\\AdminBundle\\Entity\\Fee",
+        "FormErrorBag": "Wealthbot\\AdminBundle\\Form\\FormErrorBag",
+        "RiaCompanyInformation": "Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+        "BillingSpecFormType": "Wealthbot\\RiaBundle\\Form\\Type\\BillingSpecFormType",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "Controller": "Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller",
+        "JsonResponse": "Symfony\\Component\\HttpFoundation\\JsonResponse",
+        "Response": "Symfony\\Component\\HttpFoundation\\Response",
+        "Template": "Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\Template"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "listAction": {
+            "name": "listAction",
+            "line": 27,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "object",
+                    false
+                ],
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "createAction": {
+            "name": "createAction",
+            "line": 41,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Symfony\\Component\\HttpFoundation\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getAction": {
+            "name": "getAction",
+            "line": 90,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Symfony\\Component\\HttpFoundation\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "SecureParam": [
+                    [
+                        "(name=\"billingSpec\",",
+                        "permissions=\"VIEW\")"
+                    ]
+                ]
+            },
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "billingSpec": {
+                    "name": "billingSpec",
+                    "line": 90,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Controller\\Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "deleteAction": {
+            "name": "deleteAction",
+            "line": 102,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Symfony\\Component\\HttpFoundation\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "SecureParam": [
+                    [
+                        "(name=\"billingSpec\",",
+                        "permissions=\"DELETE\")"
+                    ]
+                ]
+            },
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "billingSpec": {
+                    "name": "billingSpec",
+                    "line": 102,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Controller\\Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "updateAction": {
+            "name": "updateAction",
+            "line": 114,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Symfony\\Component\\HttpFoundation\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "SecureParam": [
+                    [
+                        "(name=\"billingSpec\",",
+                        "permissions=\"EDIT\")"
+                    ]
+                ]
+            },
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "billingSpec": {
+                    "name": "billingSpec",
+                    "line": 114,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Controller\\Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\AdminBundle\\Entity\\BillingSpec",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

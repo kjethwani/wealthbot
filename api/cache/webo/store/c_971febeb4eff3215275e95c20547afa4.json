@@ -1,0 +1,117 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Service\\Security\\Voter\\ClientAccountVoter",
+    "line": 11,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Service\\Security\\Voter",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Service\/Security\/Voter\/ClientAccountVoter.php",
+    "relative_file": null,
+    "hash": "f5f89370f6e2fd50495f1a9aa0b8bc197a079045",
+    "parent": "Wealthbot\\RiaBundle\\Service\\Security\\Voter\\BaseVoter",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ClientAccount": "Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+        "TokenInterface": "Symfony\\Component\\Security\\Core\\Authentication\\Token\\TokenInterface",
+        "VoterInterface": "Symfony\\Component\\Security\\Core\\Authorization\\Voter\\VoterInterface",
+        "SystemAccount": "Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+        "User": "Wealthbot\\UserBundle\\Entity\\User"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "vote": {
+            "name": "vote",
+            "line": 23,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "either ACCESS_GRANTED, ACCESS_ABSTAIN, or ACCESS_DENIED",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "token": {
+                    "name": "token",
+                    "line": 23,
+                    "short_desc": "A TokenInterface instance",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Service\\Security\\Voter\\Symfony\\Component\\Security\\Core\\Authentication\\Token\\TokenInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Security\\Core\\Authentication\\Token\\TokenInterface",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "object": {
+                    "name": "object",
+                    "line": 23,
+                    "short_desc": "The object to secure",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "attributes": {
+                    "name": "attributes",
+                    "line": 23,
+                    "short_desc": "An array of attributes associated with the method being invoked",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "PERMISSION_CHANGE_CONSOLIDATOR": {
+            "name": "PERMISSION_CHANGE_CONSOLIDATOR",
+            "line": 13,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "PERMISSION_APPROVE_BILL": {
+            "name": "PERMISSION_APPROVE_BILL",
+            "line": 14,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "PERMISSION_EDIT": {
+            "name": "PERMISSION_EDIT",
+            "line": 15,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

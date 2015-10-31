@@ -1,0 +1,29 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Form\\Handler\\RiskQuestionsFormHandler",
+    "line": 18,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Form\/Handler\/RiskQuestionsFormHandler.php",
+    "relative_file": null,
+    "hash": "718ee1f22e8f8fc560a2d221d8c56d3ca659dd2f",
+    "parent": "Wealthbot\\ClientBundle\\Form\\Handler\\ClientQuestionsFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "CeModel": "Wealthbot\\AdminBundle\\Entity\\CeModel",
+        "Request": "Symfony\\Component\\HttpFoundation\\Request",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "Session": "Symfony\\Component\\HttpFoundation\\Session\\Session",
+        "BaseHandler": "Wealthbot\\ClientBundle\\Form\\Handler\\ClientQuestionsFormHandler"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

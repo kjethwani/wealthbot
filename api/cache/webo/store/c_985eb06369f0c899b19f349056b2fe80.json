@@ -1,0 +1,70 @@
+{
+    "name": "Wealthbot\\AdminBundle\\Tests\\Controller\\PasInterfacesControllerTest",
+    "line": 10,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\Tests\\Controller",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/Tests\/Controller\/PasInterfacesControllerTest.php",
+    "relative_file": null,
+    "hash": "c310c55bce431cca9be47a767124e8e68264469f",
+    "parent": "Wealthbot\\UserBundle\\TestSuit\\ExtendedWebTestCase",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ExtendedWebTestCase": "Wealthbot\\UserBundle\\TestSuit\\ExtendedWebTestCase",
+        "WebTestCase": "Symfony\\Bundle\\FrameworkBundle\\Test\\WebTestCase",
+        "Router": "Symfony\\Component\\Routing\\Router"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "setUp": {
+            "name": "setUp",
+            "line": 17,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "adminAuth": {
+            "name": "adminAuth",
+            "line": 23,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "testIndexAction": {
+            "name": "testIndexAction",
+            "line": 32,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

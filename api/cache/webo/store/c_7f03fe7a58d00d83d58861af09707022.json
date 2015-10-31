@@ -1,0 +1,65 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Docusign\\AbstractTransferInformationCondition",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Docusign",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Docusign\/AbstractTransferInformationCondition.php",
+    "relative_file": null,
+    "hash": "557c43638e29c02e7e16b91283774c2a291fa43b",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "TransferInformation": "Wealthbot\\ClientBundle\\Entity\\TransferInformation",
+        "DocusignConditionInterface": "Wealthbot\\SignatureBundle\\Docusign\\DocusignConditionInterface"
+    },
+    "errors": [],
+    "interfaces": {
+        "Wealthbot\\SignatureBundle\\Docusign\\DocusignConditionInterface": "Wealthbot\\SignatureBundle\\Docusign\\DocusignConditionInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "check": {
+            "name": "check",
+            "line": 25,
+            "short_desc": "Check condition",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "param": {
+                    "name": "param",
+                    "line": 25,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

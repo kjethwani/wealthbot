@@ -1,0 +1,67 @@
+{
+    "name": "Wealthbot\\AdminBundle\\DependencyInjection\\PasInterfacesLoadersPass",
+    "line": 10,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\DependencyInjection",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/DependencyInjection\/PasInterfacesLoadersPass.php",
+    "relative_file": null,
+    "hash": "ee13d8452310ef0c75a530117601c4fec1773324",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "CompilerPassInterface": "Symfony\\Component\\DependencyInjection\\Compiler\\CompilerPassInterface",
+        "ContainerBuilder": "Symfony\\Component\\DependencyInjection\\ContainerBuilder",
+        "Reference": "Symfony\\Component\\DependencyInjection\\Reference"
+    },
+    "errors": [],
+    "interfaces": {
+        "Symfony\\Component\\DependencyInjection\\Compiler\\CompilerPassInterface": "Symfony\\Component\\DependencyInjection\\Compiler\\CompilerPassInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "process": {
+            "name": "process",
+            "line": 18,
+            "short_desc": "You can modify the container here before it is dumped to PHP code.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "api": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "container": {
+                    "name": "container",
+                    "line": 18,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\DependencyInjection\\Symfony\\Component\\DependencyInjection\\ContainerBuilder",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\DependencyInjection\\ContainerBuilder",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,591 @@
+{
+    "name": "Wealthbot\\UserBundle\\Model\\User",
+    "line": 10,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\UserBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/UserBundle\/Model\/User.php",
+    "relative_file": null,
+    "hash": "897ddd3352ccee2b57816f6a98c1b42dc267ad4a",
+    "parent": "FOS\\UserBundle\\Entity\\User",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "BaseUser": "FOS\\UserBundle\\Entity\\User",
+        "Workflow": "Wealthbot\\ClientBundle\\Model\\Workflow",
+        "WorkflowableInterface": "Wealthbot\\ClientBundle\\Model\\WorkflowableInterface",
+        "Group": "Wealthbot\\UserBundle\\Entity\\Group",
+        "ExecutionContext": "Symfony\\Component\\Validator\\ExecutionContext"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getProfile": {
+            "name": "getProfile",
+            "line": 38,
+            "short_desc": "Get profile",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\Profile",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getFirstName": {
+            "name": "getFirstName",
+            "line": 48,
+            "short_desc": "Get user first name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "null",
+                    false
+                ],
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getLastName": {
+            "name": "getLastName",
+            "line": 58,
+            "short_desc": "Get user last name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "null",
+                    false
+                ],
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPlainPassword": {
+            "name": "setPlainPassword",
+            "line": 63,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "password": {
+                    "name": "password",
+                    "line": 63,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "expiredAfter": {
+                    "name": "expiredAfter",
+                    "line": 63,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setPasswordExpiredAt": {
+            "name": "setPasswordExpiredAt",
+            "line": 83,
+            "short_desc": "Set password_expired_at",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Model\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "passwordExpiredAt": {
+                    "name": "passwordExpiredAt",
+                    "line": 83,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getPasswordExpiredAt": {
+            "name": "getPasswordExpiredAt",
+            "line": 95,
+            "short_desc": "Get password_expired_at",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isPasswordExpired": {
+            "name": "isPasswordExpired",
+            "line": 105,
+            "short_desc": "Checks whether the password has expired.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isPasswordLegal": {
+            "name": "isPasswordLegal",
+            "line": 117,
+            "short_desc": "Validate password",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "context": {
+                    "name": "context",
+                    "line": 117,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Model\\Symfony\\Component\\Validator\\ExecutionContext",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Validator\\ExecutionContext",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "generateTemporaryPassword": {
+            "name": "generateTemporaryPassword",
+            "line": 151,
+            "short_desc": "Generate temporary password",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "length": {
+                    "name": "length",
+                    "line": 151,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "16",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "isAdmin": {
+            "name": "isAdmin",
+            "line": 190,
+            "short_desc": "Is user is admin",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addRiaDashboardBox": {
+            "name": "addRiaDashboardBox",
+            "line": 207,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "riaDashboardBox": {
+                    "name": "riaDashboardBox",
+                    "line": 207,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Model\\Wealthbot\\RiaBundle\\Entity\\RiaDashboardBox",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\RiaBundle\\Entity\\RiaDashboardBox",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeRiaDashboardBox": {
+            "name": "removeRiaDashboardBox",
+            "line": 212,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "riaDashboardBox": {
+                    "name": "riaDashboardBox",
+                    "line": 212,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Model\\Wealthbot\\RiaBundle\\Entity\\RiaDashboardBox",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\RiaBundle\\Entity\\RiaDashboardBox",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setStatusProspect": {
+            "name": "setStatusProspect",
+            "line": 222,
+            "short_desc": "Set client status as prospect",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\UserBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "hasStatusProspect": {
+            "name": "hasStatusProspect",
+            "line": 234,
+            "short_desc": "Is client has status prospect",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStatusClient": {
+            "name": "setStatusClient",
+            "line": 248,
+            "short_desc": "Set client status as client",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\UserBundle\\Model\\$this",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "hasStatusClient": {
+            "name": "hasStatusClient",
+            "line": 260,
+            "short_desc": "Is client has status client",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getClientStatus": {
+            "name": "getClientStatus",
+            "line": 275,
+            "short_desc": "Get client status",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\RuntimeException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "getClientStatusAsString": {
+            "name": "getClientStatusAsString",
+            "line": 290,
+            "short_desc": "Get client status as string",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\RuntimeException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "addClientActivitySummary": {
+            "name": "addClientActivitySummary",
+            "line": 312,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientActivitySummary": {
+                    "name": "clientActivitySummary",
+                    "line": 312,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Model\\Wealthbot\\ClientBundle\\Entity\\ClientActivitySummary",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\ClientActivitySummary",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "removeClientActivitySummary": {
+            "name": "removeClientActivitySummary",
+            "line": 327,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "clientActivitySummary": {
+                    "name": "clientActivitySummary",
+                    "line": 327,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Model\\Wealthbot\\ClientBundle\\Entity\\ClientActivitySummary",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\ClientActivitySummary",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "isHaveSuggestedPortfolio": {
+            "name": "isHaveSuggestedPortfolio",
+            "line": 332,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getAssignedGroupName": {
+            "name": "getAssignedGroupName",
+            "line": 349,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ],
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getGroupIds": {
+            "name": "getGroupIds",
+            "line": 358,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

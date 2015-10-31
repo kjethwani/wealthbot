@@ -1,0 +1,99 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Controller\\BillItemController",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Controller",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Controller\/BillItemController.php",
+    "relative_file": null,
+    "hash": "90cd3a3ba29f8dd1de05ebc2b500382f0e57e713",
+    "parent": "Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "SerializationContext": "JMS\\Serializer\\SerializationContext",
+        "SecureParam": "JMS\\SecurityExtraBundle\\Annotation\\SecureParam",
+        "SystemAccount": "Wealthbot\\ClientBundle\\Model\\SystemAccount",
+        "BillItem": "Wealthbot\\ClientBundle\\Entity\\BillItem",
+        "Controller": "Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller",
+        "Response": "Symfony\\Component\\HttpFoundation\\Response",
+        "Request": "Symfony\\Component\\HttpFoundation\\Request",
+        "JsonResponse": "Symfony\\Component\\HttpFoundation\\JsonResponse",
+        "ParamConverter": "Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\ParamConverter"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "updateFeeAction": {
+            "name": "updateFeeAction",
+            "line": 29,
+            "short_desc": "API",
+            "long_desc": "Update bill item fee",
+            "hint": [
+                [
+                    "\\Symfony\\Component\\HttpFoundation\\JsonResponse",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "SecureParam": [
+                    [
+                        "(name=\"billItem\",",
+                        "permissions=\"CHANGE_FEE\")"
+                    ]
+                ],
+                "ParamConverter": [
+                    [
+                        "(\"billItem\",",
+                        "class=\"WealthbotClientBundle:BillItem\")"
+                    ]
+                ]
+            },
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "billItem": {
+                    "name": "billItem",
+                    "line": 29,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Controller\\Wealthbot\\ClientBundle\\Entity\\BillItem",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\ClientBundle\\Entity\\BillItem",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "request": {
+                    "name": "request",
+                    "line": 29,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

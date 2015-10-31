@@ -1,0 +1,75 @@
+{
+    "name": "Wealthbot\\UserBundle\\Controller\\SecurityController",
+    "line": 11,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\UserBundle\\Controller",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/UserBundle\/Controller\/SecurityController.php",
+    "relative_file": null,
+    "hash": "c11a22ea6c5b62475c67dfea9bebbdb7f128ecdd",
+    "parent": "FOS\\UserBundle\\Controller\\SecurityController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "BaseSecurity": "FOS\\UserBundle\\Controller\\SecurityController",
+        "RiaResetClientPasswordFormType": "Wealthbot\\RiaBundle\\Form\\Type\\RiaResetClientPasswordFormType",
+        "Request": "Symfony\\Component\\HttpFoundation\\Request",
+        "Session": "Symfony\\Component\\HttpFoundation\\Session\\Session",
+        "SecurityContext": "Symfony\\Component\\Security\\Core\\SecurityContext"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "loginAction": {
+            "name": "loginAction",
+            "line": 13,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "resetPasswordAction": {
+            "name": "resetPasswordAction",
+            "line": 62,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 62,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\UserBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

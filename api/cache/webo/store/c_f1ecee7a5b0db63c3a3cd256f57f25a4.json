@@ -1,0 +1,367 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Controller\\ChangeProfileController",
+    "line": 39,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Controller",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Controller\/ChangeProfileController.php",
+    "relative_file": null,
+    "hash": "cc86da050e2fb26616bddd8c51c486e951b84aeb",
+    "parent": "Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Events": "Doctrine\\ORM\\Events",
+        "AdminEvents": "Wealthbot\\AdminBundle\\AdminEvents",
+        "CeModel": "Wealthbot\\AdminBundle\\Entity\\CeModel",
+        "UserHistoryEvent": "Wealthbot\\AdminBundle\\Event\\UserHistoryEvent",
+        "AdvisorCode": "Wealthbot\\RiaBundle\\Entity\\AdvisorCode",
+        "RiaCompanyInformation": "Wealthbot\\RiaBundle\\Entity\\RiaCompanyInformation",
+        "RiaProposalFormHandler": "Wealthbot\\RiaBundle\\Form\\Handler\\RiaProposalFormHandler",
+        "ProfileFormType": "Wealthbot\\RiaBundle\\Form\\Type\\ProfileFormType",
+        "RegistrationStepOneFormType": "Wealthbot\\RiaBundle\\Form\\Type\\RegistrationStepOneFormType",
+        "RiaAdvisorCodeFormType": "Wealthbot\\RiaBundle\\Form\\Type\\RiaAdvisorCodeFormType",
+        "RiaAlertsConfigurationFormType": "Wealthbot\\RiaBundle\\Form\\Type\\RiaAlertsConfigurationFormType",
+        "RiaCustodianFormType": "Wealthbot\\RiaBundle\\Form\\Type\\RiaCustodianFormType",
+        "RiaProposalFormType": "Wealthbot\\RiaBundle\\Form\\Type\\RiaProposalFormType",
+        "DocumentsFormHandler": "Wealthbot\\UserBundle\\Form\\Handler\\DocumentsFormHandler",
+        "SubclassRepository": "Wealthbot\\AdminBundle\\Repository\\SubclassRepository",
+        "RiaCompanyInformationThreeType": "Wealthbot\\RiaBundle\\Form\\Type\\RiaCompanyInformationThreeType",
+        "RiaCompanyInformationFourType": "Wealthbot\\RiaBundle\\Form\\Type\\RiaCompanyInformationFourType",
+        "RiaCompanyInformationTwoFormType": "Wealthbot\\RiaBundle\\Form\\Type\\RiaCompanyInformationTwoFormType",
+        "RiaCompanyInformationType": "Wealthbot\\RiaBundle\\Form\\Type\\RiaCompanyInformationType",
+        "AdvisorCodesCollectionFormType": "Wealthbot\\RiaBundle\\Form\\Type\\AdvisorCodesCollectionFormType",
+        "RiaDocumentsFormType": "Wealthbot\\UserBundle\\Form\\Type\\RiaDocumentsFormType",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "Controller": "Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller",
+        "Request": "Symfony\\Component\\HttpFoundation\\Request",
+        "Response": "Symfony\\Component\\HttpFoundation\\Response",
+        "NotFoundHttpException": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "indexAction": {
+            "name": "indexAction",
+            "line": 41,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 41,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "custodianTabAction": {
+            "name": "custodianTabAction",
+            "line": 103,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "advisorCodesAction": {
+            "name": "advisorCodesAction",
+            "line": 126,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 126,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "saveCompanyProfileAction": {
+            "name": "saveCompanyProfileAction",
+            "line": 154,
+            "short_desc": "Save company information",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Symfony\\Component\\HttpFoundation\\Response",
+                    false
+                ],
+                [
+                    "\\Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 154,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "saveProposalAction": {
+            "name": "saveProposalAction",
+            "line": 190,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 190,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "saveBillingAction": {
+            "name": "saveBillingAction",
+            "line": 252,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 252,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "savePortfolioManagementAction": {
+            "name": "savePortfolioManagementAction",
+            "line": 306,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 306,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "updatePasswordAction": {
+            "name": "updatePasswordAction",
+            "line": 382,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "saveAlertsConfigurationAction": {
+            "name": "saveAlertsConfigurationAction",
+            "line": 424,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 424,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "profileAction": {
+            "name": "profileAction",
+            "line": 459,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 459,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "saveCustodiansAction": {
+            "name": "saveCustodiansAction",
+            "line": 487,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 487,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

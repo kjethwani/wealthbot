@@ -1,0 +1,76 @@
+{
+    "name": "Wealthbot\\AdminBundle\\DependencyInjection\\WealthbotAdminExtension",
+    "line": 15,
+    "short_desc": "This is the class that loads and manages your bundle configuration",
+    "long_desc": "To learn more see {@link http:\/\/symfony.com\/doc\/current\/cookbook\/bundles\/extension.html}",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\DependencyInjection",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/DependencyInjection\/WealthbotAdminExtension.php",
+    "relative_file": null,
+    "hash": "0c1732ab1f819327bb72fd2e671e6847a0cb3082",
+    "parent": "Symfony\\Component\\HttpKernel\\DependencyInjection\\Extension",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ContainerBuilder": "Symfony\\Component\\DependencyInjection\\ContainerBuilder",
+        "FileLocator": "Symfony\\Component\\Config\\FileLocator",
+        "Extension": "Symfony\\Component\\HttpKernel\\DependencyInjection\\Extension",
+        "Loader": "Symfony\\Component\\DependencyInjection\\Loader"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "load": {
+            "name": "load",
+            "line": 20,
+            "short_desc": "{@inheritDoc}",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "configs": {
+                    "name": "configs",
+                    "line": 20,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "container": {
+                    "name": "container",
+                    "line": 20,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\DependencyInjection\\Symfony\\Component\\DependencyInjection\\ContainerBuilder",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\DependencyInjection\\ContainerBuilder",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

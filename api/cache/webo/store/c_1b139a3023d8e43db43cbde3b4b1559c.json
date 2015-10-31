@@ -1,0 +1,32 @@
+{
+    "name": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM\\LoadTransactionData",
+    "line": 20,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\FixturesBundle\\DataFixtures\\ORM",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/FixturesBundle\/DataFixtures\/ORM\/LoadTransactionData.php",
+    "relative_file": null,
+    "hash": "bb4c33e0cff5f5a494648c90ac1ffdf82bfcac2b",
+    "parent": "Wealthbot\\FixturesBundle\\Model\\AbstractCsvFixture",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AbstractFixture": "Doctrine\\Common\\DataFixtures\\AbstractFixture",
+        "OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface",
+        "ObjectManager": "Doctrine\\Common\\Persistence\\ObjectManager",
+        "Transaction": "Wealthbot\\AdminBundle\\Entity\\Transaction",
+        "Lot": "Wealthbot\\ClientBundle\\Entity\\Lot",
+        "AbstractCsvFixture": "Wealthbot\\FixturesBundle\\Model\\AbstractCsvFixture"
+    },
+    "errors": [],
+    "interfaces": {
+        "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface": "Doctrine\\Common\\DataFixtures\\OrderedFixtureInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

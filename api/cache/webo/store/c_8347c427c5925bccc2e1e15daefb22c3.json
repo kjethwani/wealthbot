@@ -1,0 +1,69 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Tests\\Controller\\ProspectsControllerTest",
+    "line": 15,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Tests\\Controller",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Tests\/Controller\/ProspectsControllerTest.php",
+    "relative_file": null,
+    "hash": "02506c857c2d7bb0ffdc3b0ccdf6474968f5829a",
+    "parent": "Wealthbot\\UserBundle\\TestSuit\\ExtendedWebTestCase",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ExtendedWebTestCase": "Wealthbot\\UserBundle\\TestSuit\\ExtendedWebTestCase",
+        "Router": "Symfony\\Component\\Routing\\Router"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "setUp": {
+            "name": "setUp",
+            "line": 19,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "testSuggestedPortfolioAction": {
+            "name": "testSuggestedPortfolioAction",
+            "line": 26,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "testSuggestedPortfolioWrongUser": {
+            "name": "testSuggestedPortfolioWrongUser",
+            "line": 41,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

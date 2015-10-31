@@ -1,0 +1,41 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Form\\Validator\\ScheduledDistributionFormValidator",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Form\\Validator",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Form\/Validator\/ScheduledDistributionFormValidator.php",
+    "relative_file": null,
+    "hash": "6f10c198215bda6288015111e2f93503871ed98c",
+    "parent": "Wealthbot\\ClientBundle\\Form\\Validator\\AbstractFormValidator",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Distribution": "Wealthbot\\ClientBundle\\Entity\\Distribution",
+        "FormError": "Symfony\\Component\\Form\\FormError"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "validate": {
+            "name": "validate",
+            "line": 21,
+            "short_desc": "Validate form fields",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

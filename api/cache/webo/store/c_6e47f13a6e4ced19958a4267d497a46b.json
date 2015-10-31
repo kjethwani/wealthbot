@@ -1,0 +1,179 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Controller\\DashboardTransferController",
+    "line": 44,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Controller",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Controller\/DashboardTransferController.php",
+    "relative_file": null,
+    "hash": "066a726445c376535be55f9a5e4b824420fd07b7",
+    "parent": "Wealthbot\\ClientBundle\\Controller\\BaseTransferController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "EntityManager": "Doctrine\\ORM\\EntityManager",
+        "AdminEvents": "Wealthbot\\AdminBundle\\AdminEvents",
+        "UserHistoryEvent": "Wealthbot\\AdminBundle\\Event\\UserHistoryEvent",
+        "ClientEvents": "Wealthbot\\ClientBundle\\ClientEvents",
+        "TransferInformationConsolidatorCondition": "Wealthbot\\ClientBundle\\Docusign\\TransferInformationConsolidatorCondition",
+        "TransferInformationCustodianCondition": "Wealthbot\\ClientBundle\\Docusign\\TransferInformationCustodianCondition",
+        "TransferInformationPolicyCondition": "Wealthbot\\ClientBundle\\Docusign\\TransferInformationPolicyCondition",
+        "TransferInformationQuestionnaireCondition": "Wealthbot\\ClientBundle\\Docusign\\TransferInformationQuestionnaireCondition",
+        "AccountGroup": "Wealthbot\\ClientBundle\\Entity\\AccountGroup",
+        "BankInformation": "Wealthbot\\ClientBundle\\Entity\\BankInformation",
+        "ClientAccount": "Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+        "SystemAccount": "Wealthbot\\ClientBundle\\Entity\\SystemAccount",
+        "TransferInformation": "Wealthbot\\ClientBundle\\Entity\\TransferInformation",
+        "Workflow": "Wealthbot\\ClientBundle\\Entity\\Workflow",
+        "WorkflowEvent": "Wealthbot\\ClientBundle\\Event\\WorkflowEvent",
+        "BankInformationFormHandler": "Wealthbot\\ClientBundle\\Form\\Handler\\BankInformationFormHandler",
+        "TransferInformationFormHandler": "Wealthbot\\ClientBundle\\Form\\Handler\\TransferInformationFormHandler",
+        "BankInformationFormType": "Wealthbot\\ClientBundle\\Form\\Type\\BankInformationFormType",
+        "DashboardSystemAccountsFormType": "Wealthbot\\ClientBundle\\Form\\Type\\DashboardSystemAccountsFormType",
+        "TransferFundingDistributingFormType": "Wealthbot\\ClientBundle\\Form\\Type\\TransferFundingDistributingFormType",
+        "TransferInformationFormType": "Wealthbot\\ClientBundle\\Form\\Type\\TransferInformationFormType",
+        "TransferReviewFormType": "Wealthbot\\ClientBundle\\Form\\Type\\TransferReviewFormType",
+        "SystemAccountManager": "Wealthbot\\ClientBundle\\Manager\\SystemAccountManager",
+        "ClientAccountRepository": "Wealthbot\\ClientBundle\\Repository\\ClientAccountRepository",
+        "Document": "Wealthbot\\UserBundle\\Entity\\Document",
+        "Profile": "Wealthbot\\UserBundle\\Entity\\Profile",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "Request": "Symfony\\Component\\HttpFoundation\\Request",
+        "Response": "Symfony\\Component\\HttpFoundation\\Response",
+        "AccessDeniedHttpException": "Symfony\\Component\\HttpKernel\\Exception\\AccessDeniedHttpException"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "selectSystemAccountAction": {
+            "name": "selectSystemAccountAction",
+            "line": 46,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 46,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "createBankInformationAction": {
+            "name": "createBankInformationAction",
+            "line": 123,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 123,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "reviewAction": {
+            "name": "reviewAction",
+            "line": 184,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 184,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "transferAction": {
+            "name": "transferAction",
+            "line": 295,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 295,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

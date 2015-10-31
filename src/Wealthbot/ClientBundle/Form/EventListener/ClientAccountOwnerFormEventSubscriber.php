@@ -95,7 +95,8 @@ class ClientAccountOwnerFormEventSubscriber implements EventSubscriberInterface
                 'mapped' => false,
                 'choices' => $choices,
                 'expanded' => true,
-                'multiple' => true
+                'multiple' => true,
+                'auto_initialize' => false,
             )));
 
         } else {
@@ -105,7 +106,8 @@ class ClientAccountOwnerFormEventSubscriber implements EventSubscriberInterface
                 'mapped' => false,
                 'choices' => $choices,
                 'expanded' => true,
-                'multiple' => false
+                'multiple' => false,
+                'auto_initialize' => false,
             )));
         }
     }

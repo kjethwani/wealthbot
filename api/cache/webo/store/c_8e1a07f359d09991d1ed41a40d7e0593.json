@@ -1,0 +1,212 @@
+{
+    "name": "Wealthbot\\AdminBundle\\Model\\Acl",
+    "line": 17,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\AdminBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/AdminBundle\/Model\/Acl.php",
+    "relative_file": null,
+    "hash": "054250b5c4422b92e2cf27e8d0a5bf3fea86aa09",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AccessDeniedException": "Symfony\\Component\\Security\\Core\\Exception\\AccessDeniedException",
+        "SecurityContextInterface": "Symfony\\Component\\Security\\Core\\SecurityContextInterface",
+        "UserInterface": "Symfony\\Component\\Security\\Core\\User\\UserInterface"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 33,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "securityContext": {
+                    "name": "securityContext",
+                    "line": 33,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Model\\Symfony\\Component\\Security\\Core\\SecurityContextInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Security\\Core\\SecurityContextInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "isPermitted": {
+            "name": "isPermitted",
+            "line": 46,
+            "short_desc": "Check if user has permission.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "permission": {
+                    "name": "permission",
+                    "line": 46,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "user": {
+                    "name": "user",
+                    "line": 46,
+                    "short_desc": "If is null then taken from security context",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Model\\Symfony\\Component\\Security\\Core\\User\\UserInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Security\\Core\\User\\UserInterface",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "checkAccess": {
+            "name": "checkAccess",
+            "line": 69,
+            "short_desc": "Check user access.",
+            "long_desc": "If user does not have access then throw AccessDeniedException",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\Symfony\\Component\\Security\\Core\\Exception\\AccessDeniedException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "permission": {
+                    "name": "permission",
+                    "line": 69,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "user": {
+                    "name": "user",
+                    "line": 69,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\AdminBundle\\Model\\Symfony\\Component\\Security\\Core\\User\\UserInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Security\\Core\\User\\UserInterface",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getUser": {
+            "name": "getUser",
+            "line": 79,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "PERMISSION_VIEW": {
+            "name": "PERMISSION_VIEW",
+            "line": 19,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "PERMISSION_EDIT": {
+            "name": "PERMISSION_EDIT",
+            "line": 20,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "PERMISSION_CREATE_USER": {
+            "name": "PERMISSION_CREATE_USER",
+            "line": 21,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "PERMISSION_LOGIN_AS": {
+            "name": "PERMISSION_LOGIN_AS",
+            "line": 22,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

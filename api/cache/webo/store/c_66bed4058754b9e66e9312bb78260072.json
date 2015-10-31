@@ -1,0 +1,37 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Command\\SwapClientAccountTypesCommand",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "author": [
+            [
+                "Maxim",
+                "Belyakov"
+            ]
+        ]
+    },
+    "namespace": "Wealthbot\\ClientBundle\\Command",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Command\/SwapClientAccountTypesCommand.php",
+    "relative_file": null,
+    "hash": "eecd5366d14a3338d2cb4e7d782b232a76fff41e",
+    "parent": "Symfony\\Bundle\\FrameworkBundle\\Command\\ContainerAwareCommand",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "AccountGroupType": "Wealthbot\\ClientBundle\\Entity\\AccountGroupType",
+        "AccountGroup": "Wealthbot\\ClientBundle\\Model\\AccountGroup",
+        "ContainerAwareCommand": "Symfony\\Bundle\\FrameworkBundle\\Command\\ContainerAwareCommand",
+        "InputArgument": "Symfony\\Component\\Console\\Input\\InputArgument",
+        "InputInterface": "Symfony\\Component\\Console\\Input\\InputInterface",
+        "OutputInterface": "Symfony\\Component\\Console\\Output\\OutputInterface"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

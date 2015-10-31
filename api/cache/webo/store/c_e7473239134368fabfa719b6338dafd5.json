@@ -1,0 +1,30 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Form\\Handler\\OutsideFundFormHandler",
+    "line": 11,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Form\/Handler\/OutsideFundFormHandler.php",
+    "relative_file": null,
+    "hash": "3dbb823006b932cacf36f5dc030960e21422742a",
+    "parent": "Wealthbot\\ClientBundle\\Form\\Handler\\AbstractOutsideFundFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ExportException": "Doctrine\\ORM\\Tools\\Export\\ExportException",
+        "Security": "Wealthbot\\AdminBundle\\Entity\\Security",
+        "DataAlreadyExistsException": "Wealthbot\\AdminBundle\\Exception\\DataAlreadyExistsException",
+        "ClientAccount": "Wealthbot\\ClientBundle\\Entity\\ClientAccount",
+        "SecurityAssignment": "Wealthbot\\AdminBundle\\Entity\\SecurityAssignment",
+        "User": "Wealthbot\\UserBundle\\Entity\\User"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

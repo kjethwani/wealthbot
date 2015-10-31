@@ -1,0 +1,30 @@
+{
+    "name": "Wealthbot\\ClientBundle\\ClientEvents",
+    "line": 13,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/ClientEvents.php",
+    "relative_file": null,
+    "hash": "8c2bb0f6a2b5275e6ce1c67703c54f07069304fe",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": {
+        "CLIENT_WORKFLOW": {
+            "name": "CLIENT_WORKFLOW",
+            "line": 15,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

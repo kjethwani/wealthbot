@@ -1,0 +1,70 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Controller\\ClientController",
+    "line": 20,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Controller",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Controller\/ClientController.php",
+    "relative_file": null,
+    "hash": "6c0d2eb40b01a2687e633717f9aef28906fc1c65",
+    "parent": "Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "SerializationContext": "JMS\\Serializer\\SerializationContext",
+        "CeModel": "Wealthbot\\AdminBundle\\Entity\\CeModel",
+        "ClientAccountRepository": "Wealthbot\\ClientBundle\\Repository\\ClientAccountRepository",
+        "ClientSasCashCollectionFormHandler": "Wealthbot\\RiaBundle\\Form\\Handler\\ClientSasCashCollectionFormHandler",
+        "CreateClientFormHandler": "Wealthbot\\RiaBundle\\Form\\Handler\\CreateClientFormHandler",
+        "RiaClientAccountFormHandler": "Wealthbot\\RiaBundle\\Form\\Handler\\RiaClientAccountFormHandler",
+        "ClientSasCashCollectionFormType": "Wealthbot\\RiaBundle\\Form\\Type\\ClientSasCashCollectionFormType",
+        "CreateClientType": "Wealthbot\\RiaBundle\\Form\\Type\\CreateClientType",
+        "RiaClientAccountFormType": "Wealthbot\\RiaBundle\\Form\\Type\\RiaClientAccountFormType",
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "Controller": "Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller",
+        "Request": "Symfony\\Component\\HttpFoundation\\Request",
+        "Response": "Symfony\\Component\\HttpFoundation\\Response",
+        "Profile": "Wealthbot\\UserBundle\\Entity\\Profile"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "updateSasCashAction": {
+            "name": "updateSasCashAction",
+            "line": 22,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 22,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Controller\\Symfony\\Component\\HttpFoundation\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\HttpFoundation\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

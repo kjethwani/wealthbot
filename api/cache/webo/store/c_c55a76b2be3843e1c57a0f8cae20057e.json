@@ -1,0 +1,62 @@
+{
+    "name": "Wealthbot\\UserBundle\\TestSuit\\ExtendedWebTestCase",
+    "line": 15,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\UserBundle\\TestSuit",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/UserBundle\/TestSuit\/ExtendedWebTestCase.php",
+    "relative_file": null,
+    "hash": "dbd96794c8a23b67dee4b0d08e30594ba9bcb078",
+    "parent": "Symfony\\Bundle\\FrameworkBundle\\Test\\WebTestCase",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "EntityManager": "Doctrine\\ORM\\EntityManager",
+        "WebTestCase": "Symfony\\Bundle\\FrameworkBundle\\Test\\WebTestCase",
+        "UsernamePasswordToken": "Symfony\\Component\\Security\\Core\\Authentication\\Token\\UsernamePasswordToken",
+        "Session": "Symfony\\Component\\HttpFoundation\\Session\\Session",
+        "MockFileSessionStorage": "Symfony\\Component\\HttpFoundation\\Session\\Storage\\MockFileSessionStorage",
+        "Client": "Symfony\\Bundle\\FrameworkBundle\\Client",
+        "Cookie": "Symfony\\Component\\BrowserKit\\Cookie",
+        "GetResponseEvent": "Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent",
+        "KernelEvents": "Symfony\\Component\\HttpKernel\\KernelEvents"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "setUp": {
+            "name": "setUp",
+            "line": 33,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "tearDown": {
+            "name": "tearDown",
+            "line": 48,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

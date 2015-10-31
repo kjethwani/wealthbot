@@ -1,0 +1,94 @@
+{
+    "name": "Wealthbot\\SignatureBundle\\Model\\AccountTabsConfigurationFactory",
+    "line": 26,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\SignatureBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/SignatureBundle\/Model\/AccountTabsConfigurationFactory.php",
+    "relative_file": null,
+    "hash": "1abdf3468b21bb82c0ff9a1c102e403280f816a4",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Beneficiary": "Wealthbot\\ClientBundle\\Entity\\Beneficiary",
+        "Distribution": "Wealthbot\\ClientBundle\\Entity\\Distribution",
+        "SystemAccount": "Wealthbot\\ClientBundle\\Model\\SystemAccount",
+        "DocumentSignature": "Wealthbot\\SignatureBundle\\Entity\\DocumentSignature",
+        "AccountTransferForm": "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration\\AccountTransferForm",
+        "BeneficiaryDesignationForm": "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration\\BeneficiaryDesignationForm",
+        "CheckRequest": "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration\\CheckRequest",
+        "ElectronicFundsTransferForm": "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration\\ElectronicFundsTransferForm",
+        "IraAccountApplication": "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration\\IraAccountApplication",
+        "IraDistributionForm": "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration\\IraDistributionForm",
+        "PersonalAccountApplication": "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration\\PersonalAccountApplication",
+        "WireInstructions": "Wealthbot\\SignatureBundle\\Model\\TabsConfiguration\\WireInstructions"
+    },
+    "errors": [],
+    "interfaces": {
+        "Wealthbot\\SignatureBundle\\Model\\TabsConfigurationFactoryInterface": "Wealthbot\\SignatureBundle\\Model\\TabsConfigurationFactoryInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 31,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "object": {
+                    "name": "object",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\SignatureBundle\\Model\\Wealthbot\\SignatureBundle\\Model\\SignableInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\SignatureBundle\\Model\\SignableInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "create": {
+            "name": "create",
+            "line": 42,
+            "short_desc": "Create tab configuration object",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\SignatureBundle\\Model\\TabsConfigurationInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

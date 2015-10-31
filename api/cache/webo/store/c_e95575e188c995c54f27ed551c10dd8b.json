@@ -1,0 +1,57 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Tests\\Controller\\DashboardControllerTest",
+    "line": 10,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Tests\\Controller",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Tests\/Controller\/DashboardControllerTest.php",
+    "relative_file": null,
+    "hash": "d7e39dde063a9e9fbfd8942488525e1183f6a385",
+    "parent": "Wealthbot\\UserBundle\\TestSuit\\ExtendedWebTestCase",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "User": "Wealthbot\\UserBundle\\Entity\\User",
+        "ExtendedWebTestCase": "Wealthbot\\UserBundle\\TestSuit\\ExtendedWebTestCase",
+        "Router": "Symfony\\Bundle\\FrameworkBundle\\Routing\\Router",
+        "Client": "Symfony\\Bundle\\FrameworkBundle\\Client"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "setUp": {
+            "name": "setUp",
+            "line": 15,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "testIndexThereIsRequiredStepsAction": {
+            "name": "testIndexThereIsRequiredStepsAction",
+            "line": 22,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

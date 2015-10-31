@@ -1,0 +1,1513 @@
+{
+    "name": "Wealthbot\\ClientBundle\\Model\\Workflow",
+    "line": 15,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\ClientBundle\\Model",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/ClientBundle\/Model\/Workflow.php",
+    "relative_file": null,
+    "hash": "8deff45ed11666330cd7e17e6e623640c90124f1",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "User": "Wealthbot\\UserBundle\\Entity\\User"
+    },
+    "errors": [],
+    "interfaces": {
+        "Wealthbot\\ClientBundle\\Model\\PaymentActivityInterface": "Wealthbot\\ClientBundle\\Model\\PaymentActivityInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 178,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getId": {
+            "name": "getId",
+            "line": 191,
+            "short_desc": "Get id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getTypeChoices": {
+            "name": "getTypeChoices",
+            "line": 201,
+            "short_desc": "Get type choices",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setType": {
+            "name": "setType",
+            "line": 213,
+            "short_desc": "Set type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\Workflow",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "type": {
+                    "name": "type",
+                    "line": 213,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getType": {
+            "name": "getType",
+            "line": 229,
+            "short_desc": "Get type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setObjectId": {
+            "name": "setObjectId",
+            "line": 240,
+            "short_desc": "Set object_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\Workflow",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "objectId": {
+                    "name": "objectId",
+                    "line": 240,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getObjectId": {
+            "name": "getObjectId",
+            "line": 252,
+            "short_desc": "Get object_id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setObjectIds": {
+            "name": "setObjectIds",
+            "line": 263,
+            "short_desc": "Set object_ids",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\Workflow",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "objectIds": {
+                    "name": "objectIds",
+                    "line": 263,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getObjectIds": {
+            "name": "getObjectIds",
+            "line": 275,
+            "short_desc": "Get object_ids",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setObjectType": {
+            "name": "setObjectType",
+            "line": 286,
+            "short_desc": "Set object_type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\Workflow",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "objectType": {
+                    "name": "objectType",
+                    "line": 286,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getObjectType": {
+            "name": "getObjectType",
+            "line": 298,
+            "short_desc": "Get object_type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getMessageCodeChoices": {
+            "name": "getMessageCodeChoices",
+            "line": 308,
+            "short_desc": "Get message code choices",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setMessageCode": {
+            "name": "setMessageCode",
+            "line": 333,
+            "short_desc": "Set message_code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\Workflow",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "messageCode": {
+                    "name": "messageCode",
+                    "line": 333,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getPaperworkMessageChoices": {
+            "name": "getPaperworkMessageChoices",
+            "line": 352,
+            "short_desc": "Get paperwork message choices",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getAlertMessageChoices": {
+            "name": "getAlertMessageChoices",
+            "line": 362,
+            "short_desc": "Get alert message choices",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getMessageCode": {
+            "name": "getMessageCode",
+            "line": 372,
+            "short_desc": "Get message_code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setMessage": {
+            "name": "setMessage",
+            "line": 384,
+            "short_desc": "TODO: remove\nSet message",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\Workflow",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "message": {
+                    "name": "message",
+                    "line": 384,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getMessage": {
+            "name": "getMessage",
+            "line": 396,
+            "short_desc": "Get message",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getDbMessage": {
+            "name": "getDbMessage",
+            "line": 410,
+            "short_desc": "Get message from db",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getStatusChoices": {
+            "name": "getStatusChoices",
+            "line": 420,
+            "short_desc": "Get status choices",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStatus": {
+            "name": "setStatus",
+            "line": 432,
+            "short_desc": "Set status",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\Workflow",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "status": {
+                    "name": "status",
+                    "line": 432,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getStatus": {
+            "name": "getStatus",
+            "line": 448,
+            "short_desc": "Get status",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getStatusAsString": {
+            "name": "getStatusAsString",
+            "line": 458,
+            "short_desc": "Get status as string",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isNew": {
+            "name": "isNew",
+            "line": 468,
+            "short_desc": "Is status new",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isInProgress": {
+            "name": "isInProgress",
+            "line": 478,
+            "short_desc": "Is status in progress",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isPending": {
+            "name": "isPending",
+            "line": 488,
+            "short_desc": "Is status pending",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isCompleted": {
+            "name": "isCompleted",
+            "line": 498,
+            "short_desc": "Is status completed",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getClientStatusChoices": {
+            "name": "getClientStatusChoices",
+            "line": 508,
+            "short_desc": "Get client status choices",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setClientStatus": {
+            "name": "setClientStatus",
+            "line": 520,
+            "short_desc": "Set client status",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\Workflow",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "clientStatus": {
+                    "name": "clientStatus",
+                    "line": 520,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClientStatus": {
+            "name": "getClientStatus",
+            "line": 536,
+            "short_desc": "Get client status",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getClientStatusAsString": {
+            "name": "getClientStatusAsString",
+            "line": 546,
+            "short_desc": "Get client status as string",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isClientStatusEnvelopeCreated": {
+            "name": "isClientStatusEnvelopeCreated",
+            "line": 556,
+            "short_desc": "Is client status envelope created",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isClientStatusEnvelopeOpened": {
+            "name": "isClientStatusEnvelopeOpened",
+            "line": 566,
+            "short_desc": "Is client status envelope opened",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isClientStatusEnvelopeCompleted": {
+            "name": "isClientStatusEnvelopeCompleted",
+            "line": 576,
+            "short_desc": "Is client status envelope completed",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isClientStatusPortfolioProposed": {
+            "name": "isClientStatusPortfolioProposed",
+            "line": 586,
+            "short_desc": "Is client status portfolio proposed",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isClientStatusPortfolioAccepted": {
+            "name": "isClientStatusPortfolioAccepted",
+            "line": 596,
+            "short_desc": "Is client status portfolio accepted",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isClientStatusAccountOpened": {
+            "name": "isClientStatusAccountOpened",
+            "line": 606,
+            "short_desc": "Is client status account opened",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isClientStatusAccountFunded": {
+            "name": "isClientStatusAccountFunded",
+            "line": 616,
+            "short_desc": "Is client status account funded",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsArchived": {
+            "name": "setIsArchived",
+            "line": 627,
+            "short_desc": "Set is_archived",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\Workflow",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isArchived": {
+                    "name": "isArchived",
+                    "line": 627,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIsArchived": {
+            "name": "getIsArchived",
+            "line": 639,
+            "short_desc": "Get is_archived",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSubmitted": {
+            "name": "setSubmitted",
+            "line": 650,
+            "short_desc": "Set submitted",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\Workflow",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "submitted": {
+                    "name": "submitted",
+                    "line": 650,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DateTime",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSubmitted": {
+            "name": "getSubmitted",
+            "line": 662,
+            "short_desc": "Get submitted",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setClient": {
+            "name": "setClient",
+            "line": 673,
+            "short_desc": "Set client",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\Workflow",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "client": {
+                    "name": "client",
+                    "line": 673,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\ClientBundle\\Model\\Wealthbot\\UserBundle\\Entity\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Wealthbot\\UserBundle\\Entity\\User",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getClient": {
+            "name": "getClient",
+            "line": 685,
+            "short_desc": "Get client",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isPaperwork": {
+            "name": "isPaperwork",
+            "line": 695,
+            "short_desc": "Is paperwork workflow",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isAlert": {
+            "name": "isAlert",
+            "line": 705,
+            "short_desc": "Is alert workflow",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setNote": {
+            "name": "setNote",
+            "line": 716,
+            "short_desc": "Set note",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\Workflow",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "note": {
+                    "name": "note",
+                    "line": 716,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getNote": {
+            "name": "getNote",
+            "line": 728,
+            "short_desc": "Get note",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAmount": {
+            "name": "setAmount",
+            "line": 739,
+            "short_desc": "Set amount",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\ClientBundle\\Model\\Workflow",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "amount": {
+                    "name": "amount",
+                    "line": 739,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAmount": {
+            "name": "getAmount",
+            "line": 751,
+            "short_desc": "Get amount",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "canHaveDocuments": {
+            "name": "canHaveDocuments",
+            "line": 761,
+            "short_desc": "Workflow can have documents",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isPortfolioProposal": {
+            "name": "isPortfolioProposal",
+            "line": 776,
+            "short_desc": "Is portfolio proposal workflow",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getActivityMessage": {
+            "name": "getActivityMessage",
+            "line": 786,
+            "short_desc": "Get activity message",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getActivityClient": {
+            "name": "getActivityClient",
+            "line": 825,
+            "short_desc": "Get activity client",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Wealthbot\\UserBundle\\Entity\\User",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getActivityAmount": {
+            "name": "getActivityAmount",
+            "line": 835,
+            "short_desc": "Get activity amount",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isAdvisorStatusEditable": {
+            "name": "isAdvisorStatusEditable",
+            "line": 845,
+            "short_desc": "Is advisor status editable",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isAccountPaperwork": {
+            "name": "isAccountPaperwork",
+            "line": 856,
+            "short_desc": "Returns true if new account or transfer or rollover paperwork\nand false otherwise",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isInitialRebalance": {
+            "name": "isInitialRebalance",
+            "line": 871,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "TYPE_PAPERWORK": {
+            "name": "TYPE_PAPERWORK",
+            "line": 27,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "TYPE_ALERT": {
+            "name": "TYPE_ALERT",
+            "line": 28,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "MESSAGE_CODE_PAPERWORK_NEW_ACCOUNT": {
+            "name": "MESSAGE_CODE_PAPERWORK_NEW_ACCOUNT",
+            "line": 61,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "MESSAGE_CODE_PAPERWORK_TRANSFER": {
+            "name": "MESSAGE_CODE_PAPERWORK_TRANSFER",
+            "line": 62,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "MESSAGE_CODE_PAPERWORK_ROLLOVER": {
+            "name": "MESSAGE_CODE_PAPERWORK_ROLLOVER",
+            "line": 63,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "MESSAGE_CODE_PAPERWORK_UPDATE_BENEFICIARY": {
+            "name": "MESSAGE_CODE_PAPERWORK_UPDATE_BENEFICIARY",
+            "line": 64,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "MESSAGE_CODE_PAPERWORK_UPDATE_ADDRESS": {
+            "name": "MESSAGE_CODE_PAPERWORK_UPDATE_ADDRESS",
+            "line": 65,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "MESSAGE_CODE_PAPERWORK_UPDATE_BANKING_INFORMATION": {
+            "name": "MESSAGE_CODE_PAPERWORK_UPDATE_BANKING_INFORMATION",
+            "line": 66,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "MESSAGE_CODE_PAPERWORK_UPDATE_CONTRIBUTIONS": {
+            "name": "MESSAGE_CODE_PAPERWORK_UPDATE_CONTRIBUTIONS",
+            "line": 67,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "MESSAGE_CODE_PAPERWORK_UPDATE_DISTRIBUTIONS": {
+            "name": "MESSAGE_CODE_PAPERWORK_UPDATE_DISTRIBUTIONS",
+            "line": 68,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "MESSAGE_CODE_PAPERWORK_PORTFOLIO_PROPOSED": {
+            "name": "MESSAGE_CODE_PAPERWORK_PORTFOLIO_PROPOSED",
+            "line": 69,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "MESSAGE_CODE_PAPERWORK_INITIAL_REBALANCE": {
+            "name": "MESSAGE_CODE_PAPERWORK_INITIAL_REBALANCE",
+            "line": 70,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "MESSAGE_CODE_ALERT_NEW_RETIREMENT_ACCOUNT": {
+            "name": "MESSAGE_CODE_ALERT_NEW_RETIREMENT_ACCOUNT",
+            "line": 73,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "MESSAGE_CODE_ALERT_CLOSED_ACCOUNT": {
+            "name": "MESSAGE_CODE_ALERT_CLOSED_ACCOUNT",
+            "line": 74,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_NEW": {
+            "name": "STATUS_NEW",
+            "line": 115,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_IN_PROGRESS": {
+            "name": "STATUS_IN_PROGRESS",
+            "line": 116,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_PENDING": {
+            "name": "STATUS_PENDING",
+            "line": 117,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "STATUS_COMPLETED": {
+            "name": "STATUS_COMPLETED",
+            "line": 118,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "CLIENT_STATUS_DEFAULT": {
+            "name": "CLIENT_STATUS_DEFAULT",
+            "line": 132,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "CLIENT_STATUS_ENVELOPE_CREATED": {
+            "name": "CLIENT_STATUS_ENVELOPE_CREATED",
+            "line": 133,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "CLIENT_STATUS_ENVELOPE_OPENED": {
+            "name": "CLIENT_STATUS_ENVELOPE_OPENED",
+            "line": 134,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "CLIENT_STATUS_ENVELOPE_COMPLETED": {
+            "name": "CLIENT_STATUS_ENVELOPE_COMPLETED",
+            "line": 135,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "CLIENT_STATUS_PORTFOLIO_PROPOSED": {
+            "name": "CLIENT_STATUS_PORTFOLIO_PROPOSED",
+            "line": 136,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "CLIENT_STATUS_PORTFOLIO_CLIENT_ACCEPTED": {
+            "name": "CLIENT_STATUS_PORTFOLIO_CLIENT_ACCEPTED",
+            "line": 137,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "CLIENT_STATUS_ACCOUNT_OPENED": {
+            "name": "CLIENT_STATUS_ACCOUNT_OPENED",
+            "line": 138,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "CLIENT_STATUS_ACCOUNT_FUNDED": {
+            "name": "CLIENT_STATUS_ACCOUNT_FUNDED",
+            "line": 139,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

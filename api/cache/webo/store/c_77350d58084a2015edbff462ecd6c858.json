@@ -1,0 +1,169 @@
+{
+    "name": "Wealthbot\\RiaBundle\\Service\\Security\\Voter\\BaseVoter",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\RiaBundle\\Service\\Security\\Voter",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/RiaBundle\/Service\/Security\/Voter\/BaseVoter.php",
+    "relative_file": null,
+    "hash": "a060bbbe9df6bfc70ce56b64671678921a41c780",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "TokenInterface": "Symfony\\Component\\Security\\Core\\Authentication\\Token\\TokenInterface",
+        "VoterInterface": "Symfony\\Component\\Security\\Core\\Authorization\\Voter\\VoterInterface"
+    },
+    "errors": [],
+    "interfaces": {
+        "Symfony\\Component\\Security\\Core\\Authorization\\Voter\\VoterInterface": "Symfony\\Component\\Security\\Core\\Authorization\\Voter\\VoterInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "supportsAttribute": {
+            "name": "supportsAttribute",
+            "line": 17,
+            "short_desc": "Checks if the voter supports the given attribute.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "true if this Voter supports the attribute, false otherwise",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "attribute": {
+                    "name": "attribute",
+                    "line": 17,
+                    "short_desc": "An attribute",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "supportsClass": {
+            "name": "supportsClass",
+            "line": 32,
+            "short_desc": "Checks if the voter supports the given class.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Wealthbot\\RiaBundle\\Service\\Security\\Voter\\true",
+                    false
+                ]
+            ],
+            "hint_desc": "if this Voter can process the class",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "class": {
+                    "name": "class",
+                    "line": 32,
+                    "short_desc": "A class name",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "vote": {
+            "name": "vote",
+            "line": 49,
+            "short_desc": "Returns the vote for the given parameters.",
+            "long_desc": "This method must return one of the following constants:\nACCESS_GRANTED, ACCESS_DENIED, or ACCESS_ABSTAIN.",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "either ACCESS_GRANTED, ACCESS_ABSTAIN, or ACCESS_DENIED",
+            "tags": [],
+            "modifiers": "17",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "token": {
+                    "name": "token",
+                    "line": 49,
+                    "short_desc": "A TokenInterface instance",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Wealthbot\\RiaBundle\\Service\\Security\\Voter\\Symfony\\Component\\Security\\Core\\Authentication\\Token\\TokenInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Symfony\\Component\\Security\\Core\\Authentication\\Token\\TokenInterface",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "object": {
+                    "name": "object",
+                    "line": 49,
+                    "short_desc": "The object to secure",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "object",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "attributes": {
+                    "name": "attributes",
+                    "line": 49,
+                    "short_desc": "An array of attributes associated with the method being invoked",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Wealthbot\\UserBundle\\Form\\Handler\\CustodianDocumentsFormHandler",
+    "line": 17,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Wealthbot\\UserBundle\\Form\\Handler",
+    "file": "\/srv\/wealthbot\/api\/..\/src\/Wealthbot\/UserBundle\/Form\/Handler\/CustodianDocumentsFormHandler.php",
+    "relative_file": null,
+    "hash": "97d51d8bdb3b7545adb67491a6ec180cdcc27916",
+    "parent": "Wealthbot\\UserBundle\\Form\\Handler\\DocumentsFormHandler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Custodian": "Wealthbot\\AdminBundle\\Entity\\Custodian",
+        "Document": "Wealthbot\\UserBundle\\Entity\\Document",
+        "DocumentsFormHandler": "Wealthbot\\UserBundle\\Form\\Handler\\DocumentsFormHandler"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}
