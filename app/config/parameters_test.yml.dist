@@ -1,5 +1,6 @@
+# This file is auto-generated during the composer install
 parameters:
-    database_name:     wealthbot_test
-    database_user:     webo
-    database_password: password
-    mongodb_database: wealthbot_test
+    test_database_name: wealthbot_test
+    test_database_user: webo
+    test_database_password: password
+    test_mongodb_database: wealthbot_test

@@ -5,23 +5,35 @@ imports:
 framework:
     test: ~
     session:
-        name: "wealthbot"
         storage_id: session.storage.mock_file
-        cookie_domain: ""
-    csrf_protection:
-        enabled: false
+    profiler:
+        collect: false
 
 web_profiler:
     toolbar: false
     intercept_redirects: false
 
 swiftmailer:
-    disable_delivery: false
+    disable_delivery: true
 
+# It's recommended to use a separate database for tests. This allows to have a
+# fixed and known set of data fixtures, it simplifies the code of tests and it
+# makes them more robust.
+# In this case we just need to define a different path for the application database.
+# Doctrine Configuration
 doctrine:
     dbal:
-        default_connection: default
-        connections:
-            default:
-                driver:   pdo_sqlite
-                path:     wealthbot_test.db
+        driver:   %database_driver%
+        host:     %database_host%
+        port:     %database_port%
+        dbname:   %test_database_name%
+        user:     %test_database_user%
+        password: %test_database_password%
+        charset:  UTF8
+
+# this configuration simplifies testing URLs protected by the security mechanism
+# See http://symfony.com/doc/current/cookbook/testing/http_authentication.html
+security:
+    firewalls:
+        secured_area:
+            http_basic: ~
