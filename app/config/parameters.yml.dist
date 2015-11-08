@@ -18,7 +18,7 @@ parameters:
     mailer_encryption: tls
     mailer_port: 587
     locale:            en
-    secret:            ThisTokenIsNotSoSecretChangeIt
+    secret:            ThisTokenIsNotSoSecretButIsSpecialToComposerAsAService
 
     pager_per_page:    10
 
