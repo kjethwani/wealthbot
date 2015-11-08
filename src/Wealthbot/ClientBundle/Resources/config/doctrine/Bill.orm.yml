@@ -14,10 +14,10 @@ Wealthbot\ClientBundle\Entity\Bill:
         year:
             type: integer
             nullable: true
-        approvedAt:
+        approved_at:
             type: datetime
             nullable: true
-        createdAt:
+        created_at:
             type: datetime
             gedmo:
                 timestampable:

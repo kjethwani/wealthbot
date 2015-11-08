@@ -90,7 +90,7 @@ class BillItem
     /**
      * Get id
      *
-     * @return integer 
+     * @return integer
      */
     public function getId()
     {
@@ -113,7 +113,7 @@ class BillItem
     /**
      * Get feeBilled
      *
-     * @return float 
+     * @return float
      */
     public function getFeeBilled()
     {
@@ -136,7 +136,7 @@ class BillItem
     /**
      * Get feeCollected
      *
-     * @return float 
+     * @return float
      */
     public function getFeeCollected()
     {
@@ -159,7 +159,7 @@ class BillItem
     /**
      * Get status
      *
-     * @return integer 
+     * @return integer
      */
     public function getStatus()
     {

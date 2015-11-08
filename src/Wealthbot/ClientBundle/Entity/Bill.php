@@ -40,7 +40,12 @@ class Bill extends BaseBill
     /**
      * @var \DateTime
      */
-    protected $createdAt;
+    protected $created_at;
+
+    /**
+     * @var \DateTime
+     */
+    protected $approved_at;
 
     /**
      * Constructor
@@ -151,11 +156,11 @@ class Bill extends BaseBill
     }
 
     /**
-     * @param \DateTime $createdAt
+     * @param \DateTime $created_at
      */
     public function setCreatedAt($createdAt)
     {
-        $this->createdAt = $createdAt;
+        $this->created_at = $created_at;
     }
 
     /**
@@ -163,7 +168,7 @@ class Bill extends BaseBill
      */
     public function getCreatedAt()
     {
-        return $this->createdAt;
+        return $this->created_at;
     }
     /**
      * @var \DateTime
@@ -179,7 +184,7 @@ class Bill extends BaseBill
      */
     public function setApprovedAt($approvedAt)
     {
-        $this->approvedAt = $approvedAt;
+        $this->approved_at = $approved_at;
 
         return $this;
     }
@@ -187,10 +192,10 @@ class Bill extends BaseBill
     /**
      * Get approvedAt
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getApprovedAt()
     {
-        return $this->approvedAt;
+        return $this->approved_at;
     }
 }

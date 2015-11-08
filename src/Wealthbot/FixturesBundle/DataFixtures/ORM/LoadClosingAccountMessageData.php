@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: amalyuhin
- * Date: 05.04.13
- * Time: 15:05
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Wealthbot\FixturesBundle\DataFixtures\ORM;
 
@@ -34,8 +27,8 @@ class LoadClosingAccountMessageData extends AbstractFixture implements OrderedFi
 
             $manager->persist($messageObject);
         }
-
         $manager->flush();
+        exit('done');
     }
 
     public function getOrder()

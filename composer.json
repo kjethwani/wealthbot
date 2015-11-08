@@ -19,8 +19,8 @@
 
         "doctrine/orm": "2.4.*",
         "doctrine/doctrine-bundle": "1.2.*",
-        "doctrine/data-fixtures": "*",
-        "doctrine/doctrine-fixtures-bundle": "*",
+        "doctrine/data-fixtures": "dev-master",
+        "doctrine/doctrine-fixtures-bundle": "dev-master",
         "doctrine/mongodb": "1.0.*@dev",
         "doctrine/mongodb-odm": "1.0.*@dev",
         "doctrine/mongodb-odm-bundle": "3.0.*@dev",

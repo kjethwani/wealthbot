@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: amalyuhin
- * Date: 26.02.14
- * Time: 15:19
- */
 
 namespace Wealthbot\FixturesBundle\DataFixtures;
 
@@ -66,4 +60,4 @@ class DataFixturesLoader extends ContainerAwareLoader
 
         return $fixtures;
     }
-} 
+}
