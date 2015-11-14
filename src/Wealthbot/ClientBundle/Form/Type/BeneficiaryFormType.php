@@ -201,7 +201,7 @@ class BeneficiaryFormType extends AbstractType
         if (null === $relationship || !is_string($relationship)) {
             $form->get('relationship')->addError(new FormError('Required.'));
         }
-        if (null == $share || !is_numeric($share)) {
+        if (null === $share || !is_numeric($share)) {
             $form->get('relationship')->addError(new FormError('Enter correct value.'));
         }
         if (round($share) < 0.01 || round($share) > 100) {

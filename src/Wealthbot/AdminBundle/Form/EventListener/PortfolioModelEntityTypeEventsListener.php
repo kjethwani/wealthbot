@@ -55,7 +55,7 @@ class PortfolioModelEntityTypeEventsListener implements EventSubscriberInterface
         /** @var CeModelEntity $data */
         $data = $event->getData();
 
-        if ($data == null) {
+        if ($data === null) {
             $this->updateMuniSubstitutionSymbol($form, null);
             $this->updateSecuritySymbol($form, null);
             $this->updateSecurity($form, null);

@@ -606,7 +606,7 @@ class Profile implements WorkflowableInterface
     static public function getMaritalStatusChoices()
     {
         // Build $_clientMaritalStatusValues if this is the first call
-        if (self::$_clientMaritalStatusValues == null) {
+        if (self::$_clientMaritalStatusValues === null) {
             self::$_clientMaritalStatusValues = array();
             $oClass = new \ReflectionClass('\Wealthbot\UserBundle\Entity\Profile');
             $classConstants = $oClass->getConstants();
@@ -684,7 +684,7 @@ class Profile implements WorkflowableInterface
     static public function getAnnualIncomeChoices()
     {
         // Build $_clientAnnualIncomeValues if this is the first call
-        if (self::$_clientAnnualIncomeValues == null) {
+        if (self::$_clientAnnualIncomeValues === null) {
             self::$_clientAnnualIncomeValues = array();
             $oClass = new \ReflectionClass('\Wealthbot\UserBundle\Entity\Profile');
             $classConstants = $oClass->getConstants();
@@ -761,7 +761,7 @@ class Profile implements WorkflowableInterface
     static public function getLiquidNetWorthChoices()
     {
         // Build $_clientLiquidNetWorthValues if this is the first call
-        if (self::$_clientLiquidNetWorthValues == null) {
+        if (self::$_clientLiquidNetWorthValues === null) {
             self::$_clientLiquidNetWorthValues = array();
             $oClass = new \ReflectionClass('\Wealthbot\UserBundle\Entity\Profile');
             $classConstants = $oClass->getConstants();
@@ -814,7 +814,7 @@ class Profile implements WorkflowableInterface
     static public function getEmploymentTypeChoices()
     {
         // Build $_clientEmploymentTypeValues if this is the first call
-        if (self::$_clientEmploymentTypeValues == null) {
+        if (self::$_clientEmploymentTypeValues === null) {
             self::$_clientEmploymentTypeValues = array();
             $oClass = new \ReflectionClass('\Wealthbot\UserBundle\Entity\Profile');
             $classConstants = $oClass->getConstants();
@@ -1320,7 +1320,7 @@ class Profile implements WorkflowableInterface
     static public function getClientSourceChoices()
     {
         // Build $_clientEmploymentTypeValues if this is the first call
-        if (self::$_clientSourceValues == null) {
+        if (self::$_clientSourceValues === null) {
             self::$_clientSourceValues = array();
             $oClass = new \ReflectionClass('\Wealthbot\UserBundle\Entity\Profile');
             $classConstants = $oClass->getConstants();

@@ -59,7 +59,7 @@ class CeModelEntityTypeEventsListener implements EventSubscriberInterface
         /** @var $data CeModelEntity */
         $data = $event->getData();
 
-        if ($data == null) {
+        if ($data === null) {
             $this->updateMuniSubstitutionSymbol($form, null);
             $this->updateSecuritySymbol($form, null);
             $this->updateSecurity($form, null);
