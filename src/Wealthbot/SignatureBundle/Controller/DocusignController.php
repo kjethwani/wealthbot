@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: amalyuhin
- * Date: 29.10.13
- * Time: 16:19
- */
 
 namespace Wealthbot\SignatureBundle\Controller;
 
@@ -401,4 +395,4 @@ class DocusignController extends Controller
 
         return new Response($response, $code, array('Content-Type'=>'application/json'));
     }
-} 
+}

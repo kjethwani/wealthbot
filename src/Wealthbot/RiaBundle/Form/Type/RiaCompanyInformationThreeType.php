@@ -369,10 +369,6 @@ class RiaCompanyInformationThreeType extends AbstractType
                 $form->get('clients_tax_bracket')->addError(new FormError('Required.'));
             }
 
-//            if (!is_numeric($data->getIsShowClientExpectedAssetClass())) {
-//                $form->get('is_show_client_expected_asset_class')->addError(new FormError('Required.'));
-//            }
-
             if ($data->getIsTaxLossHarvesting() && !$data->getTaxLossHarvestingMinimumPercent()) {
                 $form->get('tax_loss_harvesting_minimum_percent')->addError(new FormError('Required.'));
             }
@@ -384,7 +380,6 @@ class RiaCompanyInformationThreeType extends AbstractType
             if (!$data->getUseMunicipalBond() && $ceModelEntityRepo->isMuniBondSecuritiesInRiaModels($ria->getId())) {
                 $form->get('use_municipal_bond')->addError(new FormError('You have "municipal substitution" securities in model.'));
             }
-//            isTaxLossHarvestingSecuritiesInModels
             if (!$data->getIsTaxLossHarvesting() && $ceModelEntityRepo->isTaxLossHarvestingSecuritiesInModels($ria->getId())) {
                 $form->get('is_tax_loss_harvesting')->addError(new FormError('You have "tax loss harvesting" securities in model.'));
             }

@@ -28,7 +28,6 @@ class LoadClosingAccountMessageData extends AbstractFixture implements OrderedFi
             $manager->persist($messageObject);
         }
         $manager->flush();
-        exit('done');
     }
 
     public function getOrder()
